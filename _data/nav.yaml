@@ -1,10 +1,11 @@
+
+- name: work
+  link: /work/
+- name: c.v
+  link: /cv/
 - name: sxb
   link: /
-- name: work
-  link: /work.html
 - name: blog
-  link: /blog.html
-- name: c.v
-  link: /cv.html
+  link: /blog/
 - name: about
-  link: /about.html
+  link: /about/

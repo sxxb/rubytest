@@ -5,7 +5,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lora:ital@0;1&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@900&display=swap");
-* { /*Box Sizing*/ margin: 0; padding: 0; border: 0; outline: 0; box-sizing: border-box; vertical-align: baseline; text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; list-style-type: none; list-style-position: outside; transition: 0.2s ease; }
+* { /*Box Sizing*/ margin: 0; padding: 0; border: 0; outline: 0; box-sizing: border-box; vertical-align: baseline; text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; list-style-type: none; list-style-position: outside; }
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { * { -webkit-font-smoothing: auto; -moz-osx-font-smoothing: auto; } }
 

@@ -3,11 +3,29 @@ title: Work
 ---
 
 <h1>work</h1>
+
+<h2>essays</h2>
 <ul>
-  {% for post in site.essays %}
+  {% for essay in site.essays %}
+  <a href="{{ essay.url }}">
     <li class="essay-snippet">
-      <h2><a href="{{ post.url }}">{{ post.essay-question }}</a></h2>
-      {{ post.title }}
+      <h2>{{ essay.essay-question }}</h2>
+      {{ essay.title }}
     </li>
+    </a>
   {% endfor %}
 </ul>
+
+<h2>design</h2>
+<ul>
+  {% for design in site.designs %}
+  <a href="{{ design.url }}">
+    <li class="design-snippet">
+      <h2>{{ design.title }}</h2>
+      {{ design.excerpt }}
+    </li>
+    </a>
+  {% endfor %}
+</ul>
+
+<h2>other</h2>

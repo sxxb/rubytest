@@ -5,6 +5,7 @@ author: Scott Belcher
 course: IPE
 essay-question: ese question
 layout: essay
+tags: economics politics neoliberalism financialisation
 ---
 
 content content content

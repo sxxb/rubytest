@@ -19,3 +19,20 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
+
+
+collections:
+  essays:
+    collections_dir: _essays
+    output: true
+    permalink: :collection/:title/
+  designs:
+    collections_dir: _designs
+    output: true
+    permalink: :collection/:title/
+  otherwork:
+    collections_dir: _otherwork
+    output: true
+    permalink: :collection/:title/
+  posts:
+    permalink: :year/:month/:day/:title/

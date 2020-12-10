@@ -1,5 +1,6 @@
 ---
 layout: default
+category: essay
 ---
 
 <div class="essay">
@@ -9,4 +10,10 @@ layout: default
   <h2> {{ page.essay-question}}</h2>
 
   {{ content }}
+
+  <p class="tags">
+    {% for tag in page.tags %}
+      <span>{{ page.tag }}</span>
+    {% endfor %}
+   </p>
 </div>
