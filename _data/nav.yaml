@@ -1,0 +1,10 @@
+- name: sxb
+  link: /
+- name: work
+  link: /work.html
+- name: blog
+  link: /blog.html
+- name: c.v
+  link: /cv.html
+- name: about
+  link: /about.html
