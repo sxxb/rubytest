@@ -36,3 +36,5 @@ collections:
     permalink: :collection/:title/
   posts:
     permalink: :year/:month/:day/:title/
+
+baseurl: /rubytest
