@@ -10,7 +10,7 @@ title: Work
   <a href="{{ essay.url }}">
     <li class="essay-snippet">
       <h2>{{ essay.essay-question }}</h2>
-      {{ essay.title }}
+      <p>{{ essay.title }}</p>
     </li>
     </a>
   {% endfor %}
@@ -22,10 +22,20 @@ title: Work
   <a href="{{ design.url }}">
     <li class="design-snippet">
       <h2>{{ design.title }}</h2>
-      {{ design.excerpt }}
+      <p>{{ design.excerpt }}</p>
     </li>
     </a>
   {% endfor %}
 </ul>
 
 <h2>other</h2>
+<ul>
+  {% for otherwork in site.otherwork %}
+  <a href="{{ otherwork.url }}">
+    <li class="other-snippet">
+      <h2>{{ otherwork.title }}</h2>
+      <p>{{ otherwork.excerpt }}</p>
+    </li>
+    </a>
+  {% endfor %}
+</ul>

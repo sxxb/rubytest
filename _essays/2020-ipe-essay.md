@@ -1,16 +1,134 @@
 ---
-title: IPE Essay
-date: 20/10/2020
+title: International Political Economy Essay
+date: 13/11/2020
 author: Scott Belcher
-course: IPE
-essay-question: ese question
+course: POLIS 2130
+essay-question: Why is the stock-market going up when the economy is going down?
 layout: essay
 tags: economics politics neoliberalism financialisation
+id: ipe-essay
 ---
 
-content content content
+The contemporary era is characterised by an increase in inequality throughout the world. This is best exemplified by the divergence of the performance of the stock market from the general fortunes of the everyday person. As with any political and economic issue the cause is complex and involves a number of interrelated factors: The rise of globalisation, the fall of the labour union, the neoliberal consensus, the growth of financialisation and other factors all play a role in bringing about the current situation, and none occurs independently of any other. In this essay I will define the rise of the stock market and the fall of the economy, examine these contributing factors and describe how the rise of neoliberalism has led to the divergence of the stock market and the economy as a whole.
 
-content content content
+### The Stock Market
+
+First I will define what is meant by ‘the stock market going up’. The stock market refers to the market for shares of publicly traded companies that are traded on stock exchanges around the world, and is broadly representative of the fortunes of the capital side of the economy. Even when accounting for individual failures<sup id="footnote-1" data-tooltip="The current average lifespan of a company in the S&P 500 is 24 years (Anthony, et. al. 2018), suggesting that although the index continues to grow, many of the individual companies that comprise the index rise and fall relatively quickly.">1</sup> there has been a consistent pattern of exponential growth of the stock market at an aggregate level, and since 1990, the stock markets of the United States, United Kingdom and Australia have grown at an average of 7.34% each year (World Bank 2020). In general terms, the reason the stock market continues to rise is because investors still believe that the potential for future growth or earnings is positive and that holding these assets represents a good financial decision. Like any other good in a competitive market, price is determined to a large extent by supply and demand, and demand remains high. This belief is not solely due to exemplary executive decision making however, and has been helped by macroeconomic and political decisions. Policy choices such as reductions of trade barriers, privatisation and deregulation have created a favourable environment for businesses (Harvey 2007). The reasons for these policies — both politically and economically — are complex and will be examined below, but the general effect on the stock market has been to reinforce the continuous pattern of growth. Based on the performance of these indices the stock market has and seemingly will continue to ‘go up’ — representing a positive outcome for capital.
+
+### The Economy
 
 
-content content content
+
+Second, I will define what is meant by ‘the economy going down’. Compared to the overall economy, the stock market is a relatively narrow measure of prosperity. Stock market indices only measure the fortunes of the largest companies on each market and stock markets in general will only list sufficiently large companies. The vast majority of businesses are small and medium businesses, which account for more than half of Australia’s GDP and jobs (Small Business Counts 2019). The USA and UK report similar proportions (US Small Business Administration 2018; Department for Business, Energy & Industrial Strategy 2020). This alone creates a potential divide between the stock market and the fortunes of the economy in general.
+
+Beyond this, there are material reasons for why the economy is perceived to be declining. The majority of income earning individuals are employed and earn wages, as opposed to relying on business or investment income (Supplementary Report To Inequality In Australia 2018, pp. 53-54). Wage growth has been relatively poor over the past 30 years, especially when compared to returns on capital (as exemplified by the stock market indices). In the USA the Federal Minimum Wage has declined in real terms since 1979 (Autor, Manning & Smith 2016), while wage growth has been consistently outpaced by GDP growth in advanced economies (Global Wage Report 2018/19 2018, pp. 3-5). The decline in wage growth is not equally distributed however; income inequality (and subsequently wealth inequality) has risen over the past 40 years (Piketty and Saez 2003; Mishel & Gee 2012). There is a pattern of sluggish growth of wages, and therefore income and wealth in developed economies, contrasted against the much greater growth of the stock market (Mishel 2012). Again, there are a number of complex and interlinked reasons for these phenomena; the decline in labour union membership and power, the downward pressure on domestic labour demand caused by globalisation and the neoliberal consensus among major parties in many countries all have played a part, and these will be examined below as well. By the metrics of income, wealth and equality there is much to suggest that despite the economy is indeed going down for the average person.
+
+### The Rise of Neoliberalism
+
+The rise of neoliberalism caused a shift in political and economic policy that shifted the focus to capital and away from labour. Before the rise of neoliberalism, countries in the developed world<sup id="footnote-2" data-tooltip="In this context, this refers to the US, the UK and Australia but is also representative of Scandinavian countries, some western European countries, some South American countries etc.">2</sup> had generally adopted what could be termed a ‘social democratic’ policy outlook. This was most clearly demonstrated in the USA where President Franklin D. Roosevelt’s New Deal encompassed a number of policy measures aimed to help the US recover from the Great Depression. These included the introduction of Social Security unemployment insurance, progressive taxation practices, a number of public works programs aimed at achieving full employment and the Glass-Steagall Act which separated deposit-taking banks from investment banks. These policies sought to repair the damage caused by the Great Depression, prevent another from occurring and mediate the worst aspects of capitalism (Brinkley 1989). Combined with large deficit spending during World War Two, the New Deal provided the basis for the next few decades of post-war growth in the US, which was distributed remarkably equitably compared to the periods before and after (Piketty and Saez 2003).
+
+The rise of neoliberalism occurred gradually between 1960 and 1980, with experiments in South America such as Pinochet’s Chile (beginning in 1973), but the truly began in the developed world with the election of Margaret Thatcher as UK Prime Minister (1979), the appointment of Paul Volcker to the US Federal Reserve (1979) and Ronald Reagan’s election to the US Presidency (1980). Over the next decades a policy set of deregulation, privatisation, undermining of labour power and reduction in the taxation of capital was pursued in the US, the UK, Europe, and even China (Harvey 2007, pp. 1-2, 23). The impact of this was to shift the role of government from facilitating the prosperity of labour (from which capital could then also reap rewards) to facilitating the growth of capital — not rolling back of government power as commonly thought, but a realignment (Peck & Tickell 2007, pp.33). This shift was the underlying cause for the divergence of the stock market and the economy overall.
+
+### The Financialisation of the Economy
+
+One of the key transformations that neoliberal reform had on the economy was the trend towards financialisation of capitalism, which has provided outsized benefit to the share market compared to the overall economy. Financialisation broadly refers to the shift in framing and focus of developed economies from industrial production to a focus on financial services and markets (Kripper 2005, pp. 174; Dore 2008; Van der Zwan 2014). The causes of this process are numerous, but contributing factors include deregulation of financial markets, high interest rates during the 1980s (Van Arnum & Naples 2013), inefficiencies of production in the US (where financialisation is perhaps most prevalent), an excess of capital from oil producing countries<sup id="footnote-3" data-tooltip=" This process is known as petrodollar recycling (Higgins, Klitgaard, and Lerman 2006)">3</sup> and the trend of tieing executive remuneration to share prices (Van der Zwan 2014). This has led to a situation where financial economic activities thrive at the expense of productive activities. Increasingly, non-financial businesses derive more and more of their profits from financial activities (Krippner 2005). Productivity gains are distributed not to workers (in the form of wage raises) or reinvested in productive assets, but are paid as dividends to shareholders, used for share buybacks or invested in other financial instruments. This creates greater demand for shares, boosting stock prices.
+
+These greater returns on financial investments also lead to a crowding out effect, where financial investments use up available capital, preventing it from being used for productive investment (Crotty 2005). This has led to US domestic firms seeking to cut costs by moving production offshore to states where labour is cheaper, or to outsource production altogether. While this may produce a higher return for shareholders, the end of domestic production means many people lose their jobs. Indeed, much of the financial activity of modern corporations does not benefit the economy as a whole; it does not directly produce new or innovative consumer goods, nor does it produce cheaper versions of existing products. It does not employ particularly many people compared to the value it generates, and most of that value is retained by shareholders rather than distributed to workers. The increasing dependence of corporations on financial income is demonstrably responsible for the decline of labour’s share of income (Zalewski & Whalen 2010; Lin & Tomaskovic-Devey 2013; Van Arnum & Naples 2013). These activities are particularly beneficial for share prices (as investors are mostly indifferent to the source of profits, as long as they exist) but do not benefit the broader economy as much.
+
+### The Privatisation of Profits and Socialisation of Losses
+
+The trend of financialisation has meant that there is perceived social responsibility for bearing the losses of financial activity, while profits are distributed privately to shareholders. While the neoliberal trend emphasises the removal of state interference in the free market, the trend of financialisation means that states have shifted to using policy to interfere in favour of businesses. Governments face increasing political pressure to act to support financial markets because so many businesses (and increasingly individuals) have a material interest in market growth — and are unlikely to continue to support a government who allows financial markets to suffer. For instance, taxes on corporate profits are subject to scrutiny in a globalised world as they play a large role in determining where multinational corporations allocate their capital, as well as (ostensibly) allowing corporations to reinvest and stimulate the economy. Ireland has implemented a relatively low corporate tax rate in order to attract investment — the side effect of this being that these corporations contribute relatively little actual economic activity (or tax revenue) to the countries in which they operate (pp.236, Blyth 2013). This ensures that a greater proportion of corporate profits go to the owners of capital and less is distributed (via taxation and government spending) to the rest of society.
+
+Conversely, in a competitive market that encourages risk taking to generate higher profits, governments (and taxpayers) are expected to act in the interest of financial institutions and markets. The Global Financial Crisis is the most obvious example of this: Financial institutions offered riskier and riskier mortgages (as these mortgages would be collateralised into Mortgage Back Securities (MBOs) and sold, shifting the risk onto other investors) in search of greater profits. Secondary markets for these assets also grew, and many investment firms, as well as pension funds, sovereign wealth funds and other firms were heavily exposed to default risk — though this was perceived to be very unlikely. When these risky mortgages eventually did default, the effects were widespread due to the highly financialised nature of the global economy. The repeal of the Glass Steagall Act (one of the key financial regulations of the New Deal era) in 1999 amplified this effect, as it allowed deposit-taking banks to make riskier investment decisions (Van Arnum & Naples 2013). While arguably the neoliberal response to such an event would be to let the firms who made bad decisions fail and allow the surviving firms to thrive in their absence, governments all over the world acted to protect financial markets and institutions. Central banks around the world cut interest rates significantly in order to provide liquidity. The US government did allow the Lehman Brothers investment bank to fail, but subsequently ‘bailed out’ American Investment Group (AIG), Goldman Sachs, Morgan Stanley and others with taxpayer money via the Troubled Asset Relief Program.
+
+While there is a meritorious argument that these institutions truly were ‘too big to fail’, and their demise would have been more costly than the expense of helping them, that serves to illustrate the degree to which financialisation has made the economy as a whole dependent on the financial sector. Even with bailouts the impact on the economy was gigantic; most of the developed world entered a recession<sup id="footnote-4" data-tooltip="Notably, Australia avoided this by utilising Keynesian counter-cyclical deficit spending (and some help from a boom in demand for major mineral exports of course). ">4</sup>, unemployment more than doubled in the US between 2007 and 2010 (Trading Economics 2020) and over 9 million homeowners lost their homes to foreclosures (Hall, Crowder & Spring 2015). As Joseph Stiglitz put it, “If a too-big-to-fail bank takes big risks and wins, it walks away with profits. If it takes big bets and loses, the taxpayers pick up the losses” (2010) - and this process of privatisation of profits and socialisation of losses contributes to the divergence of the economy and the stock market.
+
+### The Era of Privatisation, Austerity and Social Service Cuts
+
+A key theme of the neoliberal era is the reduction in government spending and the desire for balanced budgets. The argument for this is one of market rationality; public spending ‘crowds out’ private investment, and because the private sector is more efficient at allocating resources, public spending is inefficient (Harvey 2007, pp. 2). In practice however, this has reduced the welfare of the labour class and increased inequality . A number of important social or public services have been privatised, had their funding reduced or have been eliminated altogether. Prominent examples include the privatisation of existing social housing stock and the reduction in new housing construction in the UK (Forrest and Murie 2011; Jacobs et. al. 2010, pp. 13-15) and the privatisation in and of public education in the US, UK and other countries leading to poorer outcomes for disadvantaged students (Ball & Youdell, 2009). This is often framed as a ‘responsible’, ‘necessary’ or ‘pragmatic’ act that is required of governments to address state debt and expenditure — a problem which should ostensibly be of everyone’s concern (Farnsworth & Irving 2018, pp. 3).
+
+The effects of social and public service cuts fall more heavily on people with lower incomes — because these are the people most reliant on these services to begin with. Outsourcing or reduction of public service provision produces worse outcomes for those using the services; Navarro notes that child poverty is significantly greater in the US and UK (where the neoliberal outlook is thoroughly embraced) compared to Scandinavian countries which have a more social democratic policy outlook and provide more social services such as childcare and support for mothers (1998, pp. 647-649). The decline in the quality and provision of social services reduces welfare for the working class contrasts against taxation structures (both capital gains and income taxes) which have become less progressive since the 1980s. These changes make life harder for the working class while offering more favourable conditions for owners of capital.
+
+### The Precarity of Modern Work
+
+The other side of the story for why the economy appears to be faring poorly for the labour class is the changing nature of work. Despite consistent productivity gains over the past 50 years, wages have not kept pace (Schwellnus, Kappeler & Pionnier 2017). While US median wages are almost stagnant in real terms, US mean wages have grown roughly in line with productivity gains, suggesting that above-median incomes are growing at a much greater rate than below-median incomes (Mishel 2012). Furthermore, the excess gains from productivity that are not given to workers are instead absorbed by shareholders. The decline of labour union power since the 1970s has hurt workers’ ability to bargain for higher wages and is part of the reason for this divergence. Union membership declined from 34% to 8% for males and from 16% to 6% for females in private sector employment in the US between 1973 and 2007, a trend that accounted for between one-fifth and one third of the growth in income inequality in this time. (Western & Rosenfeld 2011). Union power did not decline in a vacuum; neoliberal governments acted to weaken labour power whenever they could. This was exemplified by Reagan firing 11,359 air traffic control workers after they engaged in industrial action in 1981, while Thatcher’s Prime Ministership was characterised by  “an interventionist strategy that sought to subordinate labor law and the trade unions to the government's economic and ideological goals“ (Towers 1989, pp. 168). As the power of unions declined, so did wage growth — to the benefit of shareholders.
+
+Globalisation has also impacted wages in the developed world; corporations looking to increase profits by reducing costs have found large savings in shifting production to developing countries with lower labour costs, a process aided by reductions in trade barriers by neoliberal governments. While this is arguably beneficial for workers in developing countries, those gains come at the expense of workers in developed countries, and the majority of the gains from globalisation fall to the owners of capital. Not only have wages suffered under neoliberalism, but the security and conditions of work have declined too. Workers in the labour force currently face an increase in non-standard work arrangements (ie. casual, contracted or temporary work), a decline in average job tenure, an increase in the likelihood of long-term unemployment and generally perceive their employment to be less secure than in the past (Kalleberg 2009). In general, work has become less secure and less financially rewarding for many people despite the continued gains to profits and stock market returns.
+
+### The Tendency of the Rate of Profit to Fall
+
+The overarching theme of all these arguments for why there is a perception of divergence between the stock market and the economy is that returns to capital have continued to grow, while returns to labour have stagnated, caused by a range of different neoliberal policy changes. Over time, the rate of profit declines as more firms enter markets and compete with existing ones, yet shareholders demand constantly increasing returns<sup id="footnote-5" data-tooltip="Crotty terms this the “Neoliberal Paradox” (pp.79, 2005)">5</sup>. Firms must engage in cost-cutting or increasingly risky ventures to survive, and without the regulations enacted during the New Deal era to protect workers and limit corporate activities this has led to an economy that is tipped in favour of shareholders. Irrespective of their stated intent, the policies of the neoliberal era have served to boost the profits of corporations by allowing easier access to international markets, cheaper labour, and more favourable regulations at the expense of wages, social services and income equality. The systematic favouritism towards capital has created consistent growth in the stock market but the economic experiences of the average person are not doing as well.
+
+
+## Bibliography
+
+Anthony, S D, Viguerie, S P, Schwartz, E I & Van Landeghem, J 2018,  *2018 Corporate Longevity Forecast: Creative Destruction is Accelerating*, Innosight, viewed 12 November 2020, <https://www.innosight.com/insight/creative-destruction/>.
+
+Autor, D H, Manning, A & Smith, C L 2016, ‘The Contribution of the Minimum Wage to US Wage Inequality over Three Decades: A Reassessment’, *American Economic Journal: Applied Economics*, vol. 08, no. 1, pp. 58-99, DOI:10.1257/app.20140073.
+
+Ball, S J & Youdell, D 2009, ‘Hidden privatisation in public education’, *Education Review*, vol. 21, no. 2, pp. 73-83.
+
+Blyth, M 2013, *Austerity: The History of a Dangerous Idea*, Oxford University Press, Oxford.
+
+Brinkley, A 1989. ‘The New Deal and the Idea of the State’, in Fraser S & Gerstle G (eds.), *The Rise and Fall of the New Deal Order, 1930-1980*, pp. 85-121, Princeton University Press, New Jersey.
+
+Crotty, J 2005, ‘The Neoliberal Paradox: The Impact of Destructive Product Market Competition and ‘Modern’ Financial Markets on Nonfinance Corporation Performance in the Neoliberal Era’, in G Epstein (ed), *Financialization and the World Economy*, Edward Elgar Publishing, Cheltenham, pp. 77-110.
+
+Department for Business, Energy & Industrial Strategy 2020, *Business population estimates for the UK and regions*, Gov.UK, viewed 12 November 2020, <https://www.gov.uk/government/publications/business-population-estimates-2019/business-population-estimates-for-the-uk-and-regions-2019-statistical-release-html>.
+
+Dore, R 2008, ‘Financialization of the global economy’, *Industrial and Corporate Change*, vol. 17, no. 6, pp. 1097–1112, DOI:10.1093/icc/dtn041.
+
+Farnsworth, K & Irving, Z 2018, ‘Austerity: Neoliberal dreams come true?’, *Critical Social Policy*,  vol. 38, no. 3, pp. 461–481, DOI:10.1177/0261018318762451.
+
+Forrest, R & Murie, A 2011, *Selling the Welfare State: The Privatisation of Public Housing*, Routledge, New York.
+
+*Global Wage Report 2018/19* 2018, International Labour Organization, viewed 12 November 2020, <https://www.ilo.org/global/publications/books/WCMS_650553/lang--en/index.htm>.
+
+Hall, M, Crowder, K D, & Spring, A 2015, ‘Neighborhood foreclosures, racial/ethnic transitions, and residential segregation’, *American Sociological Review*, vol. 80, no. 3, pp. 526–549, DOI:10.1177/0003122415581334.
+
+Harvey, D 2007, *A Brief History of Neoliberalism*, Oxford University Press, Oxford.
+
+Higgins, M, Klitgaard, T & Lerman, R 2006, ‘Recycling Petrodollars’, *Current Issues in Economics and Finance*, vol. 12, no. 9, pp. 1-7.
+
+Jacobs, K, Atkinson, R, Spinney, A, Colic-Peisker, V,  Berry, M & Dalton, T 2010, *What future for public housing? A critical analysis*, Australian Housing and Urban Research Institute, viewed 12 November 2020, <https://eprints.utas.edu.au/9623/1/AHURI_Research_Paper_What_future_for_public_housing_A_critical_analysis-4.pdf>.
+
+Kalleberg, A L 2009, ‘Precarious Work, Insecure Workers: Employment Relations in Transition’, *American Sociological Review*, vol. 74, no. 1, pp. 1–22. DOI:10.1177/000312240907400101.
+
+Krippner, G R 2005, ‘The financialization of the American economy’, Socio-Economic Review, vol. 3, no. 2, pp. 173–208. DOI:10.1093/ser/mwi008.
+Lin, K-H & Tomaskovic-Devey, D 2013, ‘Financialization and U.S. Income Inequality, 1970–2008’, *American Journal of Sociology*, vol. 118, no. 5, pp. 1284–1329, DOI:10.1086/669499.
+
+Mishel, L 2012, The wedges between productivity and median compensation growth, *Economic Policy Institute*, viewed 12 November 2020, <https://www.epi.org/publication/ib330-productivity-vs-compensation/>.  
+
+Mishel, L & Gee, K-F 2012, ‘Why Aren't Workers Benefiting from Labour Productivity Growth in the US?’, *International Productivity Monitor*, no. 38, pp. 31-43.
+
+Navarro, V 1998, ‘Neoliberalism, “Globalization,” Unemployment, Inequalities, and the Welfare State’, *International Journal of Health Services*, vol. 28, no. 4, pp. 607–682, DOI:10.2190/y3x7-rg7e-6626-fvpt.
+
+Peck, J & Tickell, A 2007, ‘Conceptualizing Neoliberalism, Thinking Thatcherism’ in H Leitner, J, Peck & E Sheppard (eds), *Contesting Neoliberalism: Urban Frontiers*, The Guilford Press, New York, pp. 26-50.
+
+Piketty, T & Saez, E 2003, ‘Income Inequality in the United States, 1913-1998’, *The Quarterly Journal of Economics*, vol. 118, no. 1, pp.1–41, DOI:10.1162/00335530360535135.
+
+Schwellnus, C, Kappeler, A & Pionnier, P 2017, ’Decoupling of wages from productivity: Macro-level facts’, *OECD Economics Department Working Papers*, No. 1373, OECD Publishing, Paris, DOI:10.1787/d4764493-en.
+
+*Small Business Counts: Small business in the Australian economy* 2019, Australian Small Business and Family Enterprise Ombudsman, viewed 12 November 2020, <https://www.asbfeo.gov.au/sites/default/files/documents/ASBFEO-small-business-counts2019.pdf>.
+
+*Small Business GDP, 1998–2014*,  US Small Business Administration (Office of Advocacy), viewed 12 November 2020, <https://advocacy.sba.gov/2018/12/19/advocacy-releases-small-business-gdp-1998-2014/>.
+
+Stiglitz, J 2010, ‘Lessons from the Global Financial Crisis of 2008’,  *Seoul Journal of Economics*, vol. 23, no. 3, pp. 321-339.
+
+*Supplementary Report To Inequality In Australia* 2018, Australian Council of Social Service & University of New South Wales, Sydney, viewed 12 November 2020, <https://www.acoss.org.au/wp-content/uploads/2018/07/Inequality-in-Australia-2018_supplementary-report.pdf>.
+
+Trading Economics 2020, *United States Unemployment Rate*, Trading Economics, viewed 12 November 2020, <https://tradingeconomics.com/united-states/unemployment-rate>.
+
+Towers, B 1989 ‘Running the Gauntlet: British Trade Unions under Thatcher, 1979–1988’ *ILR Review*, vol. 42, no. 2, pp. 163–188, DOI:10.1177/001979398904200201.
+
+Van Arnum, B M & Naples, M I 2013 ‘Financialization and Income Inequality in the United States, 1967-2010’, *American Journal of Economics and Sociology*, vol. 72, no. 5, pp. 1158–1182, DOI:10.1111/ajes.12036.
+
+Van der Zwan, N 2014 ‘Making sense of financialization’, *Socio-Economic Review*, vol. 12, no. 1, pp. 99–129, DOI:10.1093/ser/mwt020.
+
+Western, B & Rosenfeld, J 2011 ‘Unions, Norms, and the Rise in U.S. Wage Inequality’, *American Sociological Review*, vol. 76, no. 4, pp. 513–537. DOI:10.1177/0003122411414817.
+
+World Bank, 2020, *S&P Global Equity Indices (annual % change)*, World Bank, viewed 12 November 2020.
+
+Yglesias, M 2020, ‘What’s really going on with the economy’, *Vox*, 10 September, viewed 12 November 2020, <https://www.vox.com/21425031/economic-growth-unemployment>.
+
+Zalewski, D A & Whalen, C J 2010, ‘Financialization and Income Inequality: A Post Keynesian Institutionalist Analysis’, *Journal of Economic Issues*, vol. 44, no. 3, pp. 757–777, DOI:10.2753/jei0021-3624440309.
