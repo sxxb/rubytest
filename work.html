@@ -7,7 +7,7 @@ title: Work
 <h2>essays</h2>
 <ul>
   {% for essay in site.essays %}
-  <a href="{{ essay.url }}">
+  <a href="{{ site.baseurl}}{{ essay.url }}">
     <li class="essay-snippet">
       <h2>{{ essay.essay-question }}</h2>
       <p>{{ essay.title }}</p>
@@ -19,7 +19,7 @@ title: Work
 <h2>design</h2>
 <ul>
   {% for design in site.designs %}
-  <a href="{{ design.url }}">
+  <a href="{{ site.baseurl}}{{ design.url }}">
     <li class="design-snippet">
       <h2>{{ design.title }}</h2>
       <p>{{ design.excerpt }}</p>
@@ -31,7 +31,7 @@ title: Work
 <h2>other</h2>
 <ul>
   {% for otherwork in site.otherwork %}
-  <a href="{{ otherwork.url }}">
+  <a href="{{ site.baseurl}}{{ otherwork.url }}">
     <li class="other-snippet">
       <h2>{{ otherwork.title }}</h2>
       <p>{{ otherwork.excerpt }}</p>
