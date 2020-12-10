@@ -1,12 +1,19 @@
+@import url("https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed:400,400i,700,800i&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Sen:400,800&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Quicksand:400,400i,700,700i&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital@0;1&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@900&display=swap");
 * { /*Box Sizing*/ margin: 0; padding: 0; border: 0; outline: 0; box-sizing: border-box; vertical-align: baseline; text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; list-style-type: none; list-style-position: outside; transition: 0.2s ease; }
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { * { -webkit-font-smoothing: auto; -moz-osx-font-smoothing: auto; } }
 
 *::before, *::after { box-sizing: inherit; }
 
-html { font-size: 100%; font-family: sans-serif; -webkit-text-size-adjust: 100%; line-height: 1.6em; }
+html { font-size: 100%; font-family: "Roboto", "Tahoma", sans-serif; -webkit-text-size-adjust: 100%; line-height: 1.6em; }
 
-body header { display: flex; align-items: center; width: 100%; max-width: 1200px; margin: auto; padding: 0.5rem; }
+body header { font-family: "Barlow Semi Condensed", sans-serif; display: flex; align-items: center; width: 100%; max-width: 1200px; margin: auto; padding: 0.5rem; height: 40px; font-size: 0.85rem; }
 
 body header nav { width: 100%; }
 
@@ -18,13 +25,23 @@ body header nav ul li a:hover, body header nav ul li a:visited:hover { border-bo
 
 body header nav ul li a.current { color: red; }
 
-body main { width: 95%; max-width: 1200px; margin: 1rem auto; }
+body main { width: 100%; padding: 3rem 0; min-height: calc(200vh - 120px); }
 
-body main .essay { font-family: sans-serif; }
+body main h1 { margin-bottom: 1em; font-family: "Barlow Semi Condensed", sans-serif; }
 
-body main .post { width: 100%; max-width: 40rem; }
+body main div { width: 90%; max-width: 40rem; margin: auto; }
 
-body footer { display: flex; flex-direction: row; align-items: center; justify-content: space-between; width: 100%; padding: 2rem 5%; border-top: 1px solid #aaa; color: #aaa; max-width: 1200px; margin: 1rem auto 0; }
+body main .basic .post-snippet { padding-left: 0.875rem; border-left: 0.125rem solid rgba(255, 0, 0, 0); }
+
+body main .basic .post-snippet:hover { border-left: 0.125rem solid red; }
+
+body main .basic .post-snippet h2 { margin-bottom: 1rem; font-family: "Barlow Semi Condensed", sans-serif; }
+
+body main .basic .post-snippet p { font-size: 1rem; line-height: 1.6em; }
+
+body main .essay { font-family: "Lora", "Georgia", sans-serif; }
+
+body footer { font-family: "Barlow Semi Condensed", sans-serif; display: flex; flex-direction: row; align-items: center; justify-content: space-between; width: 100%; height: 80px; border-top: 1px dotted #888; color: #888; max-width: 1200px; margin: 1rem auto 0; font-size: 0.85rem; }
 
 body footer .contact { text-align: left; }
 
