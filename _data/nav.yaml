@@ -1,11 +1,11 @@
 
 - name: work
-  link: {{ site.baseurl }}/work/
+  link: /work/
 - name: c.v
-  link: {{ site.baseurl }}/cv/
+  link: /cv/
 - name: sxb
-  link: {{ site.baseurl }}/
+  link: /
 - name: blog
-  link: {{ site.baseurl }}/blog/
+  link: /blog/
 - name: about
-  link: {{ site.baseurl }}/about/
+  link: /about/
