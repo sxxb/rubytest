@@ -17,9 +17,9 @@ html { font-size: 100%; font-family: "Barlow", sans-serif; -webkit-text-size-adj
 
 body { background: white; z-index: 10; }
 
-body > header { font-family: "Barlow Semi Condensed", sans-serif; background: white; display: flex; align-items: center; width: 100%; max-width: 1200px; margin: auto; padding: 0.5rem; height: 40px; font-size: 0.85rem; }
+body > header { font-family: "Barlow Semi Condensed", sans-serif; background: white; display: flex; align-items: center; max-width: 1200px; margin: auto; padding: 0.5rem; height: 40px; font-size: 0.85rem; position: relative; }
 
-body > header nav { width: 100%; }
+body > header nav { width: 100%; top: 0; }
 
 body > header nav ul { display: flex; flex-direction: row; align-items: center; justify-content: space-evenly; width: 100%; }
 
@@ -29,7 +29,7 @@ body > header nav ul li a:hover, body > header nav ul li a:visited:hover { borde
 
 body > header nav ul li a.current { color: red; }
 
-body > main { width: 100%; min-height: calc(100vh - 136px); }
+body > main { min-height: calc(100vh - 136px); }
 
 body > main h1 { margin-bottom: 1em; font-family: "Barlow Semi Condensed", sans-serif; text-align: center; }
 
@@ -77,15 +77,15 @@ body > main .cv .flex { display: flex; justify-content: space-between; align-ite
 
 body > main .cv .break { width: 50%; }
 
-body > main .cv header { border-bottom: 1px solid red; padding: 1rem 0; background: white; }
+body > main .cv header { border-bottom: 1px solid red; padding: 1rem; background: white; }
 
-body > main .cv header .title { display: flex; justify-content: center; flex-direction: column; padding: 1rem; }
+body > main .cv header .title { display: flex; justify-content: center; flex-direction: column; margin: 1rem 0; }
 
 body > main .cv header .title h1 { text-align: left; margin-bottom: 0; font-size: 2.5rem; line-height: 2.5rem; font-family: "Barlow Semi Condensed", sans-serif; color: red; }
 
 body > main .cv header .title h2 { font-size: 1.6rem; line-height: 1.6rem; font-family: "Barlow Semi Condensed", sans-serif; font-style: italic; font-weight: 400; }
 
-body > main .cv header .contact-info { text-align: right; padding: 0 1rem; }
+body > main .cv header .contact-info { text-align: right; }
 
 body > main .cv header .contact-info a { display: block; text-decoration: none; font-weight: 700; line-height: 2rem; font-family: "Barlow Semi Condensed", sans-serif; font-size: 1.2rem; color: #333; }
 
@@ -95,7 +95,7 @@ body > main .cv main { padding: 1rem; }
 
 body > main .cv main h3 { font-size: 2rem; line-height: 2rem; margin: 0.5rem 0; color: red; font-family: "Barlow Semi Condensed", sans-serif; font-style: italic; }
 
-body > main .cv main div { padding: 0 0.25rem; width: unset; max-width: none; margin: 0; }
+body > main .cv main div { width: unset; max-width: none; margin: 0; }
 
 body > main .cv main div ul li { margin: 1rem 0; }
 
@@ -107,7 +107,7 @@ body > main .cv main div ul li .date { text-align: right; font-weight: bold; lin
 
 body > main .cv main div ul li .date i { font-weight: 400; font-size: 0.8rem; line-height: 2rem; }
 
-body > main .cv main div ul li .description { padding: 0.5rem 0.25rem; }
+body > main .cv main div ul li .description { padding: 0.5rem 0; }
 
 body > main .cv main div ul li .contact { display: inline-block; padding: 0.5rem; text-decoration: none; font-family: "Barlow Semi Condensed", sans-serif; font-weight: 400; color: #333; }
 
@@ -115,7 +115,7 @@ body > main .cv main div ul li .contact:hover { color: red; }
 
 body > main .cv main div .skills { display: flex; }
 
-body > main .cv main div .skills ul li { margin: 0.75rem 0 0.75rem 0.5rem; }
+body > main .cv main div .skills ul li { margin: 0.75rem 0 0.75rem; }
 
 body > main .cv main div .skills ul li:last-of-type { margin-bottom: 0; }
 
@@ -155,7 +155,7 @@ body > main .post .post-byline { text-align: center; color: #888; margin-bottom:
 
 body > main .post .post-body { font-family: "Lora", Georgia, serif; }
 
-body > footer { background: white; display: flex; flex-direction: row; align-items: center; justify-content: space-between; width: 100%; height: 80px; border-top: 1px dotted #888; color: #888; max-width: 1200px; margin: 1rem auto 0; font-size: 0.95rem; padding: 0 1rem; }
+body > footer { background: white; display: flex; flex-direction: row; align-items: center; justify-content: space-between; height: 80px; border-top: 1px dotted #888; color: #888; max-width: 1200px; margin: 1rem auto 0; font-size: 0.95rem; padding: 0 1rem; }
 
 body > footer .about { font-family: "Barlow Semi Condensed", sans-serif; }
 
