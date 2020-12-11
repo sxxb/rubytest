@@ -1,17 +1,15 @@
 @import url("https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed:400,400i,700,800i&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Sen:400,800&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Quicksand:400,400i,700,700i&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Barlow:500,500i&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lora:ital@0;1&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@900&display=swap");
 * { /*Box Sizing*/ margin: 0; padding: 0; border: 0; outline: 0; box-sizing: border-box; vertical-align: baseline; text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; list-style-type: none; list-style-position: outside; }
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { * { -webkit-font-smoothing: auto; -moz-osx-font-smoothing: auto; } }
 
 *::before, *::after { box-sizing: inherit; }
 
-html { font-size: 100%; font-family: sans-serif; -webkit-text-size-adjust: 100%; line-height: 1.6em; }
+html { font-size: 100%; font-family: "Barlow", sans-serif; -webkit-text-size-adjust: 100%; line-height: 1.6em; }
+
+body { background: white; z-index: 10; }
 
 body > header { font-family: "Barlow Semi Condensed", sans-serif; background: white; display: flex; align-items: center; width: 100%; max-width: 1200px; margin: auto; padding: 0.5rem; height: 40px; font-size: 0.85rem; }
 
@@ -31,9 +29,11 @@ body > main h1 { margin-bottom: 1em; font-family: "Barlow Semi Condensed", sans-
 
 body > main > div { width: 90%; max-width: 40rem; margin: auto; }
 
-body > main .basic, body > main .about, body > main .essay, body > main .post { margin: 3rem auto; }
+body > main .basic, body > main .about, body > main .essay, body > main .post, body > main .home { margin: 3rem auto; }
 
 body > main .blog { margin: 3rem auto; }
+
+body > main .blog a { color: #333; text-decoration: none; }
 
 body > main .blog .post-snippet { padding-left: 0.875rem; border-left: 0.125rem solid rgba(255, 0, 0, 0); margin-bottom: 3rem; transition: 0.2s ease; }
 
@@ -59,7 +59,7 @@ body > main .work .essay-snippet h2, body > main .work .design-snippet h2, body 
 
 body > main .work .essay-snippet p, body > main .work .design-snippet p, body > main .work .other-snippet p { font-size: 0.9rem; line-height: 1.6em; }
 
-body > main .cv { width: 100vw; max-width: none; }
+body > main .cv { width: 100vw; max-width: none; margin-top: 1rem; }
 
 body > main .cv * { transition: 0.2s ease; }
 
@@ -71,424 +71,59 @@ body > main .cv .flex { display: flex; justify-content: space-between; align-ite
 
 body > main .cv .break { width: 50%; }
 
-body > main .cv header { padding: 0 0.25rem; }
+body > main .cv header { border-bottom: 1px solid red; padding: 1rem 0; background: white; }
 
-body > main .cv header .title { display: flex; justify-content: center; flex-direction: column; }
+body > main .cv header .title { display: flex; justify-content: center; flex-direction: column; padding: 1rem; }
 
-body > main .cv header .title h1 { text-align: left; margin-bottom: 0; }
+body > main .cv header .title h1 { text-align: left; margin-bottom: 0; font-size: 2.5rem; line-height: 2.5rem; font-family: "Barlow Semi Condensed", sans-serif; color: red; }
 
-body > main .cv header .contact-info { text-align: right; }
+body > main .cv header .title h2 { font-size: 1.6rem; line-height: 1.6rem; font-family: "Barlow Semi Condensed", sans-serif; font-style: italic; font-weight: 400; }
 
-body > main .cv header .contact-info a { display: block; text-decoration: none; font-weight: 700; font-size: 1rem; line-height: 2rem; }
+body > main .cv header .contact-info { text-align: right; padding: 0 1rem; }
+
+body > main .cv header .contact-info a { display: block; text-decoration: none; font-weight: 700; line-height: 2rem; font-family: "Barlow Semi Condensed", sans-serif; font-size: 1.2rem; color: #333; }
+
+body > main .cv header .contact-info a:hover { color: red; }
+
+body > main .cv main { padding: 1rem; }
+
+body > main .cv main h3 { font-size: 2rem; line-height: 2rem; margin: 0.5rem 0; color: red; font-family: "Barlow Semi Condensed", sans-serif; font-style: italic; }
 
 body > main .cv main div { padding: 0 0.25rem; width: unset; max-width: none; margin: 0; }
 
-body > main .cv main div ul li { margin-top: 2rem; }
+body > main .cv main div ul li { margin: 1rem 0; }
 
-body > main .cv main div ul li:last-of-type { margin-bottom: 2rem; }
+body > main .cv main div ul li h4 { font-size: 1.6rem; line-height: 1.2em; font-family: "Barlow Semi Condensed", sans-serif; }
 
-body > main .cv main div ul li .date { text-align: right; }
+body > main .cv main div ul li .subhead { font-size: 1.2rem; line-height: 1.4rem; font-family: "Barlow Semi Condensed", sans-serif; }
+
+body > main .cv main div ul li .date { text-align: right; font-weight: bold; line-height: 2rem; font-family: "Barlow Semi Condensed", sans-serif; }
+
+body > main .cv main div ul li .date i { font-weight: 400; font-size: 0.8rem; line-height: 2rem; }
+
+body > main .cv main div ul li .description { padding: 0.5rem 0.25rem; }
+
+body > main .cv main div ul li .contact { display: inline-block; padding: 0.5rem; text-decoration: none; font-family: "Barlow Semi Condensed", sans-serif; font-weight: 400; color: #333; }
+
+body > main .cv main div ul li .contact:hover { color: red; }
 
 body > main .cv main div .skills { display: flex; }
 
-body > main .cv aside { position: fixed; bottom: 5%; right: 5%; z-index: 100%; }
+body > main .cv main div .skills ul li { margin: 0.75rem 0 0.75rem 0.5rem; }
 
-body > main .cv aside a { display: flex; text-decoration: none; align-items: center; justify-content: center; font-weight: bold; text-decoration: none; }
+body > main .cv main div .skills ul li:last-of-type { margin-bottom: 0; }
 
-body > main .cv aside a span { display: block; }
+body > main .cv main div .skills ul li::before { content: "+"; display: inline-block; color: red; padding-right: 0.5rem; }
 
-body > main .cv footer { width: 100%; margin-top: 15vh; }
+body > main .cv main > div { margin-bottom: 3rem; }
 
-body > main .cv footer h5 { margin: auto; font-weight: 400; font-size: 1rem; }
+@media screen and (max-width: 599px) { body > main .cv .flex { flex-direction: column; align-items: start; } body > main .cv .break { width: 100%; } body > main .cv header .contact-info { text-align: left; } body > main .cv header .contact-info a { font-size: 1rem; } }
 
-body > main .cv.Contemporary *::selection { color: #00cc88; background: #3300ff; }
-
-body > main .cv.Contemporary .resumeContainer { font-family: "Barlow Semi Condensed", sans-serif; color: #3e2d86; }
-
-body > main .cv.Contemporary header { border-bottom: 1px solid #3e2d86; padding: 1rem 0; background: white; }
-
-body > main .cv.Contemporary header .title { padding: 1rem; }
-
-body > main .cv.Contemporary header .title h1 { font-size: 2.5rem; line-height: 2.5rem; font-family: "Barlow Semi Condensed", sans-serif; color: #3300ff; }
-
-body > main .cv.Contemporary header .title h2 { font-size: 1.6rem; line-height: 1.6rem; font-family: "Barlow Semi Condensed", sans-serif; font-style: italic; font-weight: 400; }
-
-body > main .cv.Contemporary header .contact-info { padding: 0 1rem; }
-
-body > main .cv.Contemporary header .contact-info a { color: #3300ff; font-family: "Barlow Semi Condensed", sans-serif; font-size: 1.2rem; }
-
-body > main .cv.Contemporary header .contact-info a:hover { color: #00cc88; }
-
-body > main .cv.Contemporary main { padding: 1rem; }
-
-body > main .cv.Contemporary main h3 { font-size: 2rem; line-height: 2rem; margin: 0.5rem 0; color: #3300ff; font-family: "Barlow Semi Condensed", sans-serif; font-style: italic; }
-
-body > main .cv.Contemporary main > div { margin-bottom: 2rem; }
-
-body > main .cv.Contemporary main div ul li { margin: 1rem 0; }
-
-body > main .cv.Contemporary main div ul li h4 { font-size: 1.6rem; line-height: 1.2em; }
-
-body > main .cv.Contemporary main div ul li .subhead { font-size: 1.2rem; line-height: 1.4rem; }
-
-body > main .cv.Contemporary main div ul li .date { font-weight: bold; line-height: 2rem; }
-
-body > main .cv.Contemporary main div ul li .date i { font-weight: 400; font-size: 0.8rem; line-height: 2rem; }
-
-body > main .cv.Contemporary main div ul li .description { padding: 0.5rem; }
-
-body > main .cv.Contemporary main div ul li .contact { display: inline-block; padding: 0.5rem; text-decoration: none; color: #3300ff; font-family: "Barlow Semi Condensed", sans-serif; font-weight: 400; }
-
-body > main .cv.Contemporary main div ul li .contact:hover { color: #00cc88; }
-
-body > main .cv.Contemporary main div .skills ul li { margin: 0.75rem 0 0.75rem 0.5rem; }
-
-body > main .cv.Contemporary main div .skills ul li:last-of-type { margin-bottom: 0; }
-
-body > main .cv.Contemporary main div .skills ul li::before { content: "+"; display: inline-block; color: #3300ff; padding-right: 0.5rem; }
-
-body > main .cv.Contemporary aside a { height: 4rem; width: 4rem; border-radius: 50%; background: #00cc88; font-size: 2rem; line-height: 2rem; color: white; box-shadow: 0 0 3px #3336; }
-
-body > main .cv.Contemporary aside a span { margin-bottom: 0.5rem; }
-
-body > main .cv.Contemporary aside a:hover { transform: translateY(-0.25rem); box-shadow: 0 3px 3px #3336; }
-
-body > main .cv.Contemporary footer { background-color: #3300ff; }
-
-body > main .cv.Contemporary footer h5 { font-family: "Barlow Semi Condensed", sans-serif; color: white; }
-
-@media screen and (max-width: 599px) { body > main .cv.Contemporary header .contact-info a { font-size: 1rem; } }
-
-body > main .cv.Avant *::selection { background-color: #430fbd; color: white; }
-
-body > main .cv.Avant .resumeContainer { font-family: "Sen", sans-serif; }
-
-body > main .cv.Avant header { padding: 1rem; }
-
-body > main .cv.Avant header .title h1 { font-size: 3rem; line-height: 3rem; font-family: "Sen", sans-serif; margin: 0 0 0.5rem 0; }
-
-body > main .cv.Avant header .title h2 { font-size: 1.5rem; line-height: 1.2rem; font-family: "Sen", sans-serif; font-style: italic; font-weight: 400; margin: 0; }
-
-body > main .cv.Avant header .contact-info { padding: 0.5rem 0 0 0.25rem; }
-
-body > main .cv.Avant header .contact-info a { font-family: "Sen", sans-serif; color: #430fbd; font-size: 1rem; line-height: 2rem; }
-
-body > main .cv.Avant header .contact-info a:hover { color: #4d00ff; }
-
-body > main .cv.Avant main { padding: 0.5rem; }
-
-body > main .cv.Avant main > div { margin-bottom: 2rem; }
-
-body > main .cv.Avant main h3 { font-size: 2rem; line-height: 2rem; margin: 1rem 4rem; padding: 1rem 0; height: 4rem; color: white; font-family: "Sen", sans-serif; font-style: italic; text-align: center; width: auto; display: block; position: relative; background: linear-gradient(to right, #4d00ff 0%, #e61a3c 90%); text-shadow: 0 0 0.25rem #0003; }
-
-body > main .cv.Avant main h3:before, body > main .cv.Avant main h3:after { content: ""; position: absolute; height: 4rem; width: 4rem; }
-
-body > main .cv.Avant main h3:before { left: -4rem; top: 0%; border-radius: 50% 0 0 50%; background-color: #4d00ff; }
-
-body > main .cv.Avant main h3:after { right: -4rem; top: 0%; border-radius: 0 50% 50% 0; background-color: #e61a3c; }
-
-body > main .cv.Avant main div ul li { padding: 0 2rem; }
-
-body > main .cv.Avant main div ul li div { padding: 0; }
-
-body > main .cv.Avant main div ul li h4 { font-size: 1.1rem; line-height: 1.5em; margin: 0; }
-
-body > main .cv.Avant main div ul li .subhead { font-size: 1rem; line-height: 1.6rem; margin: 0; }
-
-body > main .cv.Avant main div ul li .date { font-weight: bold; font-size: 1rem; line-height: 1.2rem; }
-
-body > main .cv.Avant main div ul li .date i { font-weight: 400; font-size: 0.9em; line-height: 1em; }
-
-body > main .cv.Avant main div ul li .description { padding: 0; margin-bottom: 0; line-height: 1.6rem; }
-
-body > main .cv.Avant main div ul li .contact { display: inline-block; margin: 1rem 0 0 0; text-decoration: none; font-family: "Sen", sans-serif; color: #430fbd; font-weight: 400; }
-
-body > main .cv.Avant main div ul li .contact:hover { color: #4d00ff; }
-
-body > main .cv.Avant main div .skills ul { padding: 0 2.5rem; }
-
-body > main .cv.Avant main div .skills ul li { margin: 0.75rem 0 0.75rem 0.5rem; padding: 0; line-height: 1.6rem; border: 0; list-style-type: disc; }
-
-body > main .cv.Avant main div .skills ul li:last-of-type { margin-bottom: 0; }
-
-body > main .cv.Avant aside a { height: 5rem; width: 5rem; border-radius: 50%; font-size: 2.5rem; text-shadow: none; background: linear-gradient(45deg, #4d00ff 30%, #e61a3c 100%); color: white; box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0); text-shadow: 0 0 0.25rem #0003; }
-
-body > main .cv.Avant aside a span { margin-bottom: 0.25rem; }
-
-body > main .cv.Avant aside a:hover { box-shadow: 2rem -3rem 4rem 1rem #4d00ff, -4rem -2rem 4rem 1rem #e61a3c, -2rem 1rem 4rem 1rem #4d00ff, 3rem 3rem 4rem 1rem #e61a3c; }
-
-body > main .cv.Avant footer { padding-bottom: 1rem; }
-
-body > main .cv.Avant footer h5 { font-family: "Sen", sans-serif; }
-
-body > main .cv.Flat *::selection { background-color: #ff4d5b; color: white; }
-
-body > main .cv.Flat .resumeContainer { font-family: "Quicksand", sans-serif; background-color: #ff4d5b; }
-
-body > main .cv.Flat header { padding: 2rem 1rem; background-color: #ff4d5b; color: white; }
-
-body > main .cv.Flat header .title h1 { font-size: 2rem; line-height: 2rem; font-family: "Quicksand", sans-serif; }
-
-body > main .cv.Flat header .title h2 { font-size: 1.5rem; line-height: 1.2rem; font-family: "Quicksand", sans-serif; font-style: italic; font-weight: 400; margin: 0; }
-
-body > main .cv.Flat header .contact-info { padding: 0.5rem 0.25rem; }
-
-body > main .cv.Flat header .contact-info a { font-family: "Quicksand", sans-serif; color: white; }
-
-body > main .cv.Flat header .contact-info a:hover { color: #ffccd0; }
-
-body > main .cv.Flat main { padding: 1rem; background-color: White; border-radius: 2rem 2rem 0 0; box-shadow: 0 -1px 5px #0003; }
-
-body > main .cv.Flat main > div { margin-bottom: 2rem; }
-
-body > main .cv.Flat main h3 { font-size: 2rem; line-height: 3rem; margin: 1rem 0; color: #ff4d5b; font-family: "Quicksand", sans-serif; font-style: italic; width: auto; }
-
-body > main .cv.Flat main div { padding: 0 0.5rem; }
-
-body > main .cv.Flat main div ul { padding-left: 1rem; }
-
-body > main .cv.Flat main div ul li div { padding: 0; }
-
-body > main .cv.Flat main div ul li h4 { font-size: 1.1rem; line-height: 1.5em; margin: 0; }
-
-body > main .cv.Flat main div ul li .subhead { font-size: 1rem; line-height: 1.6rem; margin: 0; }
-
-body > main .cv.Flat main div ul li .date { font-weight: bold; font-size: 1rem; line-height: 1.2rem; }
-
-body > main .cv.Flat main div ul li .date i { font-weight: 400; font-size: 0.9em; line-height: 1em; }
-
-body > main .cv.Flat main div ul li .description { padding: 0; margin-bottom: 0; line-height: 1.6rem; }
-
-body > main .cv.Flat main div ul li .contact { display: inline-block; margin: 1rem 0 0 0; text-decoration: none; font-family: "Quicksand", sans-serif; color: #cf1726; font-weight: 400; }
-
-body > main .cv.Flat main div ul li .contact:hover { color: #ff4d5b; }
-
-body > main .cv.Flat main div .skills ul { padding: 0 1.5rem; }
-
-body > main .cv.Flat main div .skills ul li { margin: 0.75rem 0 0.75rem 0.5rem; padding: 0; line-height: 1.6rem; border: 0; list-style-type: disc; }
-
-body > main .cv.Flat main div .skills ul li:last-of-type { margin-bottom: 0; }
-
-body > main .cv.Flat aside a { height: 5rem; width: 5rem; border-radius: 50%; font-size: 2.5rem; text-shadow: none; background-color: white; border: 5px solid #ff4d5b; color: #ff4d5b; }
-
-body > main .cv.Flat aside a span { margin-bottom: 0.35rem; }
-
-body > main .cv.Flat aside a:hover { transform: translateY(-0.5rem); box-shadow: 0 0.5rem 0 0 #ff4d5b; }
-
-body > main .cv.Flat aside a:active { transform: translate(0rem, 0rem); box-shadow: 0 0 0 0 #0000; }
-
-body > main .cv.Flat footer { max-width: 60rem; margin: auto; padding: 1rem 0; background-color: white; }
-
-body > main .cv.Flat footer h5 { font-family: "Quicksand", sans-serif; color: #cf1726; }
-
-body > main .cv.Classic *::selection { background-color: #0fbd83; color: white; }
-
-body > main .cv.Classic .resumeContainer { font-family: "Playfair Display", serif; margin: 1rem; padding: 1rem; border: 5px #085e41 double; border-radius: -2rem; }
-
-body > main .cv.Classic header { padding: 0 1rem; }
-
-body > main .cv.Classic header .title h1 { font-size: 3rem; line-height: 1.2em; font-family: "Playfair Display", serif; }
-
-body > main .cv.Classic header .title h2 { font-size: 2rem; line-height: 1.2em; font-family: "Playfair Display", serif; font-style: italic; font-weight: 400; margin: 0; }
-
-body > main .cv.Classic header .contact-info { padding: 1rem 1.5rem 0.25rem 1.5rem; }
-
-body > main .cv.Classic header .contact-info a { font-family: "Lora", serif; color: #013222; }
-
-body > main .cv.Classic header .contact-info a:hover { color: #0fbd83; }
-
-body > main .cv.Classic main { padding: 0.5rem; font-family: "Lora", serif; }
-
-body > main .cv.Classic main > div { margin-bottom: 2rem; }
-
-body > main .cv.Classic main h3 { font-size: 1.6rem; line-height: 1.2em; margin: 1rem 0; padding: 1rem; border: 1px solid #085e41; color: #085e41; font-family: "Playfair Display", serif; width: auto; }
-
-body > main .cv.Classic main div ul li { padding: 0 1rem; }
-
-body > main .cv.Classic main div ul li div { padding: 0; }
-
-body > main .cv.Classic main div ul li h4 { font-size: 1.1rem; line-height: 1.6rem; margin: 0; }
-
-body > main .cv.Classic main div ul li .subhead { font-size: 1rem; line-height: 1.6em; margin: 0; }
-
-body > main .cv.Classic main div ul li .date { font-weight: bold; font-size: 1rem; line-height: 1.2rem; }
-
-body > main .cv.Classic main div ul li .date i { font-weight: 400; font-size: 0.9em; line-height: 1em; }
-
-body > main .cv.Classic main div ul li .description { padding: 0; margin-bottom: 0; line-height: 1.6rem; }
-
-body > main .cv.Classic main div ul li .contact { display: inline-block; margin: 1rem 0 0 0; text-decoration: none; color: #013222; }
-
-body > main .cv.Classic main div ul li .contact:hover { filter: brightness(250%); }
-
-body > main .cv.Classic main div .skills ul { padding: 0 1.5rem; }
-
-body > main .cv.Classic main div .skills ul li { margin: 0.75rem 0 0.75rem 0.5rem; padding: 0; line-height: 1.6rem; border: 0; list-style-type: disc; }
-
-body > main .cv.Classic main div .skills ul li:last-of-type { margin-bottom: 0; }
-
-body > main .cv.Classic aside a { height: 5rem; width: 5rem; font-size: 2.5rem; text-shadow: none; border: 0.25rem double #085e41; background: white; color: #085e41; font-weight: 700; box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.25); font-family: "Lora", serif; }
-
-body > main .cv.Classic aside a span { margin-bottom: 0.25rem; }
-
-body > main .cv.Classic aside a:hover { border: 0.5rem double #085e41; }
-
-body > main .cv.Classic footer { padding-bottom: 1rem; }
-
-body > main .cv.Classic footer h5 { font-family: "Playfair Display", serif; }
-
-@media screen and (max-width: 599px) { body > main .cv.Classic header .contact-info { padding-left: 0; } }
-
-body > main .cv.Brutalist *::selection { background-color: black; color: white; }
-
-body > main .cv.Brutalist .resumeContainer { font-family: "Courier New", monospace; }
-
-body > main .cv.Brutalist header { margin-top: 1rem; padding: 0.5rem; }
-
-body > main .cv.Brutalist header .title h1 { font-size: 2rem; line-height: 2rem; font-family: "Courier New", monospace; }
-
-body > main .cv.Brutalist header .title h2 { font-size: 1.5rem; line-height: 1.2rem; font-family: "Courier New", monospace; font-style: italic; font-weight: 400; margin: 0; }
-
-body > main .cv.Brutalist header .contact-info { padding: 0.5rem 0; }
-
-body > main .cv.Brutalist header .contact-info a { font-family: "Courier New", monospace; }
-
-body > main .cv.Brutalist header .contact-info a:hover { text-decoration: underline; }
-
-body > main .cv.Brutalist main { padding: 0.5rem; }
-
-body > main .cv.Brutalist main > div { margin-bottom: 4rem; }
-
-body > main .cv.Brutalist main h3 { font-size: 1.5rem; line-height: 2rem; margin: 0.75rem 0; font-family: "Courier New", monospace; font-style: italic; text-decoration: underline; width: auto; }
-
-body > main .cv.Brutalist main div { padding: 0; }
-
-body > main .cv.Brutalist main div ul li div { padding: 0; }
-
-body > main .cv.Brutalist main div ul li h4 { font-size: 1.1rem; line-height: 1.5em; margin: 0; }
-
-body > main .cv.Brutalist main div ul li .subhead { font-size: 1rem; line-height: 1.6rem; margin: 0; }
-
-body > main .cv.Brutalist main div ul li .date { font-weight: bold; font-size: 1rem; line-height: 1.2rem; }
-
-body > main .cv.Brutalist main div ul li .date i { font-weight: 400; font-size: 0.9em; line-height: 1em; }
-
-body > main .cv.Brutalist main div ul li .description { padding: 0; margin-top: 0.75rem; margin-bottom: 0; line-height: 1.6rem; }
-
-body > main .cv.Brutalist main div ul li .contact { display: inline-block; margin: 0.5rem 0 0 0; text-decoration: none; font-family: "Courier New", monospace; font-weight: 400; }
-
-body > main .cv.Brutalist main div ul li .contact:hover { text-decoration: underline; }
-
-body > main .cv.Brutalist main div .skills ul li { margin: 0.75rem 0; padding: 0; line-height: 1.6rem; border: 0; }
-
-body > main .cv.Brutalist main div .skills ul li:last-of-type { margin-bottom: 0; }
-
-body > main .cv.Brutalist main div .skills ul li::before { content: ">"; display: inline-block; padding-right: 0.5rem; }
-
-body > main .cv.Brutalist aside a { height: 5rem; width: 5rem; font-size: 2.5rem; text-shadow: none; background: white; border: 2px solid blue; }
-
-body > main .cv.Brutalist aside a:hover { transform: translate(0.25rem, -0.25rem); box-shadow: -0.5rem 0.5rem 0 0 blue; }
-
-body > main .cv.Brutalist footer { padding-bottom: 1rem; }
-
-body > main .cv.Brutalist footer h5 { font-family: "Courier New", monospace; }
-
-body > main .cv.VHS { background: black; }
-
-@keyframes static { 0%, 100% { transform: translate(0, 0); }
-  10% { transform: translate(10%, -15%); }
-  20% { transform: translate(-8%, -10%); }
-  30% { transform: translate(-10%, 9%); }
-  40% { transform: translate(10%, -4%); }
-  50% { transform: translate(0%, -10%); }
-  60% { transform: translate(-15%, 1%); }
-  70% { transform: translate(-5%, 14%); }
-  80% { transform: translate(10%, 20%); }
-  90% { transform: translate(5%, -19%); } }
-
-body > main .cv.VHS *::selection { background-color: #fefcfa; color: black; text-shadow: 1px 1px 1px #00f8, 2px 2px 4px #0ff8, -1px -1px 1px #ff08, -2px -2px 4px #f008; }
-
-body > main .cv.VHS::before { background-color: black; height: 100vh; width: 100vw; position: relative; z-index: -20; }
-
-body > main .cv.VHS::after { content: ""; background-image: url("https://i.ytimg.com/vi/Co-g_JeTiF8/maxresdefault.jpg"); width: 300%; height: 300%; top: -100%; left: -50%; position: fixed; opacity: 0.1; animation: static 1s steps(10) infinite; z-index: -10; }
-
-body > main .cv.VHS .resumeContainer { font-family: "Press Start 2P"; color: #fefcfa; text-shadow: 1px 1px 2px #ff0, 2px 2px 4px #f00, -1px -1px 2px #0ff, -2px -2px 4px #00f; }
-
-body > main .cv.VHS .resumeContainer::selection { background-color: white; color: black; text-shadow: 1px 1px 2px #00f, 2px 2px 4px #0ff, -1px -1px 2px #ff0, -2px -2px 4px #f00; }
-
-body > main .cv.VHS .resumeContainer * { letter-spacing: 0.25em; }
-
-body > main .cv.VHS header { padding: 1rem 0; }
-
-body > main .cv.VHS header .title { padding: 1rem; }
-
-body > main .cv.VHS header .title h1 { font-size: 2rem; line-height: 2rem; font-family: "Press Start 2P"; }
-
-body > main .cv.VHS header .title h2 { font-size: 1.5rem; line-height: 1.5em; font-family: "Press Start 2P"; font-style: italic; font-weight: 400; }
-
-body > main .cv.VHS header .contact-info { padding: 1rem; }
-
-body > main .cv.VHS header .contact-info a { color: #fefcfa; font-family: "Press Start 2P"; }
-
-body > main .cv.VHS header .contact-info a:hover { text-decoration: underline; }
-
-body > main .cv.VHS main { padding: 0.5rem; }
-
-body > main .cv.VHS main h3 { font-size: 1.5rem; line-heigt: 2rem; margin: 5rem 0 0.5rem 0; font-family: "Press Start 2P"; font-style: italic; }
-
-body > main .cv.VHS main div ul li { opacity: 0.9; margin-bottom: 1rem; }
-
-body > main .cv.VHS main div ul li h4 { font-size: 1.1rem; line-height: 1.6rem; }
-
-body > main .cv.VHS main div ul li .subhead { font-size: 1rem; line-height: 1.5em; }
-
-body > main .cv.VHS main div ul li .date { font-weight: bold; font-size: 0.8rem; line-height: 1.2rem; }
-
-body > main .cv.VHS main div ul li .date i { font-weight: 400; font-size: 0.8em; line-height: 1em; }
-
-body > main .cv.VHS main div ul li .description { line-height: 1.6rem; margin: 1rem 1rem 3rem 1rem; }
-
-body > main .cv.VHS main div ul li .contact { display: inline-block; padding: 0.5rem; text-decoration: none; color: #fefcfa; font-family: "Press Start 2P"; font-weight: 400; }
-
-body > main .cv.VHS main div .skills ul li { margin: 0.75rem 0 0.75rem 0.5rem; line-height: 1.6rem; }
-
-body > main .cv.VHS main div .skills ul li:last-of-type { margin-bottom: 0; }
-
-body > main .cv.VHS main div .skills ul li::before { content: "+"; display: inline-block; color: #fefcfa; padding-right: 0.5rem; }
-
-body > main .cv.VHS aside a { height: 6rem; width: 6rem; border-radius: 50%; display: flex; background: #fefcfa; color: black; font-size: 2.5rem; text-shadow: none; }
-
-body > main .cv.VHS aside a span { letter-spacing: normal !important; }
-
-body > main .cv.VHS aside a:hover { transform: translateY(-2rem); box-shadow: 0 1rem 0 0 #ffbf3a, 0 2rem 0 0 #cd181d, 0 3rem 0 0 #a31339, 0 4rem 0 0 #7d1739; }
-
-body > main .cv.VHS footer { background-color: black; padding: 1rem 0; }
-
-body > main .cv.VHS footer h5 { font-family: "Press Start 2P"; }
-
-body > main .cv .styleSelect { display: flex; width: 100%; justify-content: space-evenly; flex-flow: row; background: #222; color: #eee; font-family: sans-serif; font-size: 12px; overflow-x: auto; }
-
-body > main .cv .styleSelect * { flex-basis: 16.667%; }
-
-body > main .cv .styleSelect label { display: flex; align-items: center; justify-content: center; width: 16.67%; padding: 0.25rem 1rem; }
-
-@media screen and (max-width: 599px) { body > main .cv .styleSelect label { padding: 0.75rem 0.25rem; } }
-
-body > main .cv .styleSelect label:hover { background: #444; }
-
-body > main .cv .styleSelect input[type="radio"] { display: none; }
-
-body > main .cv .styleSelect input[type="radio"]:checked + label { background: #333; }
-
-body > main .cv .styleSelect input[type="radio"]:checked + label:hover { background: #444; }
-
-@media screen and (max-width: 599px) { body > main .cv .flex { flex-direction: column; align-items: start; } body > main .cv .break { width: 100%; } body > main .cv header .contact-info { text-align: left; } }
-
-@media print { body > main .cv .screenOnly { display: none; } body > main .cv *, body > main .cv *::before { color: #333 !important; } body > main .cv html { font-size: 10pt; } body > main .cv *, body > main .cv *:before, body > main .cv *:after { border: none !important; font-family: sans-serif !important; background: none !important; text-shadow: none !important; box-shadow: none !important; letter-spacing: normal !important; } }
+@media print { body > main .cv .screenOnly { display: none; } body > main .cv *, body > main .cv *::before { color: #333 !important; } body > main .cv html { font-size: 10pt; } body > main .cv *, body > main .cv *:before, body > main .cv *:after { border: none !important; font-family: sans-serif !important; background: none !important; text-shadow: none !important; box-shadow: none !important; } }
 
 body > main .essay h1 { margin-bottom: 1rem; }
 
-body > main .essay .essay-byline { text-align: center; font-family: "Barlow Semi Condensed", sans-serif; }
+body > main .essay .essay-byline { text-align: center; font-family: "Barlow Semi Condensed", sans-serif; color: #888; }
 
 body > main .essay h2 { font-size: 1.5rem; font-family: "Lora", Georgia, serif; margin: 2rem 0; }
 
@@ -505,6 +140,14 @@ body > main .essay sup:after { content: attr(data-tooltip); position: absolute; 
 body > main .essay sup:hover:after { opacity: 1; display: block; }
 
 body > main .essay .reference { font-size: 0.9rem; }
+
+body > main .post h1 { margin-bottom: 1rem; }
+
+body > main .post p { margin-bottom: 1rem; }
+
+body > main .post .post-byline { text-align: center; color: #888; margin-bottom: 2rem; }
+
+body > main .post .post-body { font-family: "Lora", Georgia, serif; }
 
 body > footer { font-family: "Barlow Semi Condensed", sans-serif; background: white; display: flex; flex-direction: row; align-items: center; justify-content: space-between; width: 100%; height: 80px; border-top: 1px dotted #888; color: #888; max-width: 1200px; margin: 1rem auto 0; font-size: 0.85rem; padding: 0 1rem; }
 

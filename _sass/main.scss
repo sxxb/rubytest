@@ -1,14 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed:400,400i,700,800i&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Sen:400,800&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Quicksand:400,400i,700,700i&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Barlow:500,500i&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital@0;1&display=swap');
-@import url("https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@900&display=swap');
 
 $theme-colour: red;
 $title-font: "Barlow Semi Condensed", sans-serif;
-$body-font: sans-serif;
+$body-font: "Barlow", sans-serif;
 $serif-font: "Lora", Georgia, serif;
 $transition: 0.2s ease;
 
@@ -42,6 +38,8 @@ html {
 }
 
 body {
+  background:white;
+  z-index:10;
   > header {
     font-family: "Barlow Semi Condensed", sans-serif;
     background:white;
@@ -92,11 +90,15 @@ body {
       max-width:40rem;
       margin:auto;
     }
-    .basic, .about, .essay, .post {
+    .basic, .about, .essay, .post, .home {
       margin:3rem auto;
     }
     .blog {
       margin:3rem auto;
+      a {
+        color:#333;
+        text-decoration:none;
+      }
       .post-snippet {
         padding-left:0.875rem;
         border-left:0.125rem solid rgba($theme-colour, 0);
@@ -151,6 +153,7 @@ body {
     .cv {
       width:100vw;
       max-width:none;
+      margin-top:1rem;
         * {transition:0.2s ease;}
         .resumeContainer {
           min-height: 100vh;
@@ -169,25 +172,57 @@ body {
           width: 50%;
         }
         header {
-          padding:0 0.25rem;
+          border-bottom: 1px solid $theme-colour;
+          padding: 1rem 0;
+          background: white;
           .title {
             display: flex;
             justify-content: center;
             flex-direction: column;
-            h1 {text-align:left;margin-bottom:0;}
+            padding:1rem;
+            h1 {
+              text-align:left;
+              margin-bottom:0;
+              font-size: 2.5rem;
+              line-height: 2.5rem;
+              font-family: $title-font;
+              color: $theme-colour;
+            }
+            h2 {
+              font-size: 1.6rem;
+              line-height: 1.6rem;
+              font-family: $title-font;
+              font-style: italic;
+              font-weight: 400;
+            }
           }
           .contact-info {
             text-align: right;
+            padding:0 1rem;
             a {
               display: block;
               text-decoration: none;
               font-weight: 700;
-              font-size: 1rem;
               line-height: 2rem;
+              font-family: $title-font;
+              font-size: 1.2rem;
+              color:#333;
+              &:hover {
+                color: $theme-colour;
+              }
             }
           }
         }
         main {
+          padding: 1rem;
+          h3 {
+            font-size: 2rem;
+            line-height: 2rem;
+            margin: 0.5rem 0;
+            color: $theme-colour;
+            font-family: $title-font;
+            font-style: italic;
+          }
           div {
             padding: 0 0.25rem;
             width:unset;
@@ -195,1101 +230,64 @@ body {
             margin:0;
             ul {
               li {
-                margin-top: 2rem;
-                &:last-of-type {
-                  margin-bottom:2rem;
+                margin: 1rem 0;
+                h4 {
+                  font-size: 1.6rem;
+                  line-height: 1.2em;
+                  font-family: $title-font;
+                }
+                .subhead {
+                  font-size: 1.2rem;
+                  line-height: 1.4rem;
+                  font-family: $title-font;
                 }
                 .date {
                   text-align:right;
+                  font-weight: bold;
+                  line-height: 2rem;
+                  font-family: $title-font;
+                  i {
+                    font-weight: 400;
+                    font-size: 0.8rem;
+                    line-height: 2rem;
+                  }
+                }
+                .description {
+                  padding: 0.5rem 0.25rem;
+                }
+                .contact {
+                  display: inline-block;
+                  padding: 0.5rem;
+                  text-decoration: none;
+                  font-family: $title-font;
+                  font-weight: 400;
+                  color:#333;
+                  &:hover {
+                    color: $theme-colour;
+                  }
                 }
               }
             }
             .skills {
               display: flex;
-            }
-          }
-        }
-        aside {
-          position: fixed;
-          bottom: 5%;
-          right: 5%;
-          z-index: 100%;
-          a {
-            display: flex;
-            text-decoration: none;
-            align-items: center;
-            justify-content: center;
-            font-weight: bold;
-            text-decoration: none;
-            span {
-              display: block;
-            }
-          }
-        }
-        footer {
-          width: 100%;
-          margin-top: 15vh;
-          h5 {
-            margin: auto;
-            font-weight: 400;
-            font-size: 1rem;
-          }
-        }
-        &.Contemporary {
-          $theme-colour: hsl(252, 100%, 50%);
-          $theme-light: hsl(252, 100%, 75%);
-          $theme-dark: hsl(252, 50%, 35%);
-          $theme-alt: hsl(160, 100%, 40%);
-          $title-font: "Barlow Semi Condensed", sans-serif;
-
-          *::selection {
-            color: $theme-alt;
-            background: $theme-colour;
-          }
-
-          .resumeContainer {
-            font-family: $title-font;
-            color: $theme-dark;
-          }
-
-          header {
-            border-bottom: 1px solid $theme-dark;
-            padding: 1rem 0;
-            background: white;
-            .title {
-              padding: 1rem;
-              h1 {
-                font-size: 2.5rem;
-                line-height: 2.5rem;
-                font-family: $title-font;
-                color: $theme-colour;
-              }
-              h2 {
-                font-size: 1.6rem;
-                line-height: 1.6rem;
-                font-family: $title-font;
-                font-style: italic;
-                font-weight: 400;
-              }
-            }
-            .contact-info {
-              padding:0 1rem;
-              a {
-                color: $theme-colour;
-                font-family: $title-font;
-                font-size: 1.2rem;
-                &:hover {
-                  color: $theme-alt;
-                }
-              }
-            }
-          }
-
-          main {
-            padding: 1rem;
-            h3 {
-              font-size: 2rem;
-              line-height: 2rem;
-              margin: 0.5rem 0;
-              color: $theme-colour;
-              font-family: $title-font;
-              font-style: italic;
-            }
-            > div {
-              margin-bottom:2rem;
-            }
-            div {
               ul {
                 li {
-                  margin: 1rem 0;
-                  h4 {
-                    font-size: 1.6rem;
-                    line-height: 1.2em;
+                  margin: 0.75rem 0 0.75rem 0.5rem;
+                  &:last-of-type {
+                    margin-bottom: 0;
                   }
-                  .subhead {
-                    font-size: 1.2rem;
-                    line-height: 1.4rem;
-                  }
-                  .date {
-                    font-weight: bold;
-                    line-height: 2rem;
-                    i {
-                      font-weight: 400;
-                      font-size: 0.8rem;
-                      line-height: 2rem;
-                    }
-                  }
-                  .description {
-                    padding: 0.5rem;
-                  }
-                  .contact {
+                  &::before {
+                    content: "+";
                     display: inline-block;
-                    padding: 0.5rem;
-                    text-decoration: none;
                     color: $theme-colour;
-                    font-family: $title-font;
-                    font-weight: 400;
-                    &:hover {
-                      color: $theme-alt;
-                    }
-                  }
-                }
-              }
-              .skills {
-                ul {
-                  li {
-                    margin: 0.75rem 0 0.75rem 0.5rem;
-                    &:last-of-type {
-                      margin-bottom: 0;
-                    }
-                    &::before {
-                      content: "+";
-                      display: inline-block;
-                      color: $theme-colour;
-                      padding-right: 0.5rem;
-                    }
+                    padding-right: 0.5rem;
                   }
                 }
               }
             }
           }
-
-          aside {
-            a {
-              height: 4rem;
-              width: 4rem;
-              border-radius: 50%;
-              background: $theme-alt;
-              font-size: 2rem;
-              line-height: 2rem;
-              color: white;
-              box-shadow: 0 0 3px #3336;
-              span {
-                margin-bottom: 0.5rem;
-              }
-              &:hover {
-                transform: translateY(-0.25rem);
-                box-shadow: 0 3px 3px #3336;
-              }
-            }
-          }
-
-          footer {
-            background-color: $theme-colour;
-            h5 {
-              font-family: $title-font;
-              color: white;
-            }
-          }
-
-          @media screen and (max-width: 599px) {
-            header .contact-info {
-              a {
-                font-size: 1rem;
-              }
-            }
-          }
-        }
-        &.Avant {
-          $title-font: "Sen", sans-serif;
-          $theme-colour: hsl(258, 100%, 50%);
-          $theme-light: hsl(258, 100%, 75%);
-          $theme-dark: hsl(258, 85%, 40%);
-          $theme-alt: hsl(350, 80%, 50%);
-
-          *::selection {
-            background-color: $theme-dark;
-            color: white;
-          }
-
-          .resumeContainer {
-            font-family: $title-font;
-          }
-
-          header {
-            padding: 1rem;
-            .title {
-              h1 {
-                font-size: 3rem;
-                line-height: 3rem;
-                font-family: $title-font;
-                margin: 0 0 0.5rem 0;
-              }
-              h2 {
-                font-size: 1.5rem;
-                line-height: 1.2rem;
-                font-family: $title-font;
-                font-style: italic;
-                font-weight: 400;
-                margin: 0;
-              }
-            }
-            .contact-info {
-              padding:0.5rem 0 0 0.25rem;
-              a {
-                font-family: $title-font;
-                color: $theme-dark;
-                font-size: 1rem;
-                line-height: 2rem;
-                &:hover {
-                  color: $theme-colour;
-                }
-              }
-            }
-          }
-
-          main {
-            padding: 0.5rem;
-            > div {
-              margin-bottom: 2rem;
-            }
-            h3 {
-              font-size: 2rem;
-              line-height: 2rem;
-              margin: 1rem 4rem;
-              padding: 1rem 0;
-              height: 4rem;
-              color: white;
-              font-family: $title-font;
-              font-style: italic;
-              text-align: center;
-              width: auto;
-              display: block;
-              position: relative;
-              background: linear-gradient(to right, $theme-colour 0%, $theme-alt 90%);
-              text-shadow: 0 0 0.25rem #0003;
-              &:before,
-              &:after {
-                content: "";
-                position: absolute;
-                height: 4rem;
-                width: 4rem;
-              }
-              &:before {
-                left: -4rem;
-                top: 0%;
-                border-radius: 50% 0 0 50%;
-                background-color: $theme-colour;
-              }
-              &:after {
-                right: -4rem;
-                top: 0%;
-                border-radius: 0 50% 50% 0;
-                background-color: $theme-alt;
-              }
-            }
-            div {
-              ul {
-                li {
-                  padding: 0 2rem;
-                  div {
-                    padding: 0;
-                  }
-                  h4 {
-                    font-size: 1.1rem;
-                    line-height: 1.5em;
-                    margin: 0;
-                  }
-                  .subhead {
-                    font-size: 1rem;
-                    line-height: 1.6rem;
-                    margin: 0;
-                  }
-                  .date {
-                    font-weight: bold;
-                    font-size: 1rem;
-                    line-height: 1.2rem;
-                    i {
-                      font-weight: 400;
-                      font-size: 0.9em;
-                      line-height: 1em;
-                    }
-                  }
-                  .description {
-                    padding: 0;
-                    margin-bottom: 0;
-                    line-height: 1.6rem;
-                  }
-                  .contact {
-                    display: inline-block;
-                    margin: 1rem 0 0 0;
-                    text-decoration: none;
-                    font-family: $title-font;
-                    color: $theme-dark;
-                    font-weight: 400;
-                    &:hover {
-                      color: $theme-colour;
-                    }
-                  }
-                }
-              }
-              .skills {
-                ul {
-                  padding: 0 2.5rem;
-                  li {
-                    margin: 0.75rem 0 0.75rem 0.5rem;
-                    padding: 0;
-                    line-height: 1.6rem;
-                    border: 0;
-                    list-style-type: disc;
-                    &:last-of-type {
-                      margin-bottom: 0;
-                    }
-                  }
-                }
-              }
-            }
-          }
-
-          aside {
-            a {
-              height: 5rem;
-              width: 5rem;
-              border-radius: 50%;
-              font-size: 2.5rem;
-              text-shadow: none;
-              background: linear-gradient(45deg, $theme-colour 30%, $theme-alt 100%);
-              color: white;
-              box-shadow: 0 0 0.25rem rgba(black, 0);
-              text-shadow: 0 0 0.25rem #0003;
-              span {
-                margin-bottom: 0.25rem;
-              }
-              &:hover {
-                box-shadow: 2rem -3rem 4rem 1rem $theme-colour,
-                  -4rem -2rem 4rem 1rem $theme-alt, -2rem 1rem 4rem 1rem $theme-colour,
-                  3rem 3rem 4rem 1rem $theme-alt;
-              }
-            }
-          }
-
-          footer {
-            padding-bottom: 1rem;
-            h5 {
-              font-family: $title-font;
-            }
-          }
-        }
-        &.Flat {
-          $title-font: "Quicksand", sans-serif;
-          $theme-colour: hsl(355, 100%, 65%);
-          $theme-light: hsl(355, 100%, 90%);
-          $theme-dark: hsl(355, 80%, 45%);
-          *::selection {
-            background-color: $theme-colour;
-            color: white;
-          }
-
-          .resumeContainer {
-            font-family: $title-font;
-            background-color: $theme-colour;
-          }
-
-          header {
-            padding: 2rem 1rem;
-            background-color: $theme-colour;
-            color: white;
-            .title {
-              h1 {
-                font-size: 2rem;
-                line-height: 2rem;
-                font-family: $title-font;
-              }
-              h2 {
-                font-size: 1.5rem;
-                line-height: 1.2rem;
-                font-family: $title-font;
-                font-style: italic;
-                font-weight: 400;
-                margin: 0;
-              }
-            }
-            .contact-info {
-              padding:0.5rem 0.25rem;
-              a {
-                font-family: $title-font;
-                color: white;
-                &:hover {
-                  color: $theme-light;
-                }
-              }
-            }
-          }
-
-          main {
-            padding: 1rem;
-            background-color: White;
-            border-radius: 2rem 2rem 0 0;
-            box-shadow: 0 -1px 5px #0003;
-            > div {
-              margin-bottom: 2rem;
-            }
-            h3 {
-              font-size: 2rem;
-              line-height: 3rem;
-              margin: 1rem 0;
-              color: $theme-colour;
-              font-family: $title-font;
-              font-style: italic;
-              width: auto;
-            }
-            div {
-              padding: 0 0.5rem;
-              ul {
-                padding-left: 1rem;
-                li {
-                  div {
-                    padding: 0;
-                  }
-                  h4 {
-                    font-size: 1.1rem;
-                    line-height: 1.5em;
-                    margin: 0;
-                  }
-                  .subhead {
-                    font-size: 1rem;
-                    line-height: 1.6rem;
-                    margin: 0;
-                  }
-                  .date {
-                    font-weight: bold;
-                    font-size: 1rem;
-                    line-height: 1.2rem;
-                    i {
-                      font-weight: 400;
-                      font-size: 0.9em;
-                      line-height: 1em;
-                    }
-                  }
-                  .description {
-                    padding: 0;
-                    margin-bottom: 0;
-                    line-height: 1.6rem;
-                  }
-                  .contact {
-                    display: inline-block;
-                    margin: 1rem 0 0 0;
-                    text-decoration: none;
-                    font-family: $title-font;
-                    color: $theme-dark;
-                    font-weight: 400;
-                    &:hover {
-                      color: $theme-colour;
-                    }
-                  }
-                }
-              }
-              .skills {
-                ul {
-                  padding: 0 1.5rem;
-                  li {
-                    margin: 0.75rem 0 0.75rem 0.5rem;
-                    padding: 0;
-                    line-height: 1.6rem;
-                    border: 0;
-                    list-style-type: disc;
-                    &:last-of-type {
-                      margin-bottom: 0;
-                    }
-                  }
-                }
-              }
-            }
-          }
-
-          aside {
-            a {
-              height: 5rem;
-              width: 5rem;
-              border-radius: 50%;
-              font-size: 2.5rem;
-              text-shadow: none;
-              background-color: white;
-              border: 5px solid $theme-colour;
-              color: $theme-colour;
-              span {
-                margin-bottom: 0.35rem;
-              }
-              &:hover {
-                transform: translateY(-0.5rem);
-                box-shadow: 0 0.5rem 0 0 $theme-colour;
-              }
-              &:active {
-                transform: translate(0rem, 0rem);
-                box-shadow: 0 0 0 0 #0000;
-              }
-            }
-          }
-
-          footer {
-            max-width: 60rem;
-            margin: auto;
-            padding: 1rem 0;
-            background-color: white;
-            h5 {
-              font-family: $title-font;
-              color: $theme-dark;
-            }
-          }
-        }
-        &.Classic {
-          $title-font: "Playfair Display", serif;
-          $body-font: "Lora", serif;
-          $theme-colour: hsl(160, 85%, 20%);
-          $theme-light: hsl(160, 85%, 40%);
-          $theme-dark: hsl(160, 95%, 10%);
-
-          *::selection {
-            background-color: $theme-light;
-            color: white;
-          }
-
-          .resumeContainer {
-            font-family: $title-font;
-            margin: 1rem;
-            padding: 1rem;
-            border: 5px $theme-colour double;
-            border-radius: -2rem;
-          }
-
-          header {
-            padding: 0 1rem;
-            .title {
-              h1 {
-                font-size: 3rem;
-                line-height: 1.2em;
-                font-family: $title-font;
-              }
-              h2 {
-                font-size: 2rem;
-                line-height: 1.2em;
-                font-family: $title-font;
-                font-style: italic;
-                font-weight: 400;
-                margin: 0;
-              }
-            }
-            .contact-info {
-              padding: 1rem 1.5rem 0.25rem 1.5rem;
-              a {
-                font-family: $body-font;
-                color: $theme-dark;
-                &:hover {
-                  color: $theme-light;
-                }
-              }
-            }
-          }
-
-          main {
-            padding: 0.5rem;
-            font-family:$body-font;
-            > div {
-              margin-bottom: 2rem;
-            }
-            h3 {
-              font-size: 1.6rem;
-              line-height: 1.2em;
-              margin: 1rem 0;
-              padding: 1rem;
-              border: 1px solid $theme-colour;
-              color: $theme-colour;
-              font-family: $title-font;
-              width: auto;
-            }
-            div {
-              ul {
-                li {
-                  padding: 0 1rem;
-                  div {
-                    padding: 0;
-                  }
-                  h4 {
-                    font-size: 1.1rem;
-                    line-height: 1.6rem;
-                    margin: 0;
-                  }
-                  .subhead {
-                    font-size: 1rem;
-                    line-height: 1.6em;
-                    margin: 0;
-                  }
-                  .date {
-                    font-weight: bold;
-                    font-size: 1rem;
-                    line-height: 1.2rem;
-                    i {
-                      font-weight: 400;
-                      font-size: 0.9em;
-                      line-height: 1em;
-                    }
-                  }
-                  .description {
-                    padding: 0;
-                    margin-bottom: 0;
-                    line-height: 1.6rem;
-                  }
-                  .contact {
-                    display: inline-block;
-                    margin: 1rem 0 0 0;
-                    text-decoration: none;
-                    color: $theme-dark;
-                    &:hover {
-                      filter: brightness(250%);
-                    }
-                  }
-                }
-              }
-              .skills {
-                ul {
-                  padding: 0 1.5rem;
-                  li {
-                    margin: 0.75rem 0 0.75rem 0.5rem;
-                    padding: 0;
-                    line-height: 1.6rem;
-                    border: 0;
-                    list-style-type: disc;
-                    &:last-of-type {
-                      margin-bottom: 0;
-                    }
-                  }
-                }
-              }
-            }
-          }
-
-          aside {
-            a {
-              height: 5rem;
-              width: 5rem;
-              font-size: 2.5rem;
-              text-shadow: none;
-              border: 0.25rem double $theme-colour;
-              background: white;
-              color: $theme-colour;
-              font-weight:700;
-              box-shadow: 0 0 0.25rem rgba(black, 0.25);
-              font-family:$body-font;
-              span {
-                margin-bottom: 0.25rem;
-              }
-              &:hover {
-                border: 0.5rem double $theme-colour;
-              }
-            }
-          }
-
-          footer {
-            padding-bottom: 1rem;
-            h5 {
-              font-family: $title-font;
-            }
-          }
-
-          @media screen and (max-width: 599px) {
-            header .contact-info {
-              padding-left: 0;
-            }
-          }
-        }
-        &.Brutalist {
-          $title-font: "Courier New", monospace;
-
-          *::selection {
-            background-color: black;
-            color: white;
-          }
-
-          .resumeContainer {
-            font-family: $title-font;
-          }
-
-          header {
-            margin-top:1rem;
-            padding: 0.5rem;
-            .title {
-              h1 {
-                font-size: 2rem;
-                line-height: 2rem;
-                font-family: $title-font;
-              }
-              h2 {
-                font-size: 1.5rem;
-                line-height: 1.2rem;
-                font-family: $title-font;
-                font-style: italic;
-                font-weight: 400;
-                margin: 0;
-              }
-            }
-            .contact-info {
-              padding:0.5rem 0;
-              a {
-                font-family: $title-font;
-                &:hover {
-                  text-decoration: underline;
-                }
-              }
-            }
-          }
-
-          main {
-            padding: 0.5rem;
-            > div {
-              margin-bottom: 4rem;
-            }
-            h3 {
-              font-size: 1.5rem;
-              line-height: 2rem;
-              margin: 0.75rem 0;
-              font-family: $title-font;
-              font-style: italic;
-              text-decoration: underline;
-              width: auto;
-            }
-            div {
-              padding:0;
-              ul {
-                li {
-                  div {
-                    padding: 0;
-                  }
-                  h4 {
-                    font-size: 1.1rem;
-                    line-height: 1.5em;
-                    margin: 0;
-                  }
-                  .subhead {
-                    font-size: 1rem;
-                    line-height: 1.6rem;
-                    margin: 0;
-                  }
-                  .date {
-                    font-weight: bold;
-                    font-size: 1rem;
-                    line-height: 1.2rem;
-                    i {
-                      font-weight: 400;
-                      font-size: 0.9em;
-                      line-height: 1em;
-                    }
-                  }
-                  .description {
-                    padding: 0;
-                    margin-top:0.75rem;
-                    margin-bottom: 0;
-                    line-height: 1.6rem;
-                  }
-                  .contact {
-                    display: inline-block;
-                    margin: 0.5rem 0 0 0;
-                    text-decoration: none;
-                    font-family: $title-font;
-                    font-weight: 400;
-                    &:hover {
-                      text-decoration: underline;
-                    }
-                  }
-                }
-              }
-              .skills {
-                ul {
-                  li {
-                    margin: 0.75rem 0;
-                    padding: 0;
-                    line-height: 1.6rem;
-                    border: 0;
-                    &:last-of-type {
-                      margin-bottom: 0;
-                    }
-                    &::before {
-                      content: ">";
-                      display: inline-block;
-                      padding-right: 0.5rem;
-                    }
-                  }
-                }
-              }
-            }
-          }
-
-          aside {
-            a {
-              height: 5rem;
-              width: 5rem;
-              font-size: 2.5rem;
-              text-shadow: none;
-              background: white;
-              border:2px solid blue;
-              &:hover {
-                transform: translate(0.25rem, -0.25rem);
-                box-shadow: -0.5rem 0.5rem 0 0 blue;
-              }
-            }
-          }
-
-          footer {
-            padding-bottom: 1rem;
-            h5 {
-              font-family: $title-font;
-            }
-          }
-        }
-        &.VHS {
-          $theme-light: hsl(30, 80%, 99%);
-          $theme-dark: hsl(0, 0%, 0%);
-          $theme-red: hsl(0, 100%, 50%);
-          $theme-yellow: hsl(60, 100%, 50%);
-          $theme-cyan: hsl(180, 100%, 50%);
-          $theme-blue: hsl(240, 100%, 50%);
-          $title-font: "Press Start 2P";
-
-          @keyframes static {
-            0%,
-            100% {
-              transform: translate(0, 0);
-            }
-            10% {
-              transform: translate(10%, -15%);
-            }
-            20% {
-              transform: translate(-8%, -10%);
-            }
-            30% {
-              transform: translate(-10%, 9%);
-            }
-            40% {
-              transform: translate(10%, -4%);
-            }
-            50% {
-              transform: translate(0%, -10%);
-            }
-            60% {
-              transform: translate(-15%, 1%);
-            }
-            70% {
-              transform: translate(-5%, 14%);
-            }
-            80% {
-              transform: translate(10%, 20%);
-            }
-            90% {
-              transform: translate(5%, -19%);
-            }
-          }
-
-          *::selection {
-            background-color: $theme-light;
-            color: $theme-dark;
-            text-shadow: 1px 1px 1px #00f8, 2px 2px 4px #0ff8, -1px -1px 1px #ff08,
-              -2px -2px 4px #f008;
-          }
-          background:$theme-dark;
-          &::before {
-              background-color: $theme-dark;
-              height: 100vh;
-              width: 100vw;
-              position: relative;
-              z-index: -20;
-          }
-          &::after {
-              content: "";
-              background-image: url("https://i.ytimg.com/vi/Co-g_JeTiF8/maxresdefault.jpg");
-              width: 300%;
-              height: 300%;
-              top: -100%;
-              left: -50%;
-              position: fixed;
-              opacity: 0.1;
-              animation: static 1s steps(10) infinite;
-              z-index: -10;
-            }
-          .resumeContainer {
-            font-family: $title-font;
-            color: $theme-light;
-            text-shadow:
-              1px 1px 2px #ff0,
-              2px 2px 4px #f00,
-              -1px -1px 2px #0ff,
-              -2px -2px 4px #00f;
-            &::selection {
-              background-color:white;
-              color:black;
-              text-shadow:
-                1px 1px 2px #00f,
-                2px 2px 4px #0ff,
-                -1px -1px 2px #ff0,
-                -2px -2px 4px #f00;
-          }
-
-
-            * {
-              letter-spacing:0.25em;
-            }
-          }
-
-          header {
-            padding: 1rem 0;
-            .title {
-              padding: 1rem;
-              h1 {
-                font-size: 2rem;
-                line-height: 2rem;
-                font-family: $title-font;
-              }
-              h2 {
-                font-size: 1.5rem;
-                line-height: 1.5em;
-                font-family: $title-font;
-                font-style: italic;
-                font-weight: 400;
-              }
-            }
-            .contact-info {
-              padding:1rem;
-              a {
-                color: $theme-light;
-                font-family: $title-font;
-
-                &:hover {
-                  text-decoration: underline;
-                }
-              }
-            }
-          }
-
-          main {
-            padding: 0.5rem;
-            h3 {
-              font-size: 1.5rem;
-              line-heigt: 2rem;
-              margin: 5rem 0 0.5rem 0;
-              font-family: $title-font;
-              font-style: italic;
-            }
-            div {
-              ul {
-                li {
-                  opacity: 0.9;
-                  margin-bottom: 1rem;
-                  h4 {
-                    font-size: 1.1rem;
-                    line-height: 1.6rem;
-                  }
-                  .subhead {
-                    font-size: 1rem;
-                    line-height: 1.5em;
-                  }
-                  .date {
-                    font-weight: bold;
-                    font-size: 0.8rem;
-                    line-height: 1.2rem;
-                    i {
-                      font-weight: 400;
-                      font-size: 0.8em;
-                      line-height: 1em;
-                    }
-                  }
-                  .description {
-                    line-height: 1.6rem;
-                    margin:1rem 1rem 3rem 1rem;
-                  }
-                  .contact {
-                    display: inline-block;
-                    padding: 0.5rem;
-                    text-decoration: none;
-                    color: $theme-light;
-                    font-family: $title-font;
-                    font-weight: 400;
-                  }
-                }
-              }
-              .skills {
-                ul {
-                  li {
-                    margin: 0.75rem 0 0.75rem 0.5rem;
-                    line-height: 1.6rem;
-                    &:last-of-type {
-                      margin-bottom: 0;
-                    }
-                    &::before {
-                      content: "+";
-                      display: inline-block;
-                      color: $theme-light;
-                      padding-right: 0.5rem;
-                    }
-                  }
-                }
-              }
-            }
-          }
-
-          aside {
-            a {
-              height: 6rem;
-              width: 6rem;
-              border-radius: 50%;
-              display: flex;
-              background: $theme-light;
-              color: $theme-dark;
-              font-size: 2.5rem;
-              text-shadow: none;
-              span {
-                letter-spacing:normal !important;
-              }
-              &:hover {
-                transform:translateY(-2rem);
-                box-shadow:
-                  0 1rem  0 0 rgba(320,191,58, 1),
-                  0 2rem 0 0 rgba(205,24,29, 1),
-                  0 3rem 0 0 rgba(163,19,57, 1),
-                  0 4rem 0 0 rgba(125,23,57, 1);
-              }
-            }
-          }
-
-          footer {
-            background-color: $theme-dark;
-            padding: 1rem 0;
-            h5 {
-              font-family: $title-font;
-            }
-          }
-        }
-        .styleSelect {
-          display: flex;
-          width: 100%;
-          justify-content: space-evenly;
-          flex-flow: row;
-          background: #222;
-          color: #eee;
-          font-family: sans-serif;
-          font-size: 12px;
-          overflow-x: auto;
-          * {
-            flex-basis: 16.667%;
-          }
-          label {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            width: 16.67%;
-            padding: 0.25rem 1rem;
-            @media screen and (max-width: 599px) {
-              padding: 0.75rem 0.25rem;
-            }
-            &:hover {
-              background: #444;
-            }
-          }
-          input[type="radio"] {
-            display: none;
-          }
-          input[type="radio"]:checked + label {
-            background: #333;
-            &:hover {
-              background: #444;
-            }
+          > div {
+            margin-bottom:3rem;
           }
         }
 
@@ -1303,6 +301,9 @@ body {
           }
           header .contact-info {
             text-align: left;
+            a {
+              font-size: 1rem;
+            }
           }
         }
         @media print {
@@ -1324,10 +325,10 @@ body {
             background: none !important;
             text-shadow: none !important;
             box-shadow: none !important;
-            letter-spacing: normal !important;;
           }
         }
       }
+
     .about {}
 
     .essay {
@@ -1338,6 +339,7 @@ body {
       .essay-byline {
         text-align:center;
         font-family: $title-font;
+        color:#888;
       }
       h2 {
         font-size:1.5rem;
@@ -1391,7 +393,20 @@ body {
 
     }
     .post {
-
+      h1 {
+        margin-bottom:1rem;
+      }
+      p {
+        margin-bottom:1rem;
+      }
+      .post-byline {
+        text-align:center;
+        color:#888;
+        margin-bottom:2rem;
+      }
+      .post-body {
+        font-family:$serif-font;
+      }
     }
   }
   > footer {
