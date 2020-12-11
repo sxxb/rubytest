@@ -65,7 +65,7 @@ body > main .work .essay-snippet h2, body > main .work .design-snippet h2, body 
 
 body > main .work .essay-snippet p, body > main .work .design-snippet p, body > main .work .other-snippet p { font-size: 0.9rem; line-height: 1.6em; }
 
-body > main .cv { width: 100vw; max-width: none; margin-top: 1rem; }
+body > main .cv { width: 100vw; max-width: none; margin-top: 2rem; }
 
 body > main .cv * { transition: 0.2s ease; }
 
