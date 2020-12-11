@@ -8,6 +8,16 @@ $body-font: "Barlow", sans-serif;
 $serif-font: "Lora", Georgia, serif;
 $transition: 0.2s ease;
 
+@keyframes fadeIn {
+  0%   { opacity: 0}
+  100% { opacity: 1}
+}
+
+@keyframes fadeOut {
+  0%   { opacity: 1}
+  100% { opacity: 0}
+}
+
 * {
   /*Box Sizing*/
   margin: 0;
@@ -374,8 +384,8 @@ body {
 	          padding: 1rem;
             border-radius:0.25rem;
 	          background: white;
-            opacity:0;
-            box-shadow:1px 1px 4px #333;
+            // opacity:0;
+            box-shadow:0 0 5px 0 #3333, 0 50px 100px -20px #3343, 0 30px 60px -30px #3338;
             width:15rem;
             font-size:0.9rem;
             line-height:1.4em;
@@ -383,7 +393,8 @@ body {
             display:none;
         }
         &:hover:after {
-          opacity:1;
+          animation: fadeIn 0.2s ease-in;
+          animation-iteration-count: 1;
           display:block;
         }
       }
@@ -410,7 +421,6 @@ body {
     }
   }
   > footer {
-    font-family: $title-font;
     background:white;
     display:flex;
     flex-direction:row;
@@ -422,12 +432,38 @@ body {
     color:#888;
     max-width:1200px;
     margin:1rem auto 0;
-    font-size:0.85rem;
+    font-size:0.95rem;
     padding:0 1rem;
     .about {
+      font-family: $title-font;
     }
     .contact {
-      text-align:left;
+      display:flex;
+      flex-direction:row;
+      .icon {
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        height:1.5rem;
+        width:1.5rem;
+        display:flex;
+        margin:0 .5rem;
+        opacity:0.6;
+        transition:0.2s ease;
+        &:hover {
+          opacity:1;
+        }
+      &.email {
+        background-image: url(../img/icons/email.svg)
+      }
+      &.twitter {
+        background-image: url(../img/icons/twitter.svg)
+      }
+      &.sxb {
+        background-image: url(../img/icons/sxb.svg)
+      }
+      }
+
       //add media query for text going right on large screen
       }
   }
