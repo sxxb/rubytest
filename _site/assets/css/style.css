@@ -500,9 +500,9 @@ body > main .essay sup { vertical-align: super; line-height: 1em; color: red; fo
 
 body > main .essay sup:hover { cursor: pointer; }
 
-body > main .essay sup:after { content: attr(data-tooltip); position: absolute; bottom: 130%; left: 20%; padding: 1rem; border-radius: 0.25rem; background: white; opacity: 0; box-shadow: 1px 1px 4px #333; width: 15rem; font-size: 1rem; line-height: 1.6em; }
+body > main .essay sup:after { content: attr(data-tooltip); position: absolute; bottom: 130%; left: 20%; padding: 1rem; border-radius: 0.25rem; background: white; opacity: 0; box-shadow: 1px 1px 4px #333; width: 15rem; font-size: 0.9rem; line-height: 1.4em; transition: 0.2s ease; display: none; }
 
-body > main .essay sup:hover:after { opacity: 1; }
+body > main .essay sup:hover:after { opacity: 1; display: block; }
 
 body > main .essay .reference { font-size: 0.9rem; }
 

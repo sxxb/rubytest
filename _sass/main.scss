@@ -1375,11 +1375,14 @@ body {
             opacity:0;
             box-shadow:1px 1px 4px #333;
             width:15rem;
-            font-size:1rem;
-            line-height:1.6em;
+            font-size:0.9rem;
+            line-height:1.4em;
+            transition:0.2s ease;
+            display:none;
         }
         &:hover:after {
           opacity:1;
+          display:block;
         }
       }
       .reference {
