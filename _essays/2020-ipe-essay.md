@@ -62,73 +62,78 @@ The overarching theme of all these arguments for why there is a perception of di
 
 ## Bibliography
 
-Anthony, S D, Viguerie, S P, Schwartz, E I & Van Landeghem, J 2018,  *2018 Corporate Longevity Forecast: Creative Destruction is Accelerating*, Innosight, viewed 12 November 2020, <https://www.innosight.com/insight/creative-destruction/>.
+<div class="references">
 
-Autor, D H, Manning, A & Smith, C L 2016, ‘The Contribution of the Minimum Wage to US Wage Inequality over Three Decades: A Reassessment’, *American Economic Journal: Applied Economics*, vol. 08, no. 1, pp. 58-99, DOI:10.1257/app.20140073.
+Anthony, S D, Viguerie, S P, Schwartz, E I & Van Landeghem, J 2018,  <em>2018 Corporate Longevity Forecast: Creative Destruction is Accelerating</em>, Innosight, viewed 12 November 2020, <https://www.innosight.com/insight/creative-destruction/>.
 
-Ball, S J & Youdell, D 2009, ‘Hidden privatisation in public education’, *Education Review*, vol. 21, no. 2, pp. 73-83.
+Autor, D H, Manning, A & Smith, C L 2016, ‘The Contribution of the Minimum Wage to US Wage Inequality over Three Decades: A Reassessment’, <em>American Economic Journal: Applied Economics</em>, vol. 08, no. 1, pp. 58-99, DOI:10.1257/app.20140073.
 
-Blyth, M 2013, *Austerity: The History of a Dangerous Idea*, Oxford University Press, Oxford.
+Ball, S J & Youdell, D 2009, ‘Hidden privatisation in public education’, <em>Education Review</em>, vol. 21, no. 2, pp. 73-83.
 
-Brinkley, A 1989. ‘The New Deal and the Idea of the State’, in Fraser S & Gerstle G (eds.), *The Rise and Fall of the New Deal Order, 1930-1980*, pp. 85-121, Princeton University Press, New Jersey.
+Blyth, M 2013, <em>Austerity: The History of a Dangerous Idea</em>, Oxford University Press, Oxford.
 
-Crotty, J 2005, ‘The Neoliberal Paradox: The Impact of Destructive Product Market Competition and ‘Modern’ Financial Markets on Nonfinance Corporation Performance in the Neoliberal Era’, in G Epstein (ed), *Financialization and the World Economy*, Edward Elgar Publishing, Cheltenham, pp. 77-110.
+Brinkley, A 1989. ‘The New Deal and the Idea of the State’, in Fraser S & Gerstle G (eds.), <em>The Rise and Fall of the New Deal Order, 1930-1980</em>, pp. 85-121, Princeton University Press, New Jersey.
 
-Department for Business, Energy & Industrial Strategy 2020, *Business population estimates for the UK and regions*, Gov.UK, viewed 12 November 2020, <https://www.gov.uk/government/publications/business-population-estimates-2019/business-population-estimates-for-the-uk-and-regions-2019-statistical-release-html>.
+Crotty, J 2005, ‘The Neoliberal Paradox: The Impact of Destructive Product Market Competition and ‘Modern’ Financial Markets on Nonfinance Corporation Performance in the Neoliberal Era’, in G Epstein (ed), <em>Financialization and the World Economy</em>, Edward Elgar Publishing, Cheltenham, pp. 77-110.
 
-Dore, R 2008, ‘Financialization of the global economy’, *Industrial and Corporate Change*, vol. 17, no. 6, pp. 1097–1112, DOI:10.1093/icc/dtn041.
+Department for Business, Energy & Industrial Strategy 2020, <em>Business population estimates for the UK and regions</em>, Gov.UK, viewed 12 November 2020, <https://www.gov.uk/government/publications/business-population-estimates-2019/business-population-estimates-for-the-uk-and-regions-2019-statistical-release-html>.
 
-Farnsworth, K & Irving, Z 2018, ‘Austerity: Neoliberal dreams come true?’, *Critical Social Policy*,  vol. 38, no. 3, pp. 461–481, DOI:10.1177/0261018318762451.
+Dore, R 2008, ‘Financialization of the global economy’, <em>Industrial and Corporate Change</em>, vol. 17, no. 6, pp. 1097–1112, DOI:10.1093/icc/dtn041.
 
-Forrest, R & Murie, A 2011, *Selling the Welfare State: The Privatisation of Public Housing*, Routledge, New York.
+Farnsworth, K & Irving, Z 2018, ‘Austerity: Neoliberal dreams come true?’, <em>Critical Social Policy</em>,  vol. 38, no. 3, pp. 461–481, DOI:10.1177/0261018318762451.
 
-*Global Wage Report 2018/19* 2018, International Labour Organization, viewed 12 November 2020, <https://www.ilo.org/global/publications/books/WCMS_650553/lang--en/index.htm>.
+Forrest, R & Murie, A 2011, <em>Selling the Welfare State: The Privatisation of Public Housing</em>, Routledge, New York.
 
-Hall, M, Crowder, K D, & Spring, A 2015, ‘Neighborhood foreclosures, racial/ethnic transitions, and residential segregation’, *American Sociological Review*, vol. 80, no. 3, pp. 526–549, DOI:10.1177/0003122415581334.
+<em>Global Wage Report 2018/19</em> 2018, International Labour Organization, viewed 12 November 2020, <https://www.ilo.org/global/publications/books/WCMS_650553/lang--en/index.htm>.
 
-Harvey, D 2007, *A Brief History of Neoliberalism*, Oxford University Press, Oxford.
+Hall, M, Crowder, K D, & Spring, A 2015, ‘Neighborhood foreclosures, racial/ethnic transitions, and residential segregation’, <em>American Sociological Review</em>, vol. 80, no. 3, pp. 526–549, DOI:10.1177/0003122415581334.
 
-Higgins, M, Klitgaard, T & Lerman, R 2006, ‘Recycling Petrodollars’, *Current Issues in Economics and Finance*, vol. 12, no. 9, pp. 1-7.
+Harvey, D 2007, <em>A Brief History of Neoliberalism</em>, Oxford University Press, Oxford.
 
-Jacobs, K, Atkinson, R, Spinney, A, Colic-Peisker, V,  Berry, M & Dalton, T 2010, *What future for public housing? A critical analysis*, Australian Housing and Urban Research Institute, viewed 12 November 2020, <https://eprints.utas.edu.au/9623/1/AHURI_Research_Paper_What_future_for_public_housing_A_critical_analysis-4.pdf>.
+Higgins, M, Klitgaard, T & Lerman, R 2006, ‘Recycling Petrodollars’, <em>Current Issues in Economics and Finance</em>, vol. 12, no. 9, pp. 1-7.
 
-Kalleberg, A L 2009, ‘Precarious Work, Insecure Workers: Employment Relations in Transition’, *American Sociological Review*, vol. 74, no. 1, pp. 1–22. DOI:10.1177/000312240907400101.
+Jacobs, K, Atkinson, R, Spinney, A, Colic-Peisker, V,  Berry, M & Dalton, T 2010, <em>What future for public housing? A critical analysis</em>, Australian Housing and Urban Research Institute, viewed 12 November 2020, <https://eprints.utas.edu.au/9623/1/AHURI_Research_Paper_What_future_for_public_housing_A_critical_analysis-4.pdf>.
 
-Krippner, G R 2005, ‘The financialization of the American economy’, Socio-Economic Review, vol. 3, no. 2, pp. 173–208. DOI:10.1093/ser/mwi008.
-Lin, K-H & Tomaskovic-Devey, D 2013, ‘Financialization and U.S. Income Inequality, 1970–2008’, *American Journal of Sociology*, vol. 118, no. 5, pp. 1284–1329, DOI:10.1086/669499.
+Kalleberg, A L 2009, ‘Precarious Work, Insecure Workers: Employment Relations in Transition’, <em>American Sociological Review</em>, vol. 74, no. 1, pp. 1–22. DOI:10.1177/000312240907400101.
 
-Mishel, L 2012, The wedges between productivity and median compensation growth, *Economic Policy Institute*, viewed 12 November 2020, <https://www.epi.org/publication/ib330-productivity-vs-compensation/>.  
+Krippner, G R 2005, ‘The financialization of the American economy’, <em>Socio-Economic Review</em>, vol. 3, no. 2, pp. 173–208. DOI:10.1093/ser/mwi008.
 
-Mishel, L & Gee, K-F 2012, ‘Why Aren't Workers Benefiting from Labour Productivity Growth in the US?’, *International Productivity Monitor*, no. 38, pp. 31-43.
+Lin, K-H & Tomaskovic-Devey, D 2013, ‘Financialization and U.S. Income Inequality, 1970–2008’, <em>American Journal of Sociology</em>, vol. 118, no. 5, pp. 1284–1329, DOI:10.1086/669499.
 
-Navarro, V 1998, ‘Neoliberalism, “Globalization,” Unemployment, Inequalities, and the Welfare State’, *International Journal of Health Services*, vol. 28, no. 4, pp. 607–682, DOI:10.2190/y3x7-rg7e-6626-fvpt.
+Mishel, L 2012, The wedges between productivity and median compensation growth, <em>Economic Policy Institute</em>, viewed 12 November 2020, <https://www.epi.org/publication/ib330-productivity-vs-compensation/>.  
 
-Peck, J & Tickell, A 2007, ‘Conceptualizing Neoliberalism, Thinking Thatcherism’ in H Leitner, J, Peck & E Sheppard (eds), *Contesting Neoliberalism: Urban Frontiers*, The Guilford Press, New York, pp. 26-50.
+Mishel, L & Gee, K-F 2012, ‘Why Aren't Workers Benefiting from Labour Productivity Growth in the US?’, <em>International Productivity Monitor</em>, no. 38, pp. 31-43.
 
-Piketty, T & Saez, E 2003, ‘Income Inequality in the United States, 1913-1998’, *The Quarterly Journal of Economics*, vol. 118, no. 1, pp.1–41, DOI:10.1162/00335530360535135.
+Navarro, V 1998, ‘Neoliberalism, “Globalization,” Unemployment, Inequalities, and the Welfare State’, <em>International Journal of Health Services</em>, vol. 28, no. 4, pp. 607–682, DOI:10.2190/y3x7-rg7e-6626-fvpt.
 
-Schwellnus, C, Kappeler, A & Pionnier, P 2017, ’Decoupling of wages from productivity: Macro-level facts’, *OECD Economics Department Working Papers*, No. 1373, OECD Publishing, Paris, DOI:10.1787/d4764493-en.
+Peck, J & Tickell, A 2007, ‘Conceptualizing Neoliberalism, Thinking Thatcherism’ in H Leitner, J, Peck & E Sheppard (eds), <em>Contesting Neoliberalism: Urban Frontiers</em>, The Guilford Press, New York, pp. 26-50.
 
-*Small Business Counts: Small business in the Australian economy* 2019, Australian Small Business and Family Enterprise Ombudsman, viewed 12 November 2020, <https://www.asbfeo.gov.au/sites/default/files/documents/ASBFEO-small-business-counts2019.pdf>.
+Piketty, T & Saez, E 2003, ‘Income Inequality in the United States, 1913-1998’, <em>The Quarterly Journal of Economics</em>, vol. 118, no. 1, pp.1–41, DOI:10.1162/00335530360535135.
 
-*Small Business GDP, 1998–2014*,  US Small Business Administration (Office of Advocacy), viewed 12 November 2020, <https://advocacy.sba.gov/2018/12/19/advocacy-releases-small-business-gdp-1998-2014/>.
+Schwellnus, C, Kappeler, A & Pionnier, P 2017, ’Decoupling of wages from productivity: Macro-level facts’, <em>OECD Economics Department Working Papers</em>, No. 1373, OECD Publishing, Paris, DOI:10.1787/d4764493-en.
 
-Stiglitz, J 2010, ‘Lessons from the Global Financial Crisis of 2008’,  *Seoul Journal of Economics*, vol. 23, no. 3, pp. 321-339.
+<em>Small Business Counts: Small business in the Australian economy</em> 2019, Australian Small Business and Family Enterprise Ombudsman, viewed 12 November 2020, <https://www.asbfeo.gov.au/sites/default/files/documents/ASBFEO-small-business-counts2019.pdf>.
 
-*Supplementary Report To Inequality In Australia* 2018, Australian Council of Social Service & University of New South Wales, Sydney, viewed 12 November 2020, <https://www.acoss.org.au/wp-content/uploads/2018/07/Inequality-in-Australia-2018_supplementary-report.pdf>.
+<em>Small Business GDP, 1998–2014</em>,  US Small Business Administration (Office of Advocacy), viewed 12 November 2020, <https://advocacy.sba.gov/2018/12/19/advocacy-releases-small-business-gdp-1998-2014/>.
 
-Trading Economics 2020, *United States Unemployment Rate*, Trading Economics, viewed 12 November 2020, <https://tradingeconomics.com/united-states/unemployment-rate>.
+Stiglitz, J 2010, ‘Lessons from the Global Financial Crisis of 2008’,  <em>Seoul Journal of Economics</em>, vol. 23, no. 3, pp. 321-339.
 
-Towers, B 1989 ‘Running the Gauntlet: British Trade Unions under Thatcher, 1979–1988’ *ILR Review*, vol. 42, no. 2, pp. 163–188, DOI:10.1177/001979398904200201.
+<em>Supplementary Report To Inequality In Australia</em> 2018, Australian Council of Social Service & University of New South Wales, Sydney, viewed 12 November 2020, <https://www.acoss.org.au/wp-content/uploads/2018/07/Inequality-in-Australia-2018_supplementary-report.pdf>.
 
-Van Arnum, B M & Naples, M I 2013 ‘Financialization and Income Inequality in the United States, 1967-2010’, *American Journal of Economics and Sociology*, vol. 72, no. 5, pp. 1158–1182, DOI:10.1111/ajes.12036.
+Trading Economics 2020, <em>United States Unemployment Rate</em>, Trading Economics, viewed 12 November 2020, <https://tradingeconomics.com/united-states/unemployment-rate>.
 
-Van der Zwan, N 2014 ‘Making sense of financialization’, *Socio-Economic Review*, vol. 12, no. 1, pp. 99–129, DOI:10.1093/ser/mwt020.
+Towers, B 1989 ‘Running the Gauntlet: British Trade Unions under Thatcher, 1979–1988’ <em>ILR Review</em>, vol. 42, no. 2, pp. 163–188, DOI:10.1177/001979398904200201.
 
-Western, B & Rosenfeld, J 2011 ‘Unions, Norms, and the Rise in U.S. Wage Inequality’, *American Sociological Review*, vol. 76, no. 4, pp. 513–537. DOI:10.1177/0003122411414817.
+Van Arnum, B M & Naples, M I 2013 ‘Financialization and Income Inequality in the United States, 1967-2010’, <em>American Journal of Economics and Sociology</em>, vol. 72, no. 5, pp. 1158–1182, DOI:10.1111/ajes.12036.
 
-World Bank, 2020, *S&P Global Equity Indices (annual % change)*, World Bank, viewed 12 November 2020.
+Van der Zwan, N 2014 ‘Making sense of financialization’, <em>Socio-Economic Review</em>, vol. 12, no. 1, pp. 99–129, DOI:10.1093/ser/mwt020.
 
-Yglesias, M 2020, ‘What’s really going on with the economy’, *Vox*, 10 September, viewed 12 November 2020, <https://www.vox.com/21425031/economic-growth-unemployment>.
+Western, B & Rosenfeld, J 2011 ‘Unions, Norms, and the Rise in U.S. Wage Inequality’, <em>American Sociological Review</em>, vol. 76, no. 4, pp. 513–537. DOI:10.1177/0003122411414817.
 
-Zalewski, D A & Whalen, C J 2010, ‘Financialization and Income Inequality: A Post Keynesian Institutionalist Analysis’, *Journal of Economic Issues*, vol. 44, no. 3, pp. 757–777, DOI:10.2753/jei0021-3624440309.
+World Bank, 2020, <em>S&P Global Equity Indices (annual % change)</em>, World Bank, viewed 12 November 2020.
+
+Yglesias, M 2020, ‘What’s really going on with the economy’, <em>Vox</em>, 10 September, viewed 12 November 2020, <https://www.vox.com/21425031/economic-growth-unemployment>.
+
+Zalewski, D A & Whalen, C J 2010, ‘Financialization and Income Inequality: A Post Keynesian Institutionalist Analysis’, <em>Journal of Economic Issues</em>, vol. 44, no. 3, pp. 757–777, DOI:10.2753/jei0021-3624440309.
+
+</div>
