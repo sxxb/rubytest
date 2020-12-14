@@ -1,0 +1,17 @@
+---
+title: files
+permalink: /files/
+---
+
+<h1>files</h1>
+
+<ul>
+  {% for file in site.files %}
+  <a href="{{ site.baseurl}}{{ file.url }}">
+    <li class="file-snippet">
+      <h2>{{ file.title }}</h2>
+      <p>{{ file.subtitle }}</p>
+    </li>
+    </a>
+  {% endfor %}
+</ul>
