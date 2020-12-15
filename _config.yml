@@ -11,6 +11,11 @@ defaults:
       layout: "work"
   - scope:
       path: ""
+      type: "file"
+    values:
+      layout: "file"      
+  - scope:
+      path: ""
     values:
       layout: basic
 
