@@ -101,7 +101,7 @@ body {
       max-width:40rem;
       margin:auto;
     }
-    .basic, .about, .essay, .post, .home, .files, .blog {
+    .basic, .about, .essay, .post, .home, .files, .blog, .404 {
       margin:3rem auto;
     }
     .blog {
@@ -419,6 +419,9 @@ body {
       .post-body {
         font-family:$serif-font;
       }
+    }
+    .theme-colour-background {
+      background: $theme-colour;
     }
   }
   > footer {
