@@ -27,37 +27,37 @@ body > header nav ul li a, body > header nav ul li a:visited { text-decoration: 
 
 body > header nav ul li a:hover, body > header nav ul li a:visited:hover { border-bottom: 1px solid #000; }
 
-body > header nav ul li a.current { color: red; }
+body > header nav ul li a.current { color: #ff2b35; border-bottom: 1px solid rgba(255, 43, 53, 0); }
+
+body > header nav ul li a.current:hover { border-bottom: 1px solid #ff2b35; }
 
 body > main { min-height: calc(100vh - 136px); }
 
 body > main h1 { margin-bottom: 1em; font-family: "Barlow Semi Condensed", sans-serif; text-align: center; }
 
-body > main > div { width: 90%; max-width: 40rem; margin: auto; }
+body > main > div { width: 90%; max-width: 40rem; margin: auto; margin: 3rem auto; }
 
-body > main .basic, body > main .about, body > main .essay, body > main .post, body > main .home, body > main .files, body > main .blog, body > main .404 { margin: 3rem auto; }
+body > main > div svg { width: 100%; max-width: 30rem; margin: 0 auto 1rem; display: flex; }
 
 body > main .blog a { color: #333; text-decoration: none; }
 
-body > main .blog .post-snippet { padding-left: 0.875rem; border-left: 0.125rem solid rgba(255, 0, 0, 0); margin-bottom: 3rem; transition: 0.2s ease; }
+body > main .blog .post-snippet { padding-left: 0.875rem; border-left: 0.125rem solid rgba(255, 43, 53, 0); margin-bottom: 3rem; transition: 0.2s ease; }
 
-body > main .blog .post-snippet:hover { border-left: 0.125rem solid red; }
+body > main .blog .post-snippet:hover { border-left: 0.125rem solid #ff2b35; }
 
 body > main .blog .post-snippet h2 { margin-bottom: 1rem; font-family: "Barlow Semi Condensed", sans-serif; }
 
 body > main .blog .post-snippet p { font-size: 1rem; line-height: 1.6em; }
 
-body > main .work { margin: 3rem auto; }
-
-body > main .work h2 { margin: 3rem 0 1rem; font-family: "Barlow Semi Condensed", sans-serif; color: red; }
+body > main .work h2 { margin: 3rem 0 1rem; font-family: "Barlow Semi Condensed", sans-serif; color: #ff2b35; }
 
 body > main .work h2:first-of-type { margin-top: 0; }
 
 body > main .work a, body > main .work a:visited { color: #333; text-decoration: none; }
 
-body > main .work .essay-snippet, body > main .work .design-snippet, body > main .work .other-snippet, body > main .work .file-snippet { padding-left: 0.875rem; border-left: 0.125rem solid rgba(255, 0, 0, 0); margin-bottom: 1rem; transition: 0.2s ease; }
+body > main .work .essay-snippet, body > main .work .design-snippet, body > main .work .other-snippet, body > main .work .file-snippet { padding-left: 0.875rem; border-left: 0.125rem solid rgba(255, 43, 53, 0); margin-bottom: 1rem; transition: 0.2s ease; }
 
-body > main .work .essay-snippet:hover, body > main .work .design-snippet:hover, body > main .work .other-snippet:hover, body > main .work .file-snippet:hover { border-left: 0.125rem solid red; }
+body > main .work .essay-snippet:hover, body > main .work .design-snippet:hover, body > main .work .other-snippet:hover, body > main .work .file-snippet:hover { border-left: 0.125rem solid #ff2b35; }
 
 body > main .work .essay-snippet h2, body > main .work .design-snippet h2, body > main .work .other-snippet h2, body > main .work .file-snippet h2 { margin: 0 0 0.25rem 0; font-family: "Barlow Semi Condensed", sans-serif; color: #333; }
 
@@ -77,11 +77,11 @@ body > main .cv .flex { display: flex; justify-content: space-between; align-ite
 
 body > main .cv .break { width: 50%; }
 
-body > main .cv header { border-bottom: 1px solid red; padding: 1rem; background: white; }
+body > main .cv header { border-bottom: 1px solid #ff2b35; padding: 1rem; background: white; }
 
 body > main .cv header .title { display: flex; justify-content: center; flex-direction: column; margin: 1rem 0; }
 
-body > main .cv header .title h1 { text-align: left; margin-bottom: 0; font-size: 2.5rem; line-height: 2.5rem; font-family: "Barlow Semi Condensed", sans-serif; color: red; }
+body > main .cv header .title h1 { text-align: left; margin-bottom: 0; font-size: 2.5rem; line-height: 2.5rem; font-family: "Barlow Semi Condensed", sans-serif; color: #ff2b35; }
 
 body > main .cv header .title h2 { font-size: 1.6rem; line-height: 1.6rem; font-family: "Barlow Semi Condensed", sans-serif; font-style: italic; font-weight: 400; }
 
@@ -89,11 +89,11 @@ body > main .cv header .contact-info { text-align: right; }
 
 body > main .cv header .contact-info a { display: block; text-decoration: none; font-weight: 700; line-height: 2rem; font-family: "Barlow Semi Condensed", sans-serif; font-size: 1.2rem; color: #333; }
 
-body > main .cv header .contact-info a:hover { color: red; }
+body > main .cv header .contact-info a:hover { color: #ff2b35; }
 
 body > main .cv main { padding: 1rem; }
 
-body > main .cv main h3 { font-size: 2rem; line-height: 2rem; margin: 0.5rem 0; color: red; font-family: "Barlow Semi Condensed", sans-serif; font-style: italic; }
+body > main .cv main h3 { font-size: 2rem; line-height: 2rem; margin: 0.5rem 0; color: #ff2b35; font-family: "Barlow Semi Condensed", sans-serif; font-style: italic; }
 
 body > main .cv main div { width: unset; max-width: none; margin: 0; }
 
@@ -111,7 +111,7 @@ body > main .cv main div ul li .description { padding: 0.5rem 0; }
 
 body > main .cv main div ul li .contact { display: inline-block; padding: 0.5rem; text-decoration: none; font-family: "Barlow Semi Condensed", sans-serif; font-weight: 400; color: #333; }
 
-body > main .cv main div ul li .contact:hover { color: red; }
+body > main .cv main div ul li .contact:hover { color: #ff2b35; }
 
 body > main .cv main div .skills { display: flex; }
 
@@ -119,7 +119,7 @@ body > main .cv main div .skills ul li { margin: 0.75rem 0 0.75rem; }
 
 body > main .cv main div .skills ul li:last-of-type { margin-bottom: 0; }
 
-body > main .cv main div .skills ul li::before { content: "+"; display: inline-block; color: red; padding-right: 0.5rem; }
+body > main .cv main div .skills ul li::before { content: "+"; display: inline-block; color: #ff2b35; padding-right: 0.5rem; }
 
 body > main .cv main > div { margin-bottom: 3rem; }
 
@@ -137,7 +137,7 @@ body > main .essay h3 { font-size: 1.2rem; font-family: "Lora", Georgia, serif; 
 
 body > main .essay p { font-family: "Lora", Georgia, serif; margin-bottom: 2em; line-height: 1.75em; }
 
-body > main .essay sup { vertical-align: super; line-height: 1em; color: red; font-size: 0.75rem; position: relative; }
+body > main .essay sup { vertical-align: super; line-height: 1em; color: #ff2b35; font-size: 0.75rem; position: relative; }
 
 body > main .essay sup:hover { cursor: pointer; }
 
@@ -155,7 +155,7 @@ body > main .post .post-byline { text-align: center; color: #888; margin-bottom:
 
 body > main .post .post-body { font-family: "Lora", Georgia, serif; }
 
-body > main .theme-colour-background { background: red; }
+body > main .theme-colour-background { background: #ff2b35; fill: #ff2b35; }
 
 body > footer { background: white; display: flex; flex-direction: row; align-items: center; justify-content: space-between; height: 80px; border-top: 1px dotted #888; color: #888; max-width: 1200px; margin: 1rem auto 0; font-size: 0.95rem; padding: 0 1rem; }
 

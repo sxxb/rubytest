@@ -1,74 +1,4 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <base href="/rubytest" target="_self">
-    <link rel="stylesheet" href="/rubytest/assets/css/style.css">
-    <link rel="shortcut icon" href="/rubytest/assets/img/icons/favicon.ico">
-    <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/rubytest/feed.xml" />
-    <!-- Begin Jekyll SEO tag v2.7.1 -->
-<title>404</title>
-<meta name="generator" content="Jekyll v4.1.1" />
-<meta property="og:title" content="404" />
-<meta property="og:locale" content="en_US" />
-<link rel="canonical" href="http://localhost:4000/rubytest/404.html" />
-<meta property="og:url" content="http://localhost:4000/rubytest/404.html" />
-<meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="404" />
-<script type="application/ld+json">
-{"@type":"WebPage","url":"http://localhost:4000/rubytest/404.html","headline":"404","@context":"https://schema.org"}</script>
-<!-- End Jekyll SEO tag -->
-
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js">
-
-    </script>
-    <script type="text/javascript" src="/rubytest/assets/js/styleselect.js">
-
-    </script>
-  </head>
-  <body>
-    <header class="screen-only">
-  <nav>
-    <ul>
-      
-        <li>
-          <a href="/rubytest/work/" >
-          work
-          </a>
-        </li>
-      
-        <li>
-          <a href="/rubytest/cv/" >
-          c.v
-          </a>
-        </li>
-      
-        <li>
-          <a href="/rubytest/" >
-          sxb
-          </a>
-        </li>
-      
-        <li>
-          <a href="/rubytest/blog/" >
-          blog
-          </a>
-        </li>
-      
-        <li>
-          <a href="/rubytest/about/" >
-          about
-          </a>
-        </li>
-      
-    </ul>
-  </nav>
-</header>
-
-    <main>
-      <div class="404">
-  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 640 640" style="enable-background:new 0 0 640 640;" xml:space="preserve">
+I"ï\<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 640 640" style="enable-background:new 0 0 640 640;" xml:space="preserve">
    <style type="text/css">
 	.st0{fill:none;stroke:#000000;stroke-miterlimit:10;}
 	.st1{stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;}
@@ -364,21 +294,5 @@
 
 <h1 id="this-page-doesnt-exist">This page doesnâ€™t exist</h1>
 
-<p style="text-align:center;">Sorry about that</p>
-
-</div>
-
-    </main>
-    <footer class="flex screen-only">
-  <div class="break about">
-    <h4>Scott Belcher + 2020</h4>
-  </div>
-  <div class="break contact">
-    <a href="mailto:scottbelcher@live.com.au"><i class="email icon"></i></a>
-    <a href="https://twitter.com/scottxbee"><i class="twitter icon"></i></a>
-    <a href="/rubytest/"><i class="sxb icon"></i></a>
-  </div>
-</footer>
-
-  </body>
-</html>
+<p>Sorry about that</p>
+:ET
