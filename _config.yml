@@ -36,5 +36,9 @@ collections:
     permalink: :collection/:title/
   posts:
     permalink: :year/:month/:day/:title/
+  files:
+    collections_dir: _directory
+    output: true
+    permalink: :collection/:title/
 
 baseurl: /rubytest
