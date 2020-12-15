@@ -6,7 +6,7 @@ permalink: /files/
 <h1>files</h1>
 
 <ul>
-  {% for file in site.files %}
+  {% for file in site.directory %}
   <a href="{{ site.baseurl}}{{ file.url }}">
     <li class="file-snippet">
       <h2>{{ file.title }}</h2>
