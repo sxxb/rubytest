@@ -135,7 +135,7 @@ body {
         }
       }
     }
-    .work {
+    .work, .files {
       h2 {
         margin:3rem 0 1rem;
         font-family: $title-font;
@@ -425,6 +425,31 @@ body {
       }
       .post-body {
         font-family:$serif-font;
+      }
+    }
+    .file {
+      h1 {
+        margin-bottom:1rem;
+      }
+      .file-byline {
+        text-align:center;
+        font-family: $title-font;
+        color:#888;
+      }
+      h2 {
+        font-size:1.5rem;
+        font-family: $title-font;
+        margin:2rem 0;
+      }
+      h3 {
+        font-size: 1.5rem;
+        font-family: $title-font;
+        margin:1rem 0;
+      }
+      p {
+        font-family: $body-font;
+        margin-bottom:2em;
+        line-height:1.6em;
       }
     }
 

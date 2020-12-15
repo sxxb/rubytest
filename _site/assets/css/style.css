@@ -49,21 +49,21 @@ body > main .blog .post-snippet h2 { margin-bottom: 1rem; font-family: "Barlow S
 
 body > main .blog .post-snippet p { font-size: 1rem; line-height: 1.6em; }
 
-body > main .work h2 { margin: 3rem 0 1rem; font-family: "Barlow Semi Condensed", sans-serif; color: #ff2b35; }
+body > main .work h2, body > main .files h2 { margin: 3rem 0 1rem; font-family: "Barlow Semi Condensed", sans-serif; color: #ff2b35; }
 
-body > main .work h2:first-of-type { margin-top: 0; }
+body > main .work h2:first-of-type, body > main .files h2:first-of-type { margin-top: 0; }
 
-body > main .work a, body > main .work a:visited { color: #333; text-decoration: none; }
+body > main .work a, body > main .work a:visited, body > main .files a, body > main .files a:visited { color: #333; text-decoration: none; }
 
-body > main .work .essay-snippet, body > main .work .design-snippet, body > main .work .other-snippet, body > main .work .file-snippet { padding-left: 0.875rem; border-left: 0.125rem solid rgba(255, 43, 53, 0); margin-bottom: 1rem; transition: 0.2s ease; }
+body > main .work .essay-snippet, body > main .work .design-snippet, body > main .work .other-snippet, body > main .work .file-snippet, body > main .files .essay-snippet, body > main .files .design-snippet, body > main .files .other-snippet, body > main .files .file-snippet { padding-left: 0.875rem; border-left: 0.125rem solid rgba(255, 43, 53, 0); margin-bottom: 1rem; transition: 0.2s ease; }
 
-body > main .work .essay-snippet:hover, body > main .work .design-snippet:hover, body > main .work .other-snippet:hover, body > main .work .file-snippet:hover { border-left: 0.125rem solid #ff2b35; }
+body > main .work .essay-snippet:hover, body > main .work .design-snippet:hover, body > main .work .other-snippet:hover, body > main .work .file-snippet:hover, body > main .files .essay-snippet:hover, body > main .files .design-snippet:hover, body > main .files .other-snippet:hover, body > main .files .file-snippet:hover { border-left: 0.125rem solid #ff2b35; }
 
-body > main .work .essay-snippet h2, body > main .work .design-snippet h2, body > main .work .other-snippet h2, body > main .work .file-snippet h2 { margin: 0 0 0.25rem 0; font-family: "Barlow Semi Condensed", sans-serif; color: #333; }
+body > main .work .essay-snippet h2, body > main .work .design-snippet h2, body > main .work .other-snippet h2, body > main .work .file-snippet h2, body > main .files .essay-snippet h2, body > main .files .design-snippet h2, body > main .files .other-snippet h2, body > main .files .file-snippet h2 { margin: 0 0 0.25rem 0; font-family: "Barlow Semi Condensed", sans-serif; color: #333; }
 
-body > main .work .essay-snippet p, body > main .work .design-snippet p, body > main .work .other-snippet p, body > main .work .file-snippet p { font-size: 0.9rem; line-height: 1.6em; }
+body > main .work .essay-snippet p, body > main .work .design-snippet p, body > main .work .other-snippet p, body > main .work .file-snippet p, body > main .files .essay-snippet p, body > main .files .design-snippet p, body > main .files .other-snippet p, body > main .files .file-snippet p { font-size: 0.9rem; line-height: 1.6em; }
 
-body > main .work .essay-snippet .references, body > main .work .design-snippet .references, body > main .work .other-snippet .references, body > main .work .file-snippet .references { font-size: 0.8em; }
+body > main .work .essay-snippet .references, body > main .work .design-snippet .references, body > main .work .other-snippet .references, body > main .work .file-snippet .references, body > main .files .essay-snippet .references, body > main .files .design-snippet .references, body > main .files .other-snippet .references, body > main .files .file-snippet .references { font-size: 0.8em; }
 
 body > main .cv { width: 100vw; max-width: none; margin-top: 2rem; }
 
@@ -154,6 +154,16 @@ body > main .post p { margin-bottom: 1rem; }
 body > main .post .post-byline { text-align: center; color: #888; margin-bottom: 2rem; }
 
 body > main .post .post-body { font-family: "Lora", Georgia, serif; }
+
+body > main .file h1 { margin-bottom: 1rem; }
+
+body > main .file .file-byline { text-align: center; font-family: "Barlow Semi Condensed", sans-serif; color: #888; }
+
+body > main .file h2 { font-size: 1.5rem; font-family: "Barlow Semi Condensed", sans-serif; margin: 2rem 0; }
+
+body > main .file h3 { font-size: 1.5rem; font-family: "Barlow Semi Condensed", sans-serif; margin: 1rem 0; }
+
+body > main .file p { font-family: "Barlow", sans-serif; margin-bottom: 2em; line-height: 1.6em; }
 
 body > main .theme-colour-background { background: #ff2b35; fill: #ff2b35; }
 
