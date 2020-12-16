@@ -18,6 +18,14 @@ $transition: 0.2s ease;
   100% { opacity: 0}
 }
 
+@keyframes snooze {
+  // 0%    { transform:translate(0 , 0) }
+  // 100%  { transform:translate(10 , 10) }
+  0%   { opacity: 0; top:0px;transform:scale(1,1);}
+  25%   { opacity: 0.25;}
+  100% { opacity: 0; top: -10rem;transform:scale(0,0);}
+}
+
 * {
   /*Box Sizing*/
   margin: 0;
@@ -346,9 +354,7 @@ body {
           }
         }
       }
-
     .about {}
-
     .essay {
 
       h1 {
@@ -463,6 +469,15 @@ body {
       background: $theme-colour;
       fill: $theme-colour;
     }
+    .zzz-1, .zzz-2, .zzz-3 {
+      animation: snooze 12s ease-out infinite;
+      position:relative;
+      transform-origin: top right;
+      opacity:0;
+    }
+    .zzz-1 {animation-delay: 0s;}
+    .zzz-2 {animation-delay: 3.5s;}
+    .zzz-3 {animation-delay: 8s;}
   }
   > footer {
     background:white;
