@@ -73,7 +73,7 @@ PLATFORMS
 DEPENDENCIES
   jekyll (~> 4.1)
   jekyll-feed
-  jekyll-katex
+  jekyll-katex (~> 1.0)
   jekyll-seo-tag
   jekyll-sitemap
 
