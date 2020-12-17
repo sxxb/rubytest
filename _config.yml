@@ -13,18 +13,16 @@ defaults:
       path: ""
       type: "file"
     values:
-      layout: "file"      
+      layout: "file"
   - scope:
       path: ""
     values:
       layout: basic
 
-
 plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
-
 
 collections:
   essays:
@@ -47,3 +45,7 @@ collections:
     permalink: :collection/:title/
 
 baseurl: /rubytest
+
+markdown: kramdown
+kramdown:
+  math_engine: mathjax

@@ -8,9 +8,8 @@ layout: essay
 tags: economics politics neoliberalism financialisation
 ---
 
-content content content
+Here, have some $$\pi$$.
 
-content content content
+The greatest equation known to man is:
 
-
-content content content
+$$ e^{ix} = \cos{x} + i\sin{x} $$
