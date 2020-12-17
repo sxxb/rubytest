@@ -1,8 +1,8 @@
 ---
-title: Markdown Test
+title: markdown test
 date: 20/10/2020
 author: Scott Belcher
-subtitle: Markdown Test
+subtitle: markdown test
 layout: post
 tags: nil
 ---

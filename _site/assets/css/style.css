@@ -161,7 +161,7 @@ body > main .post h1 { margin-bottom: 1rem; }
 
 body > main .post p { margin-bottom: 1rem; }
 
-body > main .post .post-byline { text-align: center; color: #888; margin-bottom: 2rem; }
+body > main .post .post-byline { text-align: center; color: #888; font-family: "Barlow Semi Condensed", sans-serif; margin-bottom: 2rem; }
 
 body > main .post .post-body { font-family: "Lora", Georgia, serif; }
 
