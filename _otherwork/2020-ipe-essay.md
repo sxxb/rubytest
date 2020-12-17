@@ -9,10 +9,8 @@ tags: nil
 
 # Test 2
 
-{% katexmm%}
 Here, have some $\pi$.
 
 The greatest equation known to man is:
 
 $$ e^{ix} = \cos{x} + i\sin{x} $$
-{% endkatexmm%}
