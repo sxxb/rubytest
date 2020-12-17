@@ -10,7 +10,7 @@ tags: nil
 # Test
 
 {% katexmm%}
-Here, have some $\pi$.
+Here, have some $$\pi$$.
 
 The greatest equation known to man is:
 
