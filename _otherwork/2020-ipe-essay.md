@@ -2,8 +2,7 @@
 title: Markdown Test
 date: 20/10/2020
 author: Scott Belcher
-course: IPE
-essay-question: ese question
+subtitle: Markdown Test
 layout: post
 tags: nil
 ---

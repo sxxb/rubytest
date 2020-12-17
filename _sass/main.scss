@@ -19,8 +19,6 @@ $transition: 0.2s ease;
 }
 
 @keyframes snooze {
-  // 0%    { transform:translate(0 , 0) }
-  // 100%  { transform:translate(10 , 10) }
   0%   { opacity: 0; top:0px;transform:scale(1,1);}
   25%   { opacity: 0.25;}
   100% { opacity: 0; top: -10rem;transform:scale(0,0);}
@@ -464,6 +462,8 @@ body {
         line-height:1.6em;
       }
     }
+
+
 
     .theme-colour-background {
       background: $theme-colour;
