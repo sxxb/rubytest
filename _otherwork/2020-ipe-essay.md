@@ -6,12 +6,12 @@ subtitle: markdown test
 layout: post
 tags: nil
 ---
-#Test 
+#Test
 
-{% katexmm %}
+<!-- {% katexmm %} -->
 Here, have some $\pi$.
 
 The greatest equation known to man is:
 
 $$ e^{ix} = \cos{x} + i\sin{x} $$
-{% endkatexmm %}
+<!-- {% endkatexmm %} -->
