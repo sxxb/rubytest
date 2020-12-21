@@ -507,13 +507,20 @@ body {
         li {
           list-style-type: disc;
           list-style-position:outside;
+          margin-bottom:0.4rem;
+          line-height: 1.6em;
           ul {
             padding-left:2rem;
             li {
               list-style-type: circle;
+              color:#222;
+              margin-bottom:0.3rem;
               ul {
                 li {
                   list-style-type:square;
+                  color:#333;
+                  font-size:0.9rem;
+                  margin-bottom:0;
                 }
               }
             }

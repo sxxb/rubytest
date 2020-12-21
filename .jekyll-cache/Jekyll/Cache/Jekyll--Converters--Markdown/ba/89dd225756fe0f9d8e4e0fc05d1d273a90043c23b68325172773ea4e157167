@@ -1,4 +1,4 @@
-I"�<h1 id="week-1----introduction">Week 1  - Introduction</h1>
+I"�<h1 id="week-1----introduction">Week 1  - Introduction</h1>
 <ul>
   <li>Partial Equilibrium Model
     <ul>
@@ -280,7 +280,7 @@ for consumer h and goods 1 and 2.</li>
   <li>Present Value (PV)
     <ul>
       <li>The value of a future benefit in monetary terms. As prices illustrate the willingness to pay to obtain a certain utility, we can use prices, or the changes to prices, to value intangible benefits.</li>
-      <li>For instance, if a pill can add a year to your life for \(1,000, and this is popular, we can make an assumption that a year of life is valued at least\)1,000.</li>
+      <li>For instance, if a pill can add a year to your life for $1,000, and this is popular, we can make an assumption that a year of life is valued at least $1,000.</li>
     </ul>
   </li>
   <li>Marshallian Surplus
@@ -1502,64 +1502,27 @@ for consumer h and goods 1 and 2.</li>
       </li>
       <li>Model
         <ul>
-          <li>A centralised good has \(n = 1\) provision.</li>
-        </ul>
+          <li>
+            <p>A centralised good has \(n = 1\) provision.</p>
 
-        <p>\(U(centralised) = 1 - \alpha |(1/2) - i| - C\)
-    - \(\alpha =\) - cost of centralisation
-    - \(i =\) ‘location’ - ie. the distance from the provision of individual i
-    - \(C =\) cost of good provision</p>
-        <ul>
+\[U(centralised) = 1 - \alpha |(1/2) - i| - C\]
+
+            <ul>
+              <li>\(\alpha =\) - cost of centralisation</li>
+              <li>\(i =\) ‘location’ - ie. the distance from the provision of individual i</li>
+              <li>\(C =\) cost of good provision</li>
+            </ul>
+          </li>
           <li>A decentralised good has n &gt; 1 provisions, usually by subsidiary governments to the top level government.
             <ul>
-              <li>
-                <table>
-                  <tbody>
-                    <tr>
-                      <td>\(U(decentralised)\), 1 of 2 provisions $$= 1 - \alpha</td>
-                      <td>(1/4) - i</td>
-                      <td>- 2C   where i \in [0, 1/2]$$</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </li>
-              <li>
-                <table>
-                  <tbody>
-                    <tr>
-                      <td>\(U(decentralised)\), 2 of 2 provisions $$= 1 - \alpha</td>
-                      <td>(3/4) - i</td>
-                      <td>- 2C   where i \in [1/2, 1]$$</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </li>
+              <li>\(U(decentralised)\), 1 of 2 provisions \(= 1 - \alpha \|(1/4) - i\| - 2C   where i \in [0, 1/2]\)</li>
+              <li>\(U(decentralised)\), 2 of 2 provisions \(= 1 - \alpha \|(3/4) - i\| - 2C   where i \in [1/2, 1]\)</li>
             </ul>
           </li>
           <li>If \(C \le\) the cost of centralisation (ie. the welfare loss) then decentralisation is optimal.
             <ul>
-              <li>
-                <table>
-                  <tbody>
-                    <tr>
-                      <td>For centralised provision: the average value of $$</td>
-                      <td>(1/2) - i</td>
-                      <td>\(will be\)1/4$$</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </li>
-              <li>
-                <table>
-                  <tbody>
-                    <tr>
-                      <td>For decentralised provision: the average value of $$</td>
-                      <td>(1/4) - i</td>
-                      <td>\(will be\)1/8$$</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </li>
+              <li>For centralised provision: the average value of \(\|(1/2) - i\|\) will be \(1/4\)</li>
+              <li>For decentralised provision: the average value of \(\|(1/4) - i\|\) will be \(1/8\)</li>
               <li>Therefore if \(C \le \alpha[(1/4) - (1/8)]\), decentralisation is optimal</li>
             </ul>
           </li>

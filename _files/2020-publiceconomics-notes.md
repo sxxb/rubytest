@@ -168,7 +168,7 @@ layout: file
     - IRR has a bias towards shorter/smaller projects and doesn't account for the magnitude of benefits, especially those that occur later.
   - Present Value (PV)
     - The value of a future benefit in monetary terms. As prices illustrate the willingness to pay to obtain a certain utility, we can use prices, or the changes to prices, to value intangible benefits.
-    - For instance, if a pill can add a year to your life for $$1,000, and this is popular, we can make an assumption that a year of life is valued at least $$1,000.
+    - For instance, if a pill can add a year to your life for $1,000, and this is popular, we can make an assumption that a year of life is valued at least $1,000.
   - Marshallian Surplus
     - The net benefit of a project, given by the gross benefit minus the cost of consumption at market prices.
   - Hedonic Prices

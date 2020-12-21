@@ -1,4 +1,4 @@
-I"�<h1 id="week-1----introduction">Week 1  - Introduction</h1>
+I"�<h1 id="week-1----introduction">Week 1  - Introduction</h1>
 <ul>
   <li>Partial Equilibrium Model
     <ul>
@@ -121,7 +121,8 @@ for consumer h and goods 1 and 2.</li>
       <li>The amount of aggregate demand that exceeds supply - see Walras’ Law for level of excess demand</li>
     </ul>
 
-    <p>\(Z_i(p) = X_i(p) - Y_i(p) - \sum^H_{h=1}( \omega^h_i )\)</p>
+\[Z_i(p) = X_i(p) - Y_i(p) - \sum^H_{h=1}( \omega^h_i )\]
+
     <ul>
       <li>Equilibrium occurs when Z_i(p) = 0</li>
       <li>At this point, demand = supply + initial endowment</li>
@@ -279,7 +280,7 @@ for consumer h and goods 1 and 2.</li>
   <li>Present Value (PV)
     <ul>
       <li>The value of a future benefit in monetary terms. As prices illustrate the willingness to pay to obtain a certain utility, we can use prices, or the changes to prices, to value intangible benefits.</li>
-      <li>For instance, if a pill can add a year to your life for \(1,000, and this is popular, we can make an assumption that a year of life is valued at least\)1,000.</li>
+      <li>For instance, if a pill can add a year to your life for /$1,000, and this is popular, we can make an assumption that a year of life is valued at least $$1,000.</li>
     </ul>
   </li>
   <li>Marshallian Surplus
@@ -723,26 +724,28 @@ for consumer h and goods 1 and 2.</li>
       </li>
       <li>Comparability Conditions
         <ul>
-          <li>Ordinal Utility
-\(U_1 &gt; U_2 \rightarrow fU_1 &gt; fU_2\)
+          <li>Ordinal Utility</li>
+        </ul>
+
+\[U_1 &gt; U_2 \rightarrow fU_1 &gt; fU_2\]
+
+        <ul>
+          <li>This is only preserved when the transformation \(f\) is the same for all consumers’ ordinal utilities.</li>
+          <li>Cardinal utility</li>
+        </ul>
+
+\[\hat{U} = a_i + bU\]
+
+        <ul>
+          <li>Requires that \(b\) is constant for all consumers, but \(a_i\) can differ.</li>
+          <li>Cardinal Unit Comparability
             <ul>
-              <li>This is only preserved when the transformation \(f\) is the same for all consumers’ ordinal utilities.</li>
+              <li>The units are comparable but the levels are not.</li>
             </ul>
           </li>
-          <li>Cardinal utility
-\(\hat{U} = a_i + bU\)
+          <li>Cardinal Full Comparability
             <ul>
-              <li>Requires that \(b\) is constant for all consumers, but \(a_i\) can differ.</li>
-              <li>Cardinal Unit Comparability
-                <ul>
-                  <li>The units are comparable but the levels are not.</li>
-                </ul>
-              </li>
-              <li>Cardinal Full Comparability
-                <ul>
-                  <li>Both units and levels are comparable, \(a_i = a\) for all parties.</li>
-                </ul>
-              </li>
+              <li>Both units and levels are comparable, \(a_i = a\) for all parties.</li>
             </ul>
           </li>
         </ul>
@@ -765,7 +768,7 @@ for consumer h and goods 1 and 2.</li>
   <li>Measuring Income
     <ul>
       <li>A requirement for measuring inequality/poverty.</li>
-      <li>Income is a change between t=0 and t=1 (usually one year)</li>
+      <li>Income is a change between \(t=0\) and \(t=1\) (usually one year)</li>
       <li>We look at choices that can effect future income - if there is uncertainty about the future, forward and backward income assessments will likely differ.</li>
       <li>Definitions
         <ul>
@@ -840,15 +843,23 @@ for consumer h and goods 1 and 2.</li>
           </li>
           <li>Range
             <ul>
-              <li>Range is the gap between the highest and lowest Incomes
-\(R = (M_H - M_1) / H_M\)</li>
+              <li>Range is the gap between the highest and lowest Incomes</li>
+            </ul>
+
+\[R = (M_H - M_1) / H_M\]
+
+            <ul>
               <li>Doesn’t tell us anything about the distribution of incomes between the highest and lowest - just the gap.</li>
             </ul>
           </li>
           <li>Relative Mean Deviation
             <ul>
-              <li>The measure of the difference from the mean income.
-\(D = \sum_H |M - M_h| / (2(H-1)M)\)</li>
+              <li>The measure of the difference from the mean income.</li>
+            </ul>
+
+\[D = \sum_H |M - M_h| / (2(H-1)M)\]
+
+            <ul>
               <li>This does not change even if transfer occur between households on the same side as the mean.</li>
             </ul>
           </li>
@@ -863,9 +874,13 @@ for consumer h and goods 1 and 2.</li>
           </li>
         </ul>
       </li>
-      <li>Coefficient of Variation
-\(C = \sigma / \mu\sqrt{(H-1)}\)
-\(\sigma = \sum_h (M{h}-\mu)^2 / H\)
+      <li>
+        <p>Coefficient of Variation</p>
+
+\[C = \sigma / \mu\sqrt{(H-1)}\]
+
+\[\sigma = \sum_h (M{h}-\mu)^2 / H\]
+
         <ul>
           <li>The effect of a transfer does not depend on the income levels of the households, just the difference between them.
             <ul>
@@ -891,11 +906,13 @@ for consumer h and goods 1 and 2.</li>
       <li>GINI Coefficient
         <ul>
           <li>Selects the lowest pair of each possible pair of incomes, then averages it.</li>
-          <li>
-\[G = 1 - ( 1 / (H^2\mu)) \sum_i\sum_j \min\{m_i,m_j\}\]
-          </li>
         </ul>
       </li>
+    </ul>
+
+\[G = 1 - ( 1 / (H^2\mu)) \sum_i\sum_j \min\{m_i,m_j\}\]
+
+    <ul>
       <li>Atkinson’s Theorem
         <ul>
           <li>Consider two distributions with the same mean.
@@ -926,10 +943,8 @@ for consumer h and goods 1 and 2.</li>
       <li>Social Welfare Functions (SWFs)
         <ul>
           <li>Utilitarian SWF
+  \(W = \sum{h} U(M^h)\)
             <ul>
-              <li>
-\[W = \sum{h} U(M^h)\]
-              </li>
               <li>\(U'(M) &gt; 0\) and \(U''(M) &lt; 0\)
                 <ul>
                   <li>ie. Utility increases at a decreasing rate.</li>
@@ -975,25 +990,20 @@ for consumer h and goods 1 and 2.</li>
           <li>Let the poverty line \(= z\)</li>
           <li>Income Gap for Household h: \(g_h = z - M_h\)</li>
           <li>Number of households in poverty is \(q\)</li>
-          <li>Headcount Ratio
+          <li>Headcount Ratio: \(E = q / H\)
             <ul>
-              <li>
-\[E = q / H\]
-              </li>
               <li>Proportion of total households below poverty line</li>
               <li>Quick and easy measure, not particularly useful.</li>
             </ul>
           </li>
-          <li>Aggregate Poverty Gap
-\(V = \sum^q_{h=1} g_h\)
+          <li>Aggregate Poverty Gap: \(V = \sum^q_{h=1} g_h\)
             <ul>
               <li>Sum of income gaps of households in poverty.</li>
               <li>Gives the total income required to ‘end’ poverty, though not how it is distributed.</li>
               <li>Not sensitive to number of people in poverty - a small number of people in extreme poverty could give a similar APG to many people slightly below the poverty line.</li>
             </ul>
           </li>
-          <li>Income Gap Ratio
-\(I = (1/z) * \sum^q_{h=1} g_h/q , I \in [0,1]\)</li>
+          <li>Income Gap Ratio: \(I = (1/z) * \sum^q_{h=1} g_h/q , I \in [0,1]\)</li>
         </ul>
       </li>
       <li>Poverty Measure Criteria
@@ -1006,8 +1016,7 @@ for consumer h and goods 1 and 2.</li>
           <li>It should reduce to the headcount ratio if all incomes below the poverty line are equal</li>
         </ul>
       </li>
-      <li>Sen Measure
-\(S = E * [I + (1 - I)G_p(q/(q+1))]\)
+      <li>Sen Measure: \(S = E * [I + (1 - I)G_p(q/(q+1))]\)
         <ul>
           <li>\(G_p =\) GINI Coefficient of houses below PL</li>
           <li>\(q =\) Number of people below PL</li>
@@ -1018,19 +1027,16 @@ for consumer h and goods 1 and 2.</li>
       <li>Subgroup Consistency
         <ul>
           <li>Measures if an increase in poverty to a subgroup causes an aggregate increase in poverty.</li>
-          <li>Let population have 𝜞 subgroups
-\(P_\alpha = (1/H) * \sum^𝜞_{\lambda=1} \sum^{q^\lambda}_{h=1} ( g^\lambda_h / z)^\alpha\)</li>
+          <li>Let population have 𝜞 subgroups</li>
+        </ul>
+
+\[P_\alpha = (1/H) * \sum^𝜞_{\lambda=1} \sum^{q^\lambda}_{h=1} ( g^\lambda_h / z)^\alpha\]
+
+        <ul>
           <li>\(\alpha =\) sensitivity to transfers.
-            <ul>
-              <li>
-\[\alpha = 0 \rightarrow P_\alpha = E\]
-              </li>
-              <li>
-\[\alpha = 1 \rightarrow P_\alpha = E*I\]
-              </li>
-              <li>\(\alpha &gt; 1 \rightarrow P_\alpha\) is sensitive to transfers</li>
-            </ul>
-          </li>
+\(\alpha = 0 \rightarrow P_\alpha = E\)
+\(\alpha = 1 \rightarrow P_\alpha = E*I\)
+\(\alpha &gt; 1 \rightarrow P_\alpha\) is sensitive to transfers</li>
         </ul>
       </li>
     </ul>
@@ -1048,16 +1054,37 @@ for consumer h and goods 1 and 2.</li>
           <li>Land</li>
         </ul>
       </li>
-      <li>Excludable : A good that the use of can be controlled or limited.
+      <li>Excludable: A good that the use of can be controlled or limited.
         <ul>
           <li>Entry to a gym</li>
         </ul>
       </li>
-      <li>Combinations
-  |               |         Rivalrous         |  Non Rivalrous |
-  |—————|—————————-|———–|
-  |  Excludable  |     Private Goods          |   Club Goods |
-  |  Non Excludable | Common Property Resources  |  Public Goods |</li>
+      <li>Combinations:</li>
+    </ul>
+
+    <table>
+      <thead>
+        <tr>
+          <th> </th>
+          <th>Rivalrous</th>
+          <th>Non Rivalrous</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Excludable</td>
+          <td>Private Goods</td>
+          <td>Club Goods</td>
+        </tr>
+        <tr>
+          <td>Non Excludable</td>
+          <td>Common Property Resources</td>
+          <td>Public Goods</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <ul>
       <li>Private Goods
         <ul>
           <li>Normal consumer products</li>
@@ -1126,8 +1153,11 @@ for consumer h and goods 1 and 2.</li>
           <li>Utility is given: \(U[x(h), G] = U[M(h)-(G/H), G]\)</li>
           <li>Consumers vote for their utility maximising level of \(G\)</li>
           <li>Each voter has their own Indifference Curve for the public good \(G\), determined y the income level.</li>
-          <li>If \(H\) is odd, the median voter m will determine the level of \(G\) supplied.
-  \(\max\{G\} (U(M(m)-(G/H)), G)\)
+          <li>
+            <p>If \(H\) is odd, the median voter m will determine the level of \(G\) supplied.</p>
+
+\[\max\{G\} (U(M(m)-(G/H)), G)\]
+
             <ul>
               <li>The necessary condition can be written: \(MRS(m) = 1/H\)</li>
               <li>Therefore voting efficiency is achieved if \(MRS_m = \sum^H_{h=1} MRS_h/H\)</li>
@@ -1196,8 +1226,11 @@ for consumer h and goods 1 and 2.</li>
       </li>
       <li>Preferences
         <ul>
-          <li>Utility:
-\(U = U(x, L - l) = U(x, l)\)
+          <li>
+            <p>Utility:</p>
+
+\[U = U(x, L - l) = U(x, l)\]
+
             <ul>
               <li>\(x =\) Income</li>
               <li>\(L =\) Total Time (‘Budget’)</li>
@@ -1211,9 +1244,7 @@ for consumer h and goods 1 and 2.</li>
           <li>Preferences can also be written in terms of income.</li>
           <li>Let \(z = wl\) (Income before taxes are taken out)</li>
           <li>\(U = U(x, z/w)\) (given \(z/w = l\))</li>
-          <li>
-\[BC = px (1-t)z\]
-          </li>
+          <li>Budget Constraint \(BC = px (1-t)z\)</li>
         </ul>
       </li>
       <li>Substitution Effect
@@ -1364,8 +1395,12 @@ for consumer h and goods 1 and 2.</li>
           <li>Successful Evasion   \(= Y - tX\)</li>
           <li>Unsuccessful Evasion \(= (1-t)Y - Ft(Y-X)\)</li>
           <li>Probability of being caught \(= P\)</li>
-          <li>Utility Function:
-\(E(U(X)) = [1-p] * [U(Successful Evasion)] + p * [U(Unsuccessful Evasion)]\)</li>
+          <li>Utility Function:</li>
+        </ul>
+
+\[E(U(X)) = [1-p] * [U(Successful Evasion)] + p * [U(Unsuccessful Evasion)]\]
+
+        <ul>
           <li>To find the utility maximising income declaration, maximise \(E(U(X))\). This income will be: \(0 \le X \le Y\)</li>
           <li>If \(p &lt; 1/(1+F)\), evasion will occur
             <ul>
@@ -1409,13 +1444,15 @@ for consumer h and goods 1 and 2.</li>
               <li>\(F =\) Fine Amount</li>
             </ul>
           </li>
-          <li>Utility Functions
-  \(U(Taxpayer)   = Y - T\)
-  \(U(Government) = T - [C/(T+F)]*T\)
-            <ul>
-              <li>Deadweight Loss of an Audit \(= [C/(T+F)]*T\)</li>
-            </ul>
-          </li>
+          <li>Utility Functions</li>
+        </ul>
+
+\[U(Taxpayer)   = Y - T\]
+
+\[U(Government) = T - [C/(T+F)]*T\]
+
+        <ul>
+          <li>Deadweight Loss of an Audit \(= [C/(T+F)]*T\)</li>
         </ul>
       </li>
     </ul>
@@ -1465,68 +1502,27 @@ for consumer h and goods 1 and 2.</li>
       </li>
       <li>Model
         <ul>
-          <li>A centralised good has \(n = 1\) provision.
-            <ul>
-              <li>
+          <li>
+            <p>A centralised good has \(n = 1\) provision.</p>
+
 \[U(centralised) = 1 - \alpha |(1/2) - i| - C\]
-                <ul>
-                  <li>\(\alpha =\) ‘cost’ of centralisation</li>
-                  <li>\(i =\) ‘location’ - ie. the distance from the provision of individual i</li>
-                  <li>\(C =\) cost of good provision</li>
-                </ul>
-              </li>
+
+            <ul>
+              <li>\(\alpha =\) - cost of centralisation</li>
+              <li>\(i =\) ‘location’ - ie. the distance from the provision of individual i</li>
+              <li>\(C =\) cost of good provision</li>
             </ul>
           </li>
           <li>A decentralised good has n &gt; 1 provisions, usually by subsidiary governments to the top level government.
             <ul>
-              <li>
-                <table>
-                  <tbody>
-                    <tr>
-                      <td>\(U(decentralised)\), 1 of 2 provisions $$= 1 - \alpha</td>
-                      <td>(1/4) - i</td>
-                      <td>- 2C   where i \in [0, 1/2]$$</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </li>
-              <li>
-                <table>
-                  <tbody>
-                    <tr>
-                      <td>\(U(decentralised)\), 2 of 2 provisions $$= 1 - \alpha</td>
-                      <td>(3/4) - i</td>
-                      <td>- 2C   where i \in [1/2, 1]$$</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </li>
+              <li>\(U(decentralised)\), 1 of 2 provisions \(= 1 - \alpha \|(1/4) - i\| - 2C   where i \in [0, 1/2]\)</li>
+              <li>\(U(decentralised)\), 2 of 2 provisions \(= 1 - \alpha \|(3/4) - i\| - 2C   where i \in [1/2, 1]\)</li>
             </ul>
           </li>
           <li>If \(C \le\) the cost of centralisation (ie. the welfare loss) then decentralisation is optimal.
             <ul>
-              <li>
-                <table>
-                  <tbody>
-                    <tr>
-                      <td>For centralised provision: the average value of $$</td>
-                      <td>(1/2) - i</td>
-                      <td>\(will be\)1/4$$</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </li>
-              <li>
-                <table>
-                  <tbody>
-                    <tr>
-                      <td>For decentralised provision: the average value of $$</td>
-                      <td>(1/4) - i</td>
-                      <td>\(will be\)1/8$$</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </li>
+              <li>For centralised provision: the average value of \(\|(1/2) - i\|\) will be \(1/4\)</li>
+              <li>For decentralised provision: the average value of \(\|(1/4) - i\|\) will be \(1/8\)</li>
               <li>Therefore if \(C \le \alpha[(1/4) - (1/8)]\), decentralisation is optimal</li>
             </ul>
           </li>

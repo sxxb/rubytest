@@ -195,13 +195,13 @@ body > main .file a:hover, body > main .file a:visited:hover { border-bottom: 1p
 
 body > main .file > ul { margin-bottom: 2rem; }
 
-body > main .file ul li { list-style-type: disc; list-style-position: outside; }
+body > main .file ul li { list-style-type: disc; list-style-position: outside; margin-bottom: 0.4rem; line-height: 1.6em; }
 
 body > main .file ul li ul { padding-left: 2rem; }
 
-body > main .file ul li ul li { list-style-type: circle; }
+body > main .file ul li ul li { list-style-type: circle; color: #222; margin-bottom: 0.3rem; }
 
-body > main .file ul li ul li ul li { list-style-type: square; }
+body > main .file ul li ul li ul li { list-style-type: square; color: #333; font-size: 0.9rem; margin-bottom: 0; }
 
 body > main .file ol { padding-left: 2rem; }
 
