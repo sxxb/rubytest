@@ -46,6 +46,12 @@ $transition: 0.2s ease;
 *::after {
   box-sizing: inherit;
 }
+
+*::selection {
+    background-color:$theme-colour;
+    color:white;
+}
+
 html {
   font-size: 100%;
   font-family: $body-font;
@@ -377,6 +383,9 @@ body {
         font-family: $serif-font;
         margin-bottom:2em;
         line-height:1.75em;
+        &:first-of-type::first-letter {
+          initial-letter: 2;
+        }
       }
       sup {
         vertical-align: super;

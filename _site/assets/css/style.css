@@ -21,6 +21,8 @@
 
 *::before, *::after { box-sizing: inherit; }
 
+*::selection { background-color: #ff2b35; color: white; }
+
 html { font-size: 100%; font-family: "Barlow", sans-serif; -webkit-text-size-adjust: 100%; line-height: 1.6em; }
 
 body { background: white; z-index: 10; }
@@ -144,6 +146,8 @@ body > main .essay h2 { font-size: 1.5rem; font-family: "Lora", Georgia, serif; 
 body > main .essay h3 { font-size: 1.2rem; font-family: "Lora", Georgia, serif; margin: 2rem 0; }
 
 body > main .essay p { font-family: "Lora", Georgia, serif; margin-bottom: 2em; line-height: 1.75em; }
+
+body > main .essay p:first-of-type::first-letter { initial-letter: 2; }
 
 body > main .essay sup { vertical-align: super; line-height: 1em; color: #ff2b35; font-size: 0.75rem; position: relative; }
 
