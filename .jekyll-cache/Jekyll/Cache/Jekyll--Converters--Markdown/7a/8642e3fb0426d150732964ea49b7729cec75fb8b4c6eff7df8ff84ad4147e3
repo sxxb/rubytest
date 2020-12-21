@@ -1,0 +1,669 @@
+I"�c<h1 id="week-1---strategies-beliefs-and-expected-payoffs">Week 1 - Strategies, Beliefs and Expected Payoffs</h1>
+
+<ul>
+  <li>Definitions
+    <ul>
+      <li>Non-Cooperative Games
+        <ul>
+          <li>Games in which the players compete against each other to maximise their utility without directly communicating.</li>
+        </ul>
+      </li>
+      <li>Strategy
+        <ul>
+          <li>A <strong>complete</strong> contingency plan for a game.</li>
+          <li>This means that every possible outcome must be accounted for.</li>
+        </ul>
+      </li>
+      <li>Strategy Profile
+        <ul>
+          <li>The set of available strategies for all players that fully specifies all actions in a game.
+\(S = \{ ABC, DEF \}\)
+            <ul>
+              <li>where \(s_1 = \{ABC\}\) and \(s_2 = \{DEF\}\)</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>Mixed Strategy
+        <ul>
+          <li>A strategy set that involves playing one strategy some of the time and another strategy (or strategies) the rest of the time.</li>
+          <li><em>“A probability distribution over a strategy space”</em></li>
+          <li>Denoted by \(\sigma_i\) for each player \(i\).</li>
+        </ul>
+      </li>
+      <li>Extensive Form
+        <ul>
+          <li>The tree form of a game that denotes the order in which moves are played. Offers more information about the game and allows calculation of subgame perfect Nash Equilibriums.</li>
+        </ul>
+      </li>
+      <li>Normal Form:
+        <ul>
+          <li>The table form of a game, that denotes all the complete strategies of each player and the payoffs for each. Useful for calculating Best Responses as it is easy to compare payoffs.</li>
+        </ul>
+      </li>
+      <li>Expected Utility Graph
+        <ul>
+          <li>Give the probability of another player’s strategy being played (in a mixed strategy context), what is the expected payoff?
+            <ul>
+              <li>Y axis: Expected Utility</li>
+              <li>X axis: probability \(p\) or \(q\)</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>Simultaneous Decision
+        <ul>
+          <li>Denoted by a dotted line between two nodes, which denotes that the player has not observed the previous player’s decision.
+            <ul>
+              <li>This can be because they move simultaneously, or because a player was unable to see the opponent’s move.</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h1 id="week-2---dominance-rationalisability-and-best-response">Week 2 - Dominance, Rationalisability and Best Response</h1>
+
+<ul>
+  <li>Definitions
+    <ul>
+      <li>Dominant Strategy
+        <ul>
+          <li>The most advantageous set of decisions regardless of the opponent’s decisions.</li>
+          <li>Indifference precludes dominance.</li>
+          <li>A mixed strategy may dominate a pure strategy.</li>
+        </ul>
+      </li>
+      <li>Best Response
+        <ul>
+          <li>The most advantageous response to an opponent’s decision.</li>
+          <li>Requires an assumption of a prior move.</li>
+          <li>Any undominated strategy is a Best Response to something.</li>
+        </ul>
+      </li>
+      <li>Rationalisability
+        <ul>
+          <li>The likelihood of your opponent choosing a certain set of decisions based on assumptions about your opponent (they are utility maximising etc.)</li>
+          <li>Requires analysis of your opponents decisions which can then inform your own decision process.</li>
+          <li>This allows a player to eliminate <em>(not dominate)</em> strategies
+            <ul>
+              <li>These strategies are “iteratively dominated”.</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h1 id="week-3---nash-equilibrium">Week 3 - Nash Equilibrium</h1>
+
+<ul>
+  <li>Definitions
+    <ul>
+      <li>Nash Equilibrium
+        <ul>
+          <li>A strategy profile for which there is no better alternative for either player, thus giving them no incentive to deviate.</li>
+          <li>Only used for Normal Form games.</li>
+        </ul>
+      </li>
+      <li>Mixed Strategy Nash Equillibrium
+        <ul>
+          <li>A Nash Equilibrium involving a mixed strategy.</li>
+          <li>Only used when you are indifferent between two strategies (ie. neither dominate the other)</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Best Response Graphs
+    <ul>
+      <li>Demonstrate the optimal moves for each player given values of \(p\) and \(q\).</li>
+      <li>Requires a \(2 * 2\) normal form game - so using Dominance and Rationalisability to eliminate strategies is useful.</li>
+    </ul>
+
+    <table>
+      <thead>
+        <tr>
+          <th>1\2</th>
+          <th>\(q\) // \(X\)</th>
+          <th>\((1-q)\) // \(Y\)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>\(p\) // \(A\)</td>
+          <td> </td>
+          <td> </td>
+        </tr>
+        <tr>
+          <td>\(1-p\) // \(B\)</td>
+          <td> </td>
+          <td> </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <ul>
+      <li>When \(p = 1\), Player 1 is only playing option \(A\)</li>
+      <li>When \(p = 0\), Player 1 is only playing option \(B\)</li>
+    </ul>
+  </li>
+  <li>Process
+    <ol>
+      <li>Find \(BR_1 (\sigma_2)\), and find values of \(q\) where \(P_1\) plays each strategy and \(\sigma_1\)</li>
+      <li>Repeat for \(BR_2 (\sigma_1)\)</li>
+      <li>Graph the Best Responses</li>
+      <li>Find the intercepts - these are Nash Equilibriums (including \(0,0\) and \(1,1\) if applicable)</li>
+      <li>Record the Nash Equilibrium(s)</li>
+    </ol>
+  </li>
+</ul>
+
+<h1 id="week-4---backward-induction-and-subgame-perfection">Week 4 - Backward Induction and Subgame Perfection</h1>
+
+<ul>
+  <li>Definitions
+    <ul>
+      <li>Backward Induction
+        <ul>
+          <li>Evaluate the Best Response for each subgame, starting at the final move and working backwards.</li>
+          <li>Only applicable to Extensive Form games.</li>
+        </ul>
+      </li>
+      <li>Subgame Perfect Nash Equilibrium
+        <ul>
+          <li>The Nash Equilibrium that is sequentially rational (and therefore denotes the optimal decisions) over the entire game, as well as each individual subgame.</li>
+          <li>Identified using Backwards Induction</li>
+          <li>If there is a node where a player is uncertain of the previous player’s move, a normal form must be created for that subgame to identify the Nash Equilibrium for that subgame, which can then be used to complete the Backwards Induction process.</li>
+          <li>If there is a node at which a player is indifferent between two decisions, evaluate both by splitting the process. (use \([A], [B]\) etc.).</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h1 id="week-5---games-with-continuous-strategies">Week 5 - Games with Continuous Strategies</h1>
+
+<ul>
+  <li>Definitions
+    <ul>
+      <li>Continuous Strategies
+        <ul>
+          <li>A strategy for which a player make choose any response on a continuum of options, rather than choosing between discrete options.</li>
+          <li>Players will choose the strategy that maximises their utility.</li>
+        </ul>
+      </li>
+      <li>Cournot Games
+        <ul>
+          <li>A game in which two players both have continuous strategies, and neither player observes the other.</li>
+          <li>Provides a Nash Equilibrium.</li>
+        </ul>
+      </li>
+      <li>Stackelberg Game
+        <ul>
+          <li>A game in which two players both have continuous strategies, but the second player observes the first.</li>
+          <li>Provides a <em>Subgame Perfect Nash Equilibrium</em>.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Solving Cournot Games
+    <ul>
+      <li>Find the Best Response for both players:
+        <ul>
+          <li>ie. The utility function for \(P_1\) and \(P_2\)
+            <ul>
+              <li>This may be a profit function \(\pi_1 = P(Q)*q_1 - MC*q_1\) where \(Q = \sum_i q_i\)</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>Maximise this function by finding the first derivative, setting that to \(0\) and finding the maximising value \(P_1\) can choose (Best Response)
+        <ul>
+          <li>Repeat for \(P_2\)</li>
+          <li>These will likely be contingent on the other player’s move (ie. \(q_1 = 10 + q_2\))</li>
+        </ul>
+      </li>
+      <li>Substitute one Best Response function into the other to solve.</li>
+    </ul>
+  </li>
+  <li>Solving Stackelberg Games
+    <ul>
+      <li>As the players do not move simultaneously, these games must be evaluated differently using Backwards Induction</li>
+      <li>Find the final player’s Best Response function (as above)</li>
+      <li>Substitute this into the previous player’s <em>utility function</em> (not Best Response)</li>
+      <li>Find the first derivative of this function, maximise it and find this player’s utility maximising decision.</li>
+      <li>Then return to the final player’s Best Response function and use the previous player’s decision to find the final player’s best response.</li>
+    </ul>
+  </li>
+</ul>
+
+<h1 id="week-6---nature-and-bayesian-nash-equilibrium">Week 6 - Nature and Bayesian Nash Equilibrium</h1>
+
+<ul>
+  <li>Definitions
+    <ul>
+      <li>Nature
+        <ul>
+          <li>A ‘player’ who introduces uncertainty into games.</li>
+          <li>Nature is random and does not maximise utility - merely acts - thus nature has no payoffs.</li>
+          <li>Nature is often the first ‘player’ but does not need to be.</li>
+        </ul>
+      </li>
+      <li>Bayesian Form
+        <ul>
+          <li>A representation of a game with nature that accounts for the uncertainty of nature.</li>
+          <li>Similar to a normal form game in layout.</li>
+        </ul>
+
+        <table>
+          <thead>
+            <tr>
+              <th> </th>
+              <th>\(L\)</th>
+              <th>\(R\)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>\(UU'\)</td>
+              <td>\(x\),1</td>
+              <td>2,1</td>
+            </tr>
+            <tr>
+              <td>\(UD'\)</td>
+              <td>4,1</td>
+              <td>4,2</td>
+            </tr>
+            <tr>
+              <td>\(DU'\)</td>
+              <td>3,4</td>
+              <td>2,3</td>
+            </tr>
+            <tr>
+              <td>\(DD'\)</td>
+              <td>1,3</td>
+              <td>2,2</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <ul>
+          <li>\(U\) represents playing \(U\) when Nature acts one way, \(U'\) the other.</li>
+          <li>\(x = p[U_1(UL)] + (1-p)[U_1(UL)]\), where \(p\) is the chance nature acts one way.</li>
+          <li>In this example, Player 2 does not know Nature’s move, but Player 1 does
+            <ul>
+              <li>if neither observed Nature, you would have a 2 x 2 grid.</li>
+              <li>if both observed Nature, you would have a 4 x 4 grid.</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Solving Bayesian Nash Equilibrium
+    <ul>
+      <li>Transform a game into a Bayesian Form
+        <ul>
+          <li>This will require finding each payoff using the probabilities of Nature \(p\), \(1-p\)</li>
+        </ul>
+      </li>
+      <li>If you have a value of \(p\), solve the game using Domination, Best Response and Rationalisability principles.</li>
+      <li>If you do not have a value for \(p\), find values for which one of the non-observing players strategies always dominates the other.</li>
+    </ul>
+  </li>
+  <li>Solving Cournot games with Bayesian Uncertainty
+    <ul>
+      <li>In this situation, one or more players will have a variable in the utility function that depends on the outcome of Nature.</li>
+      <li>The player with the variable \(t\) in their utility function \(P_n\):
+        <ul>
+          <li>Derive their utility function, but don’t maximise yet.</li>
+          <li>Split \(\partial U_n(x_i)\) into two parts: \(\partial U_n(x^{t=a}_i)\) and \(\partial U_n(x^{t=b}_i)\) and substitute the relevent values for \(t\)</li>
+          <li>Maximise these functions and get the Best Response function.</li>
+        </ul>
+      </li>
+      <li>The player <em>without</em> the variable \(t\) in their utility function \(P_m\):
+        <ul>
+          <li>Split \(U_m\) into:
+\(U_m = p[U_m(x_i^{t=a})] + (1-p)[U_m(x_i^{t=b})]\)</li>
+          <li>Derive this function and maximise</li>
+          <li>Substitute in the variables and solve.</li>
+        </ul>
+      </li>
+      <li>Then, solve for \(P_n\)</li>
+    </ul>
+  </li>
+</ul>
+
+<h1 id="week-7---perfect-bayesian-equilibrium">Week 7 - Perfect Bayesian Equilibrium</h1>
+
+<ul>
+  <li>Definitions
+    <ul>
+      <li>Perfect Bayesian Equilibrium
+        <ul>
+          <li>Used for solving signalling games.</li>
+          <li>Based on “beliefs on decision node on or off the equilibrium path”</li>
+          <li>Requires:
+            <ol>
+              <li>A set of beliefs of the decisions nodes of the information sources</li>
+              <li>Sequential Rationality</li>
+              <li>Strategies that are in line with the players’ Beliefs</li>
+              <li>Beliefs of the equilibrium path that are consistent with the equilibrium and provide incentive not to deviate from the equilibrium.</li>
+            </ol>
+          </li>
+        </ul>
+      </li>
+      <li>Signalling Games
+        <ul>
+          <li>Games where players will decide how to act based on their interpretation of what the previous players’ move implies about the state of Nature.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Solving Signalling Games
+    <ul>
+      <li>\(P_1\) will either Pool or Separate Moves
+        <ul>
+          <li>Pool: Play the same move at both states of nature eg. \(A_{t=a} A_{t=b}\)</li>
+          <li>Separate: Play different moves depending on each state of nature eg.\(A_{t=a} B_{t=b}\)</li>
+        </ul>
+      </li>
+      <li>They will then evaluate \(P_2\)’s Best Response to each move.
+        <ul>
+          <li>For Pooled Strategies, this will be based on the utility at each node multiplied by the probability of nature being in that state.</li>
+        </ul>
+
+\[U_2(X) = 3q + 4(1-q)\]
+
+\[U_2(Y) = 2q + 5(1-q)\]
+
+        <ul>
+          <li>If \(q\) is known, simply solve and determine the BR</li>
+          <li>If \(q\) in unknown, find values of \(q\) for which \(P_2\) will play X</li>
+          <li>For Separating Strategies, this will simply be based on the utility of each response at the relevant node.
+            <ul>
+              <li>\(P_2\) can use the signal of \(P_1\)’s move to determine which state of nature they are in.</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>Once the Best Response is determined, \(P_1\) will decide whether or not to deviate from their strategy and send the wrong signal.
+        <ul>
+          <li>Because \(P_2\) acts based on their assumption of Nature from \(P_1\), \(P_1\) can opt to play another strategy that would ordinarily not be utility maximising, but due to \(P_2\)’s lack of information achieves a higher utility than \(P_1\) would otherwise be able to achieve.</li>
+          <li>To test whether \(P_1\) will deviate, set up a table:
+            <ul>
+              <li>Separating Equilibrium:</li>
+            </ul>
+          </li>
+        </ul>
+
+        <table>
+          <thead>
+            <tr>
+              <th> </th>
+              <th> </th>
+              <th>\(A_{t=a} B_{t=b}\)</th>
+              <th>Deviate: \(B_{t=a} A_{t=b}\)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>\(U_1\)</td>
+              <td>\(t=a\)</td>
+              <td>\(U_1(A_{t=a}, BR_2(A_{t=a}))\)</td>
+              <td>\(U_1(B_{t=a}, BR_2(A_{t=a}))\)</td>
+            </tr>
+            <tr>
+              <td> </td>
+              <td>\(t=b\)</td>
+              <td>\(U_1(B_{t=b}, BR_2(B_{t=b}))\)</td>
+              <td>\(U_1(A_{t=b}, BR_2(B_{t=b}))\)</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <ul>
+          <li>Pooling Equilibrium where \(q\) is not given:</li>
+        </ul>
+
+        <table>
+          <thead>
+            <tr>
+              <th> </th>
+              <th> </th>
+              <th>\(A_{t=a} A_{t=b}\)</th>
+              <th> </th>
+              <th>Deviate: \(B_{t=a} B_{t=b}\)</th>
+              <th> </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td> </td>
+              <td> </td>
+              <td>\(q\ge \alpha\)</td>
+              <td>\(q&lt; \alpha\)</td>
+              <td>\(q\ge \alpha\)</td>
+              <td>\(q&lt; \alpha\)</td>
+            </tr>
+            <tr>
+              <td>\(U_1\)</td>
+              <td>\(t=a\)</td>
+              <td>\(U_1(A_{t=a}, BR_2(A_{t=a}))\)</td>
+              <td>\(U_1(A_{t=a}, BR_2(A_{t=a}))\)</td>
+              <td>\(U_1(B_{t=a}, BR_2(A_{t=a}))\)</td>
+              <td>\(U_1(B_{t=a}, BR_2(A_{t=a}))\)</td>
+            </tr>
+            <tr>
+              <td> </td>
+              <td>\(t=b\)</td>
+              <td>\(U_1(A_{t=b}, BR_2(A_{t=b}))\)</td>
+              <td>\(U_1(A_{t=b}, BR_2(A_{t=b}))\)</td>
+              <td>\(U_1(B_{t=b}, BR_2(A_{t=b}))\)</td>
+              <td>\(U_1(B_{t=b}, BR_2(A_{t=b}))\)</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <ul>
+          <li>If there is <em>any</em> incentive to deviate, there is not a Perfect Bayesian Equilibrium.
+            <ul>
+              <li>If there is no incentive to deviate in a Pooling Equilibrium for a certain value or range of \(q\), then there is a PBE - but you <em>must</em> include the values of \(q\) in the PBE notation
+                <ul>
+                  <li>ie. \(PBE = \{ (A_{t=a}A_{t=b}, X), q \ge \alpha \}\)</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h1 id="week-8---midterm---no-content">Week 8 - Midterm - No Content</h1>
+
+<h1 id="week-9---repeated-games">Week 9 - Repeated Games</h1>
+
+<ul>
+  <li>Definitions
+    <ul>
+      <li>Finite Games:
+        <ul>
+          <li>Games that are played a limited number of times</li>
+          <li>These do not include a discount factor in this course</li>
+        </ul>
+      </li>
+      <li>Infinitely Repeated Games
+        <ul>
+          <li>Games that are repeated Infinitely</li>
+          <li>These games involve a discount factor \(\delta \in (0,1)\) that represents the PV of a FV.</li>
+        </ul>
+      </li>
+      <li>Grim Trigger strategy
+        <ul>
+          <li>Strategy for infinitely repeated Games</li>
+          <li>If a player deviates from the NE (in order to achieve a higher payoff for one iteration of the game) then the Grim Trigger strategy shifts to a ‘punishment’</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Discount Factor Proof
+    <ul>
+      <li>For an infinitely repeated game, the series of payoffs:
+\(S = \sum^\omega_{n=0} \delta^n = 1 + \delta^1 +\delta^2 +\delta^3 + ... + \delta^n\)
+can be written
+\(S = \frac{1}{1- \delta^2}\)</li>
+      <li>
+        <p>Proof:</p>
+
+\[S = 1 +  \delta^1 +  \delta^2 +  \delta^3 + ...\]
+
+\[S=  1 +  \delta(1 +  \delta^1 +  \delta^2 +  \delta^3 + ... )\]
+
+\[S = 1 + \delta(S)\]
+
+\[S - \delta(S) = 1\]
+
+\[S(1- \delta) = 1\]
+
+\[S = \frac{1}{1- \delta}\]
+      </li>
+      <li>For strategies that alternate, simply set the series up as \(S = 1 + \delta^2 + \delta^4\) etc.
+        <ul>
+          <li>Note that the ‘odd’ move would require a discount of \(\delta S\)</li>
+          <li>eg. \(U = \alpha S + \beta \delta S\)</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Grim Trigger Decision
+    <ul>
+      <li>Is it worth deviating once and then suffering the punishment, or sticking with the agreed strategy?</li>
+      <li>This will depend on the discount factors.</li>
+      <li>Say there is a steady strategy that gives \(P_1\) a utility \(U = 3\), and alternate payoff \(U=6\) and a Grim Trigger punishment \(U=1\)
+        <ul>
+          <li>If \(U_{Steady} &lt;\)U_{Deviate}\(then\)P_1$$ will deviate.</li>
+        </ul>
+
+\[U_{Steady} = 3 \frac{1}{1- \delta}\]
+
+\[U_{Deviate} = 6 + 1 \frac{1}{1- \delta}\]
+
+        <ul>
+          <li>If you have defined values for \(\delta\), you can solve to find whether \(P_1\) sticks or twists</li>
+          <li>If not, you can solve for \(\delta\) to find the discount factor that would make \(P_1\) deviate.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Single Repeated Games
+    <ul>
+      <li>If there is a single NE, the Nash Profile will be played both times.</li>
+      <li>If there are two NE, either can be played at \(t=1\) or \(t=2\)</li>
+      <li>There is a possibility that two players could play a non-NE profile at \(t=1\), then revert to a NE profile at \(t=2\)
+        <ul>
+          <li>This requires an incentive and a punishment; incentive for both players to deviate in the first place, and a punishment if either player deviates from the ‘agreed upon’ set of decisions.</li>
+          <li>If the utility derives from cooperating is more than that for deviating (even when being punished at \(t=2\)) then the cooperation will work.</li>
+          <li>This provides a <em>Subgame Perfect Nash Equilibrium</em></li>
+        </ul>
+      </li>
+      <li>A finite game can be solved by using backwards induction;
+        <ul>
+          <li>Find the NE to be played in \(t=2\)</li>
+          <li>Add those payoffs to the payoffs for \(t=1\) (i.e if the payoffs are \((1,1)\) add \(1\) to all the payoffs)</li>
+          <li>If  this changes the NE for \(t=1\), that will be the Nash profile.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h1 id="week-10---bargaining-games">Week 10 - Bargaining Games</h1>
+
+<ul>
+  <li>Definitions
+    <ul>
+      <li>Ultimatum Game
+        <ul>
+          <li>A game where \(P_1\) will make an offer to \(P_2\), which they will either Accept or Reject</li>
+          <li>The offer is a value of \(m \in [0,1]\) (usually)</li>
+          <li>If the offer is \(m &gt; 0\) then \(P_2\) accepts (as the rejection payoff is usually \(0\))</li>
+          <li>If the offer is \(m = 0\) then \(P_2\) is indifferent between accepting or rejecting</li>
+          <li>Thus there are two sequentially rational strategies:</li>
+        </ul>
+
+        <p>\(S_i : \{A, m \ge 0\}\)
+\(S_1 : \{A, m &gt; 0\}\) and \(\{R, m= 0\}\)</p>
+
+        <ul>
+          <li>Option 2 gives a weird discontinuity at \(m=0\), as \(m=0\) is functionally indifferent from \(m=0.01^{\infty}\), so we use option 1</li>
+          <li>Thus the Nash Equilibrium of an Ultimatum Game is \((m=0, A)\)</li>
+        </ul>
+      </li>
+      <li>Repeated Ultimatum Games
+        <ul>
+          <li>One player makes an offer to the other, the other Accepts or Rejects. If they Reject, they can make a counteroffer.</li>
+          <li>There is generally a discount factor \(\delta\) applied to the second offer (and those thereafter).</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Solving Bargaining games
+    <ul>
+      <li>Use Backward induction
+        <ul>
+          <li>What is the final player’s best move?
+            <ul>
+              <li>For a single game, this is accept even for \(m=0\), so the first player will offer them \(m=0\).</li>
+              <li>For a repeated game, (in this case, repeated twice) the final offer will be \(m_2=0\)
+                <ul>
+                  <li>Meaning the offering player would receive \(U= \delta (1-m_2) = \delta\)</li>
+                </ul>
+              </li>
+              <li>If the receiving player wants to receive a higher utility than \(U=0\), they must offer \(m_1 = \delta\)
+                <ul>
+                  <li>Thus they would receive \(1 - m_1 = 1 - \delta\)</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Infinite Periods
+    <ul>
+      <li>Consider a scenario \(P_2\) faces. They can Accept and receive \(m_2\) or Reject and receive \(\delta(1-m_1)\)</li>
+      <li>For \(P_2\) to be indifferent between accepting or rejecting, \(U_A = U_R\), thus \(m_2 = \delta(1-m_1)\)
+        <ul>
+          <li>The reverse must also be true for \(P_1\), as they’re infinitely repeating this game.</li>
+        </ul>
+      </li>
+      <li>Thus \(m_1 = \delta(1-m_2)\)
+        <ul>
+          <li>Given we know \(m_2\), we can say:
+ \(m_1 = \delta (1 - \delta(1-m_1))\)
+ \(\frac{m_1}{\delta} = 1 - \delta + \delta m_1\)
+ \(m_1 = \delta - \delta^2 + \delta^2 m_1\)
+ \(m_1 - \delta^2 m_1 = \delta - \delta^2\)
+ \(m_1(1 - \delta^2) = \delta - \delta^2\)
+ \(m_1 = \frac{\delta - \delta^2}{(1 - \delta^2)}\)
+ \(m_1 = \frac{\delta (1 - \delta)}{(1 - \delta^2)}\)
+ \(m_1 = \frac{\delta (1 - \delta)}{(1 + \delta)(1 - \delta)}\)
+ \(m_1 = \frac{\delta}{1 + \delta}\)</li>
+          <li>If we then derive this as \(\lim\delta \rightarrow 1\) :
+\(\lim_{\delta\to 1} m = \lim_{\delta\to 1}\frac{1-2\delta}{-2\delta^2}\)
+\(\lim_{\delta\to 1} m = \frac{1-2}{-2}\)
+\(\lim_{\delta\to 1} m = \frac{-1}{-2}\)
+\(\lim_{\delta\to 1} m = \frac{1}{2}\)</li>
+          <li>Thus the optimal value of m approaches a 50/50 split on a long enough timeline.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+:ET

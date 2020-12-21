@@ -1,0 +1,1563 @@
+I"<h1 id="week-1----introduction">Week 1  - Introduction</h1>
+<ul>
+  <li>Partial Equilibrium Model
+    <ul>
+      <li>A model that only evaluates part of the economy, with other factors held constant</li>
+    </ul>
+  </li>
+  <li>General Equilibrium Model
+    <ul>
+      <li>A model that evaluates the entire economy, with prices equilibrating supply and demand on all markets simultaneously.</li>
+    </ul>
+  </li>
+  <li>Normative Analysis
+    <ul>
+      <li>Analysing how things should be to provide the optimal outcome.</li>
+    </ul>
+  </li>
+  <li>Positive Analysis
+    <ul>
+      <li>Analysing how things are as the currently stand.</li>
+    </ul>
+  </li>
+  <li>Price Taking
+    <ul>
+      <li>In public economics, it is assumed all participants are price takers - that is, they don’t have the requisite market power to set prices, and prices are set at the market clearing level.</li>
+    </ul>
+  </li>
+</ul>
+
+<h1 id="week-2----equilibrium--efficiency">Week 2  - Equilibrium &amp; Efficiency</h1>
+<ul>
+  <li>Exchange Economy
+    <ul>
+      <li>An economy with \(n \ge 2\) participants with an initial endowment of goods.
+        <ul>
+          <li>Endowments are given:
+\(\omega^h = \omega^h_1, x^h_2\)
+for consumer h and goods 1 and 2.</li>
+        </ul>
+      </li>
+      <li>The participants can exchange goods with each other to maximise their utilities.</li>
+      <li>The rate of exchange is set by the prices of goods.</li>
+      <li>Consumption Plan: The eventual bundle of goods the participants have after exchanging.
+        <ul>
+          <li>Consumption plans are given
+\(x^h = x^h_1, x^h_2\)</li>
+        </ul>
+      </li>
+      <li>Budget Constraint is the limiting factor of the consumption plan, determined by the prices for each good. The sums of the prices and consumption plan must be equal to the sums of the prices and endowment:
+\(p_1x^h_1 + p_2x^h_2 = p_1\omega^h_1 + p_2\omega^h_2\)</li>
+      <li>Equilibrium Prices are such that supply will equal demand (ie. the market clearing price)
+\(x^1_i(p_1, p_2) + x^2_i(p_1, p_2) = \omega^1_i + \omega^2_i\)
+        <ul>
+          <li>for consumers 1,2 and goods \(i\) = 1,2</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Price Normalisation
+    <ul>
+      <li>One price can be set to = 1, and the other set relative to that price. This simplifies calculations.</li>
+    </ul>
+  </li>
+  <li>Walras’ Law
+    <ul>
+      <li>The total value of the goods supplied will equal the total value of goods demanded.</li>
+      <li>Let excess demand:
+  \(z_i = x^1_i + x^2_i - \omega^1_i - \omega^2_i\)</li>
+      <li>Thus:
+  \(p_1z_1 + p_2z_2 = p_1(x^1_1 + x^2_1 - \omega^1_1 - \omega^2_1) + p_2(x^1_2 + x^2_2 - \omega^1_2 - \omega^2_2)\)</li>
+      <li>If this value of excess demand is zero, then supply must equal demand.</li>
+    </ul>
+  </li>
+  <li>Demonstrating Equilibrium
+    <ul>
+      <li>By plotting demand for good 2 as a function of its price, and setting price of good 1 to = 1, we can find the equilibrium (which will be where the price function of good 2 intersects the \(x\) axis).</li>
+    </ul>
+  </li>
+  <li>Production
+    <ul>
+      <li>In a real economy, the endowment is not the only source of goods; production can produce new goods.</li>
+      <li>Firms can use inputs to create goods for exchange, and will produce the amount that maximises their profits:
+  \(\pi^j_i = \sum^n_{i=1}p_i*y^j_i (p)\)
+  where \(y^j_i\) is the output of good \(y_i\) created by firm \(j\)</li>
+    </ul>
+  </li>
+  <li>Profits
+    <ul>
+      <li>Profits are distributed to shareholders who can then expand their budget constraint and consume a great bundle of goods.</li>
+    </ul>
+  </li>
+  <li>Aggregate Supply
+    <ul>
+      <li>The sum of all firm’s outputs</li>
+    </ul>
+
+\[Y_i (p) = \sum^m_{j=1} y^j_i (p)\]
+  </li>
+  <li>Shareholding
+    <ul>
+      <li>The proportion of profits allocated to an individual consumer</li>
+      <li>\(𝜽^h_j\) = percentage of firm \(j\) owned by consumer \(h\)</li>
+    </ul>
+  </li>
+  <li>Budget Constraint with Shareholding
+    <ul>
+      <li>When shareholding is added to the equation, the budget constraint expands</li>
+    </ul>
+
+\[\sum^n_{i=1} ( p_ix^h_i ) = \sum^n_{i=1}( p_i\omega^h_i ) + \sum^m_{j=1}( 𝜽^h_j \pi_j )\]
+  </li>
+  <li>Level of Aggregate Demand
+    <ul>
+      <li>The sum of each individuals’ demanded quantities</li>
+    </ul>
+
+\[X_i = \sum^H_{h=1}( x^h_i * (p) )\]
+  </li>
+  <li>Excess Demand
+    <ul>
+      <li>The amount of aggregate demand that exceeds supply - see Walras’ Law for level of excess demand</li>
+    </ul>
+
+\[Z_i(p) = X_i(p) - Y_i(p) - \sum^H_{h=1}( \omega^h_i )\]
+
+    <ul>
+      <li>Equilibrium occurs when Z_i(p) = 0</li>
+      <li>At this point, demand = supply + initial endowment</li>
+    </ul>
+  </li>
+  <li>Efficiency
+    <ul>
+      <li>The best use of available resources.</li>
+      <li>Finding the efficient allocation when there are multiple firms is a complex puzzle.</li>
+    </ul>
+  </li>
+  <li>Single Consumer Economy
+    <ul>
+      <li>A hypothetical example with two goods; labour and a consumption good.</li>
+      <li>The consumer provides labour to a firm and creates the output.</li>
+      <li>The profit (\(𝜽^h_j\pi\)) is returned to the consumer.</li>
+      <li>Profit is given by</li>
+    </ul>
+
+\[\pi = p_1(x_1-\omega_1) + p_2(x_2-\omega_2)\]
+
+    <p>or written as</p>
+
+\[\pi = \tilde{x}_1p_1 + \tilde{x}_2p_2\]
+
+    <ul>
+      <li>\(\tilde{x}_i\) represents change from the endowment.</li>
+    </ul>
+  </li>
+  <li>Efficient Equilibrium to Single Consumer Economy
+    <ul>
+      <li>The efficient equilibrium occurs when \(\tilde{x}^* =y^*\)</li>
+      <li>This will occur where the consumer’s indifference curve and the firm’s production plan meet at a tangent.</li>
+    </ul>
+  </li>
+  <li>Marginal Rate of Substitution (MRS) and Marginal Rate of Transformation (MRT)
+    <ul>
+      <li>MRS is the rate at which can substitute one good for the other and maintain a constant utility.
+\(MRS^1_2 = U_1 / U_2\)</li>
+      <li>MRT is the rate at which good 1 can be sacrificed to create good 2.</li>
+      <li>\(MRT^1_2\) is given.</li>
+      <li>The MRS defines the slope of the indifference curve in the single consumer economy model, while the MRT defines the slope of the firm’s production plan.</li>
+      <li>The efficient equilibrium occurs when MRT and MRS meet.</li>
+    </ul>
+  </li>
+  <li>Pareto Efficiency
+    <ul>
+      <li>The allocation of goods at which no consumer can receive a bundle that provides higher utility without lowering the utility of another consumer.</li>
+      <li>In an \(n &gt; 1\) economy PE allows us to allocate resources that are competitively desired.</li>
+      <li>\(\hat{x}\) is PE if there is not an feasible alternative \(\bar{x}\) that:
+        <ul>
+          <li>\(U(\hat{x}) \le U(\bar{x})\) for all consumers AND</li>
+          <li>\(U(\hat{x}) \le U(\bar{x})\) for at least one consumer</li>
+        </ul>
+      </li>
+      <li>PE does not consider distribution or equity - merely that the allocation is Pareto efficient (and may be one of many distributions that is PE)</li>
+    </ul>
+  </li>
+  <li>Theorems of Welfare Economics
+    <ol>
+      <li>A competitive equilibrium is Pareto Efficient</li>
+      <li>Any Pareto Efficient allocation can be decentralised as a competitive equilibrium.</li>
+    </ol>
+  </li>
+  <li>Decentralisation
+    <ul>
+      <li>An initial endowment that can be transformed into a PE allocation by willing trade between consumers.</li>
+      <li>This endowment must be on the tangent of both consumers’ Indifference Curves (ie. the Budget Constraint) in an Edgeworth Box.</li>
+      <li>If the endowment does not fall on the Budget Constraint, a redistribution of the initial endowment is required to achieve a decentralised PE allocation.</li>
+    </ul>
+  </li>
+  <li>Lump Sum Taxes
+    <ul>
+      <li>A tax of a fixed amount on the initial endowment that cannot be increased or decreased by any action.</li>
+      <li>The most effective form of redistributive tax, but practically impossible to determine.</li>
+      <li>If the initial endowment is given by \((\hat{p} * \omega{h}') - (\hat{p} * \omega{h})\), the quantity of goods transferred is \(\tilde{x}_i\)</li>
+    </ul>
+  </li>
+  <li>Tax and Subsidy
+    <ul>
+      <li>Assuming there are no costs to redistribution, the taxed amount = the subsidy amount</li>
+    </ul>
+
+\[T' = \hat{p} \tilde{x}'_i = S' = \hat{p} \tilde{x}'_i\]
+  </li>
+  <li>Practicality
+    <ul>
+      <li>Lump sum taxes require near omnipotence to assess the level of redistribution required and as such are not practical.</li>
+      <li>Income taxes, though less ideal, are easier to assess and therefore are more effective.</li>
+    </ul>
+  </li>
+</ul>
+
+<h1 id="week-3----cost-benefit-analysis">Week 3  - Cost Benefit Analysis</h1>
+<ul>
+  <li>Cost Benefit Analysis (CBA)
+    <ul>
+      <li>The assessment of the expenses and returns of a policy or project that is used to decided which projects or politics to implement.</li>
+    </ul>
+  </li>
+  <li>Controversies
+    <ul>
+      <li>Valuing benefit is subjective, and benefits and costs are not always evenly distributed.</li>
+      <li>Discounting future costs and benefits is again subjective.</li>
+      <li>Sometimes CBA requires valuing human life which is fraught.</li>
+    </ul>
+  </li>
+  <li>Process
+    <ol>
+      <li>Estimate the cost of the policy</li>
+      <li>Calculate tangible benefits</li>
+      <li>If intangible benefits may arise, estimate, value and calculate those.</li>
+      <li>Estimate the time periods until the benefits exceed costs.</li>
+    </ol>
+  </li>
+  <li>Net Present Value (NPV)
+    <ul>
+      <li>
+        <p>The discounted present value of future benefits.</p>
+
+\[NPV = \sum^T_{t=0} (1+d)^{-t} * (B(t)-C(t))\]
+      </li>
+      <li>\(t =\) period when benefit arises</li>
+      <li>\(d =\) discount rate</li>
+      <li>\(B(t) =\) Benefit at time \(t\)</li>
+      <li>\(C(t) =\) Cost at time \(t\)</li>
+      <li>If NPV &gt; 0, a project is of net benefit and could be undertaken.</li>
+    </ul>
+  </li>
+  <li>Benefit Cost Ratio (BCR)
+    <ul>
+      <li>The ratio of the discounted benefits to the discounted costs</li>
+    </ul>
+
+\[BCR = \frac{\sum^T_{t=0} (1+d)^{-t} * (B(t)}{\sum^T_{t=0} (1+d)^{-t} * (C(t)}\]
+
+    <ul>
+      <li>If a project has a BCR &gt; 1, the project is of net benefit.</li>
+    </ul>
+  </li>
+  <li>Internal Rate of Return (IRR)
+    <ul>
+      <li>The rate at which the discounted costs equal the discounted benefits.</li>
+      <li>This is the rate of discounting that would give a NPV of 0.</li>
+    </ul>
+
+\[NPV = \sum^T_{t=0} (1+d)^{-t} * (B(t) - C(t)) = 0\]
+
+    <ul>
+      <li>Complex to solve - best estimate is fine!</li>
+      <li>This cannot be used to rank projects.</li>
+      <li>IRR has a bias towards shorter/smaller projects and doesn’t account for the magnitude of benefits, especially those that occur later.</li>
+    </ul>
+  </li>
+  <li>Present Value (PV)
+    <ul>
+      <li>The value of a future benefit in monetary terms. As prices illustrate the willingness to pay to obtain a certain utility, we can use prices, or the changes to prices, to value intangible benefits.</li>
+      <li>For instance, if a pill can add a year to your life for \(1,000, and this is popular, we can make an assumption that a year of life is valued at least\)1,000.</li>
+    </ul>
+  </li>
+  <li>Marshallian Surplus
+    <ul>
+      <li>The net benefit of a project, given by the gross benefit minus the cost of consumption at market prices.</li>
+    </ul>
+  </li>
+  <li>Hedonic Prices
+    <ul>
+      <li>A method for valuing intangible characteristics by comparing goods with similar tangible characteristics and measuring price differentials.</li>
+      <li>Useful for assessing Georgist Land Taxes etc.</li>
+    </ul>
+  </li>
+  <li>Decision Criteria
+    <ul>
+      <li>A project decision will be based on a ranking of NPVs, BCRs, subject to the discount rate</li>
+      <li>The discount rate accounts for the cost of acquiring capital.</li>
+    </ul>
+  </li>
+  <li>Valuing Life
+    <ul>
+      <li>Some projects require the valuation of human life. This is a difficult thing to tackle both technically and ethically.</li>
+      <li>Life is not priceless, otherwise as a society we would be prepared to pay anything to save a life.</li>
+      <li>Value of Statistical Life (VSL)
+        <ul>
+          <li>The expected value of preserving a life</li>
+          <li>VSL is the derivative of the willingness to pay with respect to the probability of dying (see below).
+\(\frac{\partial WTP}{\partial P} = \frac{\partial \rho}{\partial P}\)</li>
+        </ul>
+      </li>
+      <li>Willingness to Pay (WTP)
+        <ul>
+          <li>The amount we are willing to pay to save a life.</li>
+        </ul>
+      </li>
+      <li>
+        <p>Comparing Utility</p>
+
+        <p>\(U(m-\rho, a) = (1-p)U(m,a) + p(U(m,d))\)</p>
+        <ul>
+          <li>\(U(m,a)\) is the utility of person m when alive</li>
+          <li>\(U(m,d)\) is the utility of person m when deceased</li>
+          <li>\(U(m-\rho, a)\) is the utility of person m when alive less the risk premium</li>
+          <li>\(P\) is the probability of dying</li>
+          <li>\(\rho\) (rho) is the risk premium</li>
+        </ul>
+      </li>
+      <li>Value of a Life Year (VOLY) (VOALY)
+        <ul>
+          <li>VOLY is the benefit gained from a year of life.</li>
+          <li>
+\[VSL =  \sum^T_{t=0} (1+d)^{-t} * VOLY\]
+          </li>
+        </ul>
+      </li>
+      <li>Quality of a Life Year (QOLY) (QOALY)
+        <ul>
+          <li>The quality of a year of life.</li>
+          <li>QOLY \(\in [0,1]\)</li>
+          <li>Denotes how good an extra year of life would be</li>
+          <li>eg. Extending a terminally ill patients’ life may provide them with a very low QOLY if they would be suffering during this time.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Time Value of Money
+    <ul>
+      <li>A dollar today is worth more than a dollar later due to opportunity cost, time preference, a trend of income growth and uncertainty.</li>
+    </ul>
+  </li>
+  <li>Discount Rates
+    <ul>
+      <li>Measure the relative value of a dollar at time t vs today</li>
+      <li>Private vs Social Discount Rates
+        <ul>
+          <li>Individuals have their own unique discount rates depending on their preferences.</li>
+          <li>Social discount rates can be thought of as the aggregate of private discount rates.</li>
+        </ul>
+      </li>
+      <li>Discount rates may not be constant over time - we may value the next 5 years at a higher level, then the subsequent 5 years less etc.</li>
+    </ul>
+  </li>
+  <li>Unamity vs Conflict of Interest
+    <ul>
+      <li>When there is a pareto gain, the project is unanimously positive - some people gain but no one loses.
+        <ul>
+          <li>\(U^h(x^h+\Delta^h) \ge U^h(x^h)\) for all consumers h</li>
+        </ul>
+      </li>
+      <li>When some gain and some lose, there is a conflict of interest between those two groups.
+        <ul>
+          <li>\(U^h(x^h+\Delta^h) \ge U^h(x^h)\) for some</li>
+          <li>\(U^h(x^h+\Delta^h) \le U^h(x^h)\) for others</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Compensation Tests
+    <ul>
+      <li>Trading off between these winners and loses in a conflict of interest requires compensation tests.</li>
+      <li>Essentially, how can we compensate the losers adequately so that they won’t complain.</li>
+      <li>Kaldor’s Compensation Test
+        <ul>
+          <li>Can the winners compensate the losers and still achieve a net benefit?
+\(| U{h,w}(x^h+\Delta^h | &gt; | U{h,l}(x^h+\Delta^h |\)
+            <ul>
+              <li>ie. is the size of the winners’ gain greater than the size of the losers’ loss?</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>Hick’s Compensation Test
+        <ul>
+          <li>Is is cost effective for the losers to pay the winners to forgo the project
+\(| U{h,l}(x^h+\Delta^h | &gt; | U{h,w}(x^h+\Delta^h |\)
+            <ul>
+              <li>ie. is the size of the losers’ potential loss greater than the size of the winners’ potential gain?</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Scitovsky Reversal Paradox
+    <ul>
+      <li>A proposed project would change the possible utility frontier, where consumer 1 loses utility and consumer 2 gains.</li>
+      <li>However, there is another point on this new frontier that would allow both to gain utility, even after 2 compensates 1.</li>
+      <li>Interestingly, the reverse is true too - if you start at the ‘new’ frontier and change to the old one, there is also a situation that provides a net benefit to both consumers.</li>
+    </ul>
+  </li>
+  <li>Compensating Variation (CV)
+    <ul>
+      <li>The amount of compensation required to pass Kaldor’s Compensation Test</li>
+    </ul>
+  </li>
+  <li>Equivalent Variation (EV)
+    <ul>
+      <li>The amount of compensation required to pass Hick’s Compensation Test</li>
+    </ul>
+  </li>
+  <li>Social Welfare Exchange
+\(\partial W = \sum^h \beta^hCV^h = \sum^h \beta^hWTP^h\)
+    <ul>
+      <li>\(\beta^h\) is the social marginal value of income for individual h
+\(\beta^h = \frac{\partial W }{ \partial U^h} * \frac{\partial U^h }{ \partial M^h}\)
+        <ul>
+          <li>ie. A project with a greater utility with regard to income will be preferred.</li>
+        </ul>
+      </li>
+      <li>Assuming there are no market failures, all people will have the same marginal value of income
+        <ul>
+          <li>ie. \(\beta^h = \beta\)</li>
+        </ul>
+      </li>
+      <li>There should be perfect correspondence between NPV and the change in social welfare such that
+\(\partial W = \beta *NPV\)</li>
+    </ul>
+  </li>
+  <li>Shadow Prices
+    <ul>
+      <li>Are used to calculate NPV when market failures prevent this.</li>
+      <li>A set of shadow prices always show a project with \(NPV &gt; 0\) will have a positive change to social welfare.</li>
+    </ul>
+  </li>
+</ul>
+
+<h1 id="week-4----voting">Week 4  - Voting</h1>
+<ul>
+  <li>Definition
+    <ul>
+      <li>A collective choice sample</li>
+      <li>A method of accessing the preferences of a group</li>
+      <li>Generally, this will offer stability and is arguably one of the fairest methods of deciding allocations.</li>
+    </ul>
+  </li>
+  <li>Social Choice Theory
+    <ul>
+      <li>Analyses the aggregation of individual preferences into a social preference</li>
+    </ul>
+  </li>
+  <li>Arrows Impossibility Theorem
+    <ul>
+      <li>There is no process of aggregating preferences which works in every case; someone always misses out.</li>
+      <li>Arrow compiled 5 rules or conditions that a good voting/choice process should satisfy.</li>
+      <li>5 Rules
+        <ol>
+          <li>Independence of Irrelevant Alternatives; Rankings should not change if a new choice is introduced</li>
+          <li>Nondictatorship; Collective preferences should not be dictated by personal preferences.</li>
+          <li>Pareto Criterium; If everyone agrees on a ranking of options, the collective choice should reflect that</li>
+          <li>Unrestricted Domain; the process should accommodate any arrangement of individual rankings.</li>
+          <li>Transitivy; if the social preference is \(A \succ B, B \succ C\), then \(A \succ C\) by necessity.</li>
+        </ol>
+      </li>
+      <li>Applies when number of options to vote for \(n &gt; 2\)</li>
+      <li>No method satisfies all 5 conditions, though majority voting satisfies these when \(n = 2\)</li>
+    </ul>
+  </li>
+  <li>May’s Theorem
+    <ul>
+      <li>When \(n = 2\), only majority rule can satisfy the following conditions:
+        <ol>
+          <li>Anonymity</li>
+          <li>Neutrality; All options must be treated equally.</li>
+          <li>Decisiveness; The deciding rule must select a winner, there cannot be a tie.</li>
+          <li>Positive Responsiveness; A increase to the number of votes for the winner should not change the result.</li>
+        </ol>
+      </li>
+    </ul>
+  </li>
+  <li>Voting Games
+    <ul>
+      <li>Majority Rules
+        <ul>
+          <li>Two options are provided for a group to vote for, the majority wins.</li>
+          <li>More options can be arranged in voting pairs of 2 in a round-robin type situation to find a winner.</li>
+        </ul>
+      </li>
+      <li>Condorcet Winner
+        <ul>
+          <li>The winner of the \(n &gt; 2\) majority voting game.</li>
+          <li>Median Voter Theorems
+            <ol>
+              <li>Hotelling’s Principle of Minimal Differentiation
+                <ul>
+                  <li>If there are an odd number of voters, and the policy space is one dimensional (ie. voting options can be arranged in a line) then the median voter will always select the Condorcet winner.</li>
+                </ul>
+              </li>
+              <li>If there are an odd number of voters and a 1D policy space, and single crossing preferences, the preferred option of the median voter will be the Condorcet winner.</li>
+            </ol>
+          </li>
+          <li>Single Crossing Preferences
+            <ul>
+              <li>Single Crossing Preferences mean that if the voting preferences of individuals were graphed with ranking on the y axis and each option on the x axis, a line joining each voters’ preferences would only cross another voters’ line once.</li>
+            </ul>
+          </li>
+          <li>Agenda Manipulation
+            <ul>
+              <li>If there is no clear Condorcet winner, a voting agenda (the order in which pairs matched and voted on) can be arranged to influence the outcome.</li>
+              <li>The agenda setter then has the ability to determine the outcome they prefer, though it could be overcome by strategic voting.</li>
+              <li>This can be overcome by ensuring that every possible binary pair is voted on (rather than knocking out a loser if it loses one vote)</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>Borda Voting
+        <ul>
+          <li>Rules
+            <ul>
+              <li>If there are n options, each voter assigns their first option n votes, their next preference n-1 votes etc. until they are exhausted. The option with the highest score wins.</li>
+            </ul>
+          </li>
+          <li>Arrow’s Violation
+            <ul>
+              <li>This violates the Independence of Irrelevant Alternatives; a new choice could bump an option down and reduce the number of votes it receives enough to change a ranking.</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>Plurality Voting
+        <ul>
+          <li>All options are provided at once, and each voter’s first preference receives one vote. All their other preferences receive zero votes.</li>
+        </ul>
+      </li>
+      <li>Approval Voting
+        <ul>
+          <li>All options are provided at once, and each voter can assign one vote to as many options as they are satisfied with.</li>
+        </ul>
+      </li>
+      <li>Runoff Voting
+        <ul>
+          <li>All options are provided at once. If a majority winner does not arise, the two (or more) best options are kept and are voted on again.</li>
+          <li>This fails the positive responsiveness test (both numbers of votes can increase but if the 2nd ranked option receives more votes in the second round, the rank changes)</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Paradox of Voting
+    <ul>
+      <li>Voting has a specified cost (time and effort) but an uncertain benefit. Given this, why do people opt to vote?
+        <ul>
+          <li>Some places use compulsory voting to address this issue.</li>
+        </ul>
+      </li>
+      <li>Cost Benefit of Voting
+        <ul>
+          <li>The decision to vote is based on the expected payoff to voting.
+            <ul>
+              <li>\(E_i\) is the benefit of party \(i\) winning. Let \(E_1 &gt; E_2\)</li>
+              <li>\(B = E_1 - E_2 &gt; 0\) is the value of party 1 winning.</li>
+              <li>\(P =\) Probability of an individual being the tiebreaking vote.</li>
+              <li>\(P*B =\) The expected benefit of voting.</li>
+              <li>\(c =\) Cost of Voting</li>
+              <li>A citizen will only vote if \(P*B &gt; c\)</li>
+              <li>Given that \(P\) is often extremely small, \(P*B\) is also quite small and seems to rarely exceed \(c\), yet people still vote.</li>
+              <li>Perhaps there is an intangible benefit to voting (joy of participating in democracy, a sausage etc.) that is unaccounted for.</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Political Competition
+    <ul>
+      <li>Political platforms are a set of policies aimed at balance electoral benefit with ideological views.
+        <ul>
+          <li>The more candidates deviate from their views, the lower the utility (for the candidate) of them winning.</li>
+          <li>If the benefit of a candidate winning is greater than the cost of deviating, they will deviate quite a long way (and likely provide the median voter with what they want).</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h1 id="week-5----optimality--comparability">Week 5  - Optimality &amp; Comparability</h1>
+<ul>
+  <li>Implications of the 2nd Theorem of Welfare Economics
+    <ul>
+      <li>Any Pareto Efficient allocation can be decentralised as a competitive equilibrium.</li>
+    </ul>
+  </li>
+  <li>Social Optimality
+    <ul>
+      <li>Pareto Efficiency Benefit
+        <ul>
+          <li>If we can improve an outcome for \(p_1\) without making it worse for anyone else, then we haven’t optimised our resources.</li>
+          <li>By designing a competitive economy we can create this without significant or ongoing intervention beyond initial lump sum transfers.</li>
+        </ul>
+      </li>
+      <li>Selection of Pareto Efficient Allocation
+        <ul>
+          <li>How many PEAs are available?</li>
+          <li>How do we choose which one we want?
+            <ul>
+              <li>Voting?</li>
+              <li>Random/Unamity?</li>
+              <li>Central Planning?</li>
+            </ul>
+          </li>
+          <li>A social planner would aggregate individual consumers’ welfare functions to do this, using a Bergson-Samuelson social welfare function.</li>
+          <li>There are three types of SWF:
+            <ol>
+              <li>Utilitarian; the greatest aggregate social welfare is optimal, regardless of distribution</li>
+              <li>Intermediate; the greatest aggregate social welfare is desirable but should make consideration for Equity</li>
+              <li>Rawlsian; the aggregate social welfare doesn’t matter, only equity (or the welfare of the worst off person) matters</li>
+            </ol>
+          </li>
+          <li>A social planner would then find the highest social welfare indifference curve that is tangent to the utility possibility frontier (the line of possible allocations)</li>
+          <li>We can use Edgeworth boxes to find an initial endowment that is a decentralisation of this outcome.</li>
+          <li>This outcome is efficient and equitable and only requires initial redistribution of endowments.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Lump Sum Taxes
+    <ul>
+      <li>Optimality of Taxes
+        <ul>
+          <li>Costless in theory; no distortion to choices (as they can’t be avoided/reduced by any action) and require no resources to implement.</li>
+          <li>Taxes are optimal when they result in a socially optimal equilibrium.
+            <ul>
+              <li>This requires predicting equilibriums at all income levels, preferences and values of endowments.
+                <ul>
+                  <li>This is a difficult task.</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>Optimal taxes require honest reporting of endowments, or inference from actions that consumers take.
+            <ul>
+              <li>If we use inference, then actions can theoretically change the lump sum tax amount, which invalidates the benefit of LST</li>
+              <li>Honest reporting will only occur when there are incentives to do so</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>Incentive Compatibility
+        <ul>
+          <li>Incentives are correctly correlated to characteristics that do not offer perverse incentives.</li>
+        </ul>
+      </li>
+      <li>Impossibility
+        <ul>
+          <li>If any person has an incentive to not honestly report their endowment, then LSTs are inherently handicapped.</li>
+          <li>Hammond : in a large economy LSTs are always incentive incompatible.</li>
+          <li>So there are no practical implementations of LSTs</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Pareto Efficiency
+    <ul>
+      <li>Allows comparisons of economic states without requiring interpersonal comparisons of utility.</li>
+      <li>Strengths and Weaknesses
+        <ul>
+          <li>Doesn’t require assessment of unique costs or benefits</li>
+          <li>Ignores allocations that may increase welfare overall by making someone worse off</li>
+          <li>Extreme allocations (one person has everything) can be PE but obviously not desirable.</li>
+          <li>PE cannot rank non-PE allocations</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Social Welfare Functions (SWFs)
+    <ul>
+      <li>Avoid the drawbacks of PE</li>
+      <li>Interpretations
+        <ol>
+          <li>A social welfare function captures the views of a dictator, and their interpretation of utility distribution.</li>
+          <li>A social welfare function captures the ethical objectives of society.</li>
+          <li>A social welfare function represents an aggregate of individual preferences
+    - This requires a set of rules of aggregation such as voting.</li>
+        </ol>
+      </li>
+      <li>Limits
+        <ul>
+          <li>As there is no perfect voting system or any system of determining rules, determining a good SWF is difficult.</li>
+          <li>We can only use preferences to rank options, not assess true opinions or strength of feelings.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Interpersonal Comparability
+    <ul>
+      <li>There are two forms of utility; ordinal and cardinal</li>
+      <li>Ordinal vs Cardinal Utility
+        <ul>
+          <li>Ordinal Utility
+            <ul>
+              <li>Merely a ranking, which can be transformed in any way</li>
+              <li>\(U \rightarrow a + bU\) etc.</li>
+            </ul>
+          </li>
+          <li>Cardinal Utility
+            <ul>
+              <li>More measurable, but can only be transformed by constant amounts</li>
+              <li>\(U \rightarrow a + bU\) where \(a,b\) are constants.</li>
+            </ul>
+          </li>
+          <li>Both Ordinal and Cardinal utilties can be incomparable if a different transformation is applied to \(U_1\) and \(U_2\)</li>
+        </ul>
+      </li>
+      <li>Comparability Conditions
+        <ul>
+          <li>Ordinal Utility</li>
+        </ul>
+
+\[U_1 &gt; U_2 \rightarrow fU_1 &gt; fU_2\]
+
+        <ul>
+          <li>This is only preserved when the transformation \(f\) is the same for all consumers’ ordinal utilities.</li>
+          <li>Cardinal utility</li>
+        </ul>
+
+\[\hat{U} = a_i + bU\]
+
+        <ul>
+          <li>Requires that \(b\) is constant for all consumers, but \(a_i\) can differ.</li>
+          <li>Cardinal Unit Comparability
+            <ul>
+              <li>The units are comparable but the levels are not.</li>
+            </ul>
+          </li>
+          <li>Cardinal Full Comparability
+            <ul>
+              <li>Both units and levels are comparable, \(a_i = a\) for all parties.</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h1 id="week-6----midterm---no-content">Week 6  - Midterm - No Content</h1>
+
+<h1 id="week-7----inequality--poverty">Week 7  - Inequality &amp; Poverty</h1>
+<ul>
+  <li>Efficiency vs Equity
+    <ul>
+      <li>Social welfare allows us to address equity.</li>
+      <li>Finding a balance between efficiency and equity is a common frame.</li>
+      <li>Inequality and poverty provide an alternative perspective on distribution from efficiency.</li>
+    </ul>
+  </li>
+  <li>Measuring Income
+    <ul>
+      <li>A requirement for measuring inequality/poverty.</li>
+      <li>Income is a change between \(t=0\) and \(t=1\) (usually one year)</li>
+      <li>We look at choices that can effect future income - if there is uncertainty about the future, forward and backward income assessments will likely differ.</li>
+      <li>Definitions
+        <ul>
+          <li>Simons Definition of Income
+            <ul>
+              <li>The sum of the value of consumption and the change in value of the store of wealth</li>
+              <li>ie. consumption + savings</li>
+            </ul>
+          </li>
+          <li>Hicks Definition of Income
+            <ul>
+              <li>The maximum value which a person can consume during a period without reducing their wealth.</li>
+            </ul>
+          </li>
+          <li>It is important to recognise that income is not specifically defined.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Equivalence Scales
+    <ul>
+      <li>Definitions
+        <ul>
+          <li>Income levels are not the same for all households, given different demographic makeups.</li>
+          <li>To compare households we need an equivalence scale to account for demography.</li>
+        </ul>
+      </li>
+      <li>Minimum Needs Scales
+        <ul>
+          <li>A basic bundle of goods required for households by size.</li>
+        </ul>
+      </li>
+      <li>Engel Scales
+        <ul>
+          <li>Households that spend equivalent proportions of income on food can be compared between demographics.</li>
+        </ul>
+      </li>
+      <li>Adult Good Scales
+        <ul>
+          <li>The effect of children can be accommodated by looking at goods only consumed by adults (alcohol etc.)</li>
+        </ul>
+      </li>
+      <li>Limitations
+        <ul>
+          <li>Minimum needs are defined only for low incomes, and don’t account for social pressures.</li>
+          <li>Engel Scales have a narrow focus - food choices may differ.</li>
+          <li>Demand for adult goods may differ between demographics (cultural forces etc.)</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Inequality Measurement
+    <ul>
+      <li>A single measure that quantifies inequality in a distribution.</li>
+      <li>Issues
+        <ul>
+          <li>Easy to observe, difficult to quantify</li>
+          <li>We may also want to compare inequality between time periods, geographic locations etc.</li>
+        </ul>
+      </li>
+      <li>Methods
+        <ul>
+          <li>There are H households labelled \(h = 1, 2, 3, ... , H\)</li>
+          <li>Incomes are ordered such that \(M_1 \le M_2 \le M_3 \le ... \le M_h\)</li>
+          <li>Mean Income:
+\(M = (1/H) * \sum^H_{h=1}M_H\)</li>
+          <li>An inequality measure gives us a value \(\in [0,1]\) to the distribution \(M_1, M_2, M_3, ... , M_H\)
+            <ul>
+              <li>0 is complete equality</li>
+              <li>1 is complete inequality (one person gets 100% of all income)</li>
+            </ul>
+          </li>
+          <li>Range
+            <ul>
+              <li>Range is the gap between the highest and lowest Incomes</li>
+            </ul>
+
+\[R = (M_H - M_1) / H_M\]
+
+            <ul>
+              <li>Doesn’t tell us anything about the distribution of incomes between the highest and lowest - just the gap.</li>
+            </ul>
+          </li>
+          <li>Relative Mean Deviation
+            <ul>
+              <li>The measure of the difference from the mean income.</li>
+            </ul>
+
+\[D = \sum_H |M - M_h| / (2(H-1)M)\]
+
+            <ul>
+              <li>This does not change even if transfer occur between households on the same side as the mean.</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>Pigou-Dalton Principle
+        <ul>
+          <li>An inequality measure must decrease if there is a transfer of income from a richer household to a poorer one if the rankings stay the same and total income is constant.
+            <ul>
+              <li>Neither C nor D meet this principle.</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <p>Coefficient of Variation</p>
+
+\[C = \sigma / \mu\sqrt{(H-1)}\]
+
+\[\sigma = \sum_h (M{h}-\mu)^2 / H\]
+
+        <ul>
+          <li>The effect of a transfer does not depend on the income levels of the households, just the difference between them.
+            <ul>
+              <li>This means that C can decrease by reducing the difference between poor and poorest for instance.</li>
+            </ul>
+          </li>
+          <li>An argument can be made that transfers should have a larger effect at lower incomes - so the Pigou Dalton condition may not be the only condition required.</li>
+        </ul>
+      </li>
+      <li>Lorenz Curve
+        <ul>
+          <li>A graphical representation of Income Distribution, with population ranked in order of income
+            <ul>
+              <li>The proportion of population is graphed against the proportion of income.</li>
+              <li>A 45 degree line extends from the origin, representing perfect equality.</li>
+              <li>The further the Lorenz curve below the 45 deg line, the greater the inequality in the distribution.</li>
+              <li>If two Lorenz curves cross, they cannot be ranked/compared.</li>
+              <li>Lorenz Curves provide a partial ordering only.</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>GINI Coefficient
+        <ul>
+          <li>Selects the lowest pair of each possible pair of incomes, then averages it.</li>
+        </ul>
+      </li>
+    </ul>
+
+\[G = 1 - ( 1 / (H^2\mu)) \sum_i\sum_j \min\{m_i,m_j\}\]
+
+    <ul>
+      <li>Atkinson’s Theorem
+        <ul>
+          <li>Consider two distributions with the same mean.
+            <ul>
+              <li>If the Lorenz Curves for these distributions do not cross, every symmetric and concave social welfare function will assign a higher level of welfare to the distribution whose Lorenz curve is closest to the 45deg line.</li>
+            </ul>
+          </li>
+          <li>ie. Symmetry and Concavity of a Social Welfare Function implies that transfers from rich to poor improve social welfare.</li>
+          <li>The converse of this is that if two LC’s cross, there are two different SWFs that rank them differently.
+            <ul>
+              <li>Hence LCs provide the most complete ranking without defining the social welfare function.</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>GINI Indifference Curves (GINI IC)
+        <ul>
+          <li>Redistribution of incomes leaves GINI unchanged if \([(2H-1)M_1 + M_2 + M_3 + ... + M_H]\) is constant</li>
+          <li>For \(n = 2\), this reduces to \(= 3M_1 + M_2\)</li>
+          <li>This provides a kinked indifference curve, with the 45deg line from the origin passing through each kink.</li>
+        </ul>
+      </li>
+      <li>All statistical measures of inequality embody implicit assumptions about welfare, but these may not be ideal.
+        <ul>
+          <li>Alternatively, we can begin with a SWF and construct the implied inequality measure, making them explicit.</li>
+        </ul>
+      </li>
+      <li>Social Welfare Functions (SWFs)
+        <ul>
+          <li>Utilitarian SWF
+  \(W = \sum{h} U(M^h)\)
+            <ul>
+              <li>\(U'(M) &gt; 0\) and \(U''(M) &lt; 0\)
+                <ul>
+                  <li>ie. Utility increases at a decreasing rate.</li>
+                </ul>
+              </li>
+              <li>Equally distributed income \(M_{EDE}\):
+\(\sum{h} U(M^h) = H * U(M_{EDE})\)</li>
+              <li>The Atkinson Measure of inequality is given by:
+\(A = (1 - M_{EDE}) / \mu\)</li>
+              <li>This is dependent on the utility function used.</li>
+              <li>The Application of the Atkinson measure typically assumes
+                <ul>
+                  <li>\(U(M) = M^(1-\epsilon) / (1 - \epsilon)\) for any \(\epsilon =/= 1\)</li>
+                  <li>\(U(M) = log(M)\) for \(\epsilon = 1\)</li>
+                  <li>As \(\epsilon \rightarrow 1\), the greater the social concern for equity and the social welfare function becomes more concave.</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Poverty
+    <ul>
+      <li>Definitions
+        <ul>
+          <li>Relative vs Absolute
+            <ul>
+              <li>Absolute: Fixed minimum level of consumption, below which is ‘poverty’</li>
+              <li>Relative: Level of consumption in context of wider society</li>
+            </ul>
+          </li>
+          <li>Poverty Line: Delineation of poverty Definition
+            <ul>
+              <li>Can be defined relatively or absolutely.</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>Measures
+        <ul>
+          <li>Let the poverty line \(= z\)</li>
+          <li>Income Gap for Household h: \(g_h = z - M_h\)</li>
+          <li>Number of households in poverty is \(q\)</li>
+          <li>Headcount Ratio: \(E = q / H\)
+            <ul>
+              <li>Proportion of total households below poverty line</li>
+              <li>Quick and easy measure, not particularly useful.</li>
+            </ul>
+          </li>
+          <li>Aggregate Poverty Gap: \(V = \sum^q_{h=1} g_h\)
+            <ul>
+              <li>Sum of income gaps of households in poverty.</li>
+              <li>Gives the total income required to ‘end’ poverty, though not how it is distributed.</li>
+              <li>Not sensitive to number of people in poverty - a small number of people in extreme poverty could give a similar APG to many people slightly below the poverty line.</li>
+            </ul>
+          </li>
+          <li>Income Gap Ratio: \(I = (1/z) * \sum^q_{h=1} g_h/q , I \in [0,1]\)</li>
+        </ul>
+      </li>
+      <li>Poverty Measure Criteria
+        <ul>
+          <li>Should not be affected by transfers between households above the poverty line.</li>
+          <li>Should increase if the people below PL become worse off</li>
+          <li>Should be anonymous</li>
+          <li>Should rise after a regressive transfer.</li>
+          <li>More weight should be given to the poorest</li>
+          <li>It should reduce to the headcount ratio if all incomes below the poverty line are equal</li>
+        </ul>
+      </li>
+      <li>Sen Measure: \(S = E * [I + (1 - I)G_p(q/(q+1))]\)
+        <ul>
+          <li>\(G_p =\) GINI Coefficient of houses below PL</li>
+          <li>\(q =\) Number of people below PL</li>
+          <li>\(I =\) income shortfall</li>
+          <li>\(E =\) Headcount ratio</li>
+        </ul>
+      </li>
+      <li>Subgroup Consistency
+        <ul>
+          <li>Measures if an increase in poverty to a subgroup causes an aggregate increase in poverty.</li>
+          <li>Let population have 𝜞 subgroups</li>
+        </ul>
+
+\[P_\alpha = (1/H) * \sum^𝜞_{\lambda=1} \sum^{q^\lambda}_{h=1} ( g^\lambda_h / z)^\alpha\]
+
+        <ul>
+          <li>\(\alpha =\) sensitivity to transfers.
+\(\alpha = 0 \rightarrow P_\alpha = E\)
+\(\alpha = 1 \rightarrow P_\alpha = E*I\)
+\(\alpha &gt; 1 \rightarrow P_\alpha\) is sensitive to transfers</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h1 id="week-8----midterm-review---no-content">Week 8  - Midterm Review - No Content</h1>
+
+<h1 id="week-9----public-goods">Week 9  - Public Goods</h1>
+<ul>
+  <li>Definitions
+    <ul>
+      <li>Rivalrous: A good that the use of precludes the use by another.
+        <ul>
+          <li>Land</li>
+        </ul>
+      </li>
+      <li>Excludable: A good that the use of can be controlled or limited.
+        <ul>
+          <li>Entry to a gym</li>
+        </ul>
+      </li>
+      <li>Combinations:</li>
+    </ul>
+
+    <table>
+      <thead>
+        <tr>
+          <th> </th>
+          <th>Rivalrous</th>
+          <th>Non Rivalrous</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Excludable</td>
+          <td>Private Goods</td>
+          <td>Club Goods</td>
+        </tr>
+        <tr>
+          <td>Non Excludable</td>
+          <td>Common Property Resources</td>
+          <td>Public Goods</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <ul>
+      <li>Private Goods
+        <ul>
+          <li>Normal consumer products</li>
+        </ul>
+      </li>
+      <li>Club Goods
+        <ul>
+          <li>Goods like gyms, clubs, etc. (Sometimes club goods do have rivalrous parts bout them - a specific machine at a gym etc.)</li>
+        </ul>
+      </li>
+      <li>Common Property Resources
+        <ul>
+          <li>Goods like public grazing land, fish stocks, etc.</li>
+        </ul>
+      </li>
+      <li>Public Goods
+        <ul>
+          <li>Services such as radio broadcasts, national defence etc.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Edge Cases
+    <ul>
+      <li>CGs and CPRs are ‘impure public goods’</li>
+    </ul>
+  </li>
+  <li>Free Rider Problem
+    <ul>
+      <li>The characteristics of a Public Good are such that those who don’t contribute to hem get more net utility than those who do, as both can get equal use of them.</li>
+      <li>This leads to an undersupply of the public good and an aggregate utility loss.</li>
+    </ul>
+  </li>
+  <li>Private Provision
+    <ul>
+      <li>Setup:
+        <ul>
+          <li>Consider a market with a private and a public good. The decision of how much to consume of each is a strategic interaction, and uses Game Theory to resolve.</li>
+          <li>Pareto improvements can be made by ensuring all consumers contribute more to the public good quantity than what they demand.</li>
+          <li>This requires us to use the sums of the Marginal Rates of Substitution.</li>
+        </ul>
+      </li>
+      <li>Samuelson Rule
+        <ul>
+          <li>The \(\sum MRS = MRT\); The Marginal Rate of Transformation between the private and public good.</li>
+          <li>MRS measures the marginal benefit to a consumer of consuming another private good.</li>
+          <li>MRT measures the marginal cost of consuming another unit.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Voting
+    <ul>
+      <li>Issues
+        <ul>
+          <li>Public Good Provision is determined by voting in most developed states.</li>
+          <li>Parties propose provisions of goods and voters choose their favoured bundle.</li>
+          <li>Does voting attain efficiency?</li>
+        </ul>
+      </li>
+      <li>Model
+        <ul>
+          <li>Population: \(H\) voters</li>
+          <li>Cost of public good is shared equally between all H</li>
+          <li>Consumer \(h\) has income \(M(h)\)</li>
+          <li>Utility is given: \(U[x(h), G] = U[M(h)-(G/H), G]\)</li>
+          <li>Consumers vote for their utility maximising level of \(G\)</li>
+          <li>Each voter has their own Indifference Curve for the public good \(G\), determined y the income level.</li>
+          <li>
+            <p>If \(H\) is odd, the median voter m will determine the level of \(G\) supplied.</p>
+
+\[\max\{G\} (U(M(m)-(G/H)), G)\]
+
+            <ul>
+              <li>The necessary condition can be written: \(MRS(m) = 1/H\)</li>
+              <li>Therefore voting efficiency is achieved if \(MRS_m = \sum^H_{h=1} MRS_h/H\)</li>
+            </ul>
+          </li>
+          <li>However, this doesn’t really work out in practice.</li>
+          <li>Income distributions tend to have a long right hand tail, as the median income s below the mean.</li>
+          <li>Thus the median MRS will exceed the efficient level if incomes are not normally distributed.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Personalised Prices
+    <ul>
+      <li>Case for
+        <ul>
+          <li>Personalised prices help us achieve an efficient distribution of public goods.</li>
+          <li>While private goods have varying quantities and constant prices, public goods an have the same quantity (equal distribution) but varying prices to ensure hat quantity is received by people will all endowments.</li>
+        </ul>
+      </li>
+      <li>Lindhol Mechanism
+        <ul>
+          <li>A method of implemented personalised prices.</li>
+          <li>Asks users to declare their demand of a public good as a function of the share.</li>
+          <li>Shares are adjusted until all consumers demand the same quantity.</li>
+          <li>If users are honest, this will provide an efficient equilibrium.</li>
+        </ul>
+      </li>
+      <li>Limitations
+        <ul>
+          <li>The practicality of gathering the required data</li>
+          <li>The mechanism is not incentive compatible. The incentive is to lie and get a better deal.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Mechanism Design
+    <ul>
+      <li>How can we find an allocation mechanism that doesn’t encourage free riding?
+        <ul>
+          <li>Do we encourage understatement of demand? This might result in under provision which is also a welfare loss from the optimal allocation.</li>
+          <li>Do we use a fixed income provision for public goods?</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h1 id="week-10---income-tax">Week 10 - Income Tax</h1>
+<ul>
+  <li>Equity and Efficiency
+    <ul>
+      <li>Taxation is a key source of government revenue. Income taxes are a major portion of tax revenue.</li>
+      <li>Income taxes are easy to observe (relative to other options) and are thus useful for redistribution.</li>
+      <li>However, income taxes discentivise labour, reducing labour supply and creating inefficiencies.</li>
+      <li>Ideally, an income tax would strike a balance between equity and efficiency</li>
+    </ul>
+  </li>
+  <li>Labour Supply
+    <ul>
+      <li>About:
+        <ul>
+          <li>Can be investigated using a standard consumer choice model, with income and substitution effects.</li>
+          <li>Income taxes effect the budget constraint of a worker and their willingness to supply labour.</li>
+        </ul>
+      </li>
+      <li>Preferences
+        <ul>
+          <li>
+            <p>Utility:</p>
+
+\[U = U(x, L - l) = U(x, l)\]
+
+            <ul>
+              <li>\(x =\) Income</li>
+              <li>\(L =\) Total Time (‘Budget’)</li>
+              <li>\(l =\) Labour Time</li>
+              <li>\(L - l =\) Leisure Time</li>
+            </ul>
+          </li>
+          <li>Labour is a negative good (ie. utility decrease with respect to quantity supplied)</li>
+          <li>An hour of labour earns a wage \(w\)</li>
+          <li>For tax rate t, the budget constraint is \(px = (1-t)wl\)</li>
+          <li>Preferences can also be written in terms of income.</li>
+          <li>Let \(z = wl\) (Income before taxes are taken out)</li>
+          <li>\(U = U(x, z/w)\) (given \(z/w = l\))</li>
+          <li>Budget Constraint \(BC = px (1-t)z\)</li>
+        </ul>
+      </li>
+      <li>Substitution Effect
+        <ul>
+          <li>As wages rise, possible consumption rises. Workers will substitute leisure for more labour, allowing them to consume more (at the expense of leisure).</li>
+          <li>This causes a move along the Indifference Curve</li>
+          <li>This effect works in reverse for a tax increase, which is effectively a wage decrease. Workers will work less and opt for more leisure.</li>
+        </ul>
+      </li>
+      <li>Income Effect
+        <ul>
+          <li>As wages rise, income rises. The amount of labour required to achieve their original consumption level has decreased.</li>
+          <li>This effect may either reduce the level of labour supplied (earn the same income (therefore utility) for less labour) or increase the level (earn more per hour worked, the incentive to supply more labour is greater).</li>
+          <li>This causes a shift of the Budget Constraint away from the origin (to a new Indifference Curve)</li>
+          <li>This effect works in reverse for a tax increase, which is effectively a wage decrease. The amount of labour required to achieve their original consumption level has increased (increasing labour supply), but the tradeoff between leisure and consumption is now different, and the worker may opt to relax instead of consume.</li>
+        </ul>
+      </li>
+      <li>Tax Brackets
+        <ul>
+          <li>Tax brackets create kinks in the leisure/consumption tradeoff. The point at which the tax bracket changes is an apex and contains the ‘corner solution’.</li>
+          <li>Points not at the kink are ‘interior solutions’.</li>
+          <li>A consumer at a corner solution may be unaffected by taxation level changes, as long as the tax bracket remains steady.</li>
+        </ul>
+      </li>
+      <li>Hours Worked
+        <ul>
+          <li>Not all jobs offer totally flexible hours.</li>
+          <li>A job that has a minimum hour requirement will create a Budget Constraint for which the level of consumption for &lt;20 hours worked is always 0.</li>
+          <li>Wage changes can push people in or out of work given hour requirements. If a job requires 20 hours but a consumer would only work 18 at the wage level, they will choose to not work that job.</li>
+        </ul>
+      </li>
+      <li>Key Points
+        <ul>
+          <li>Tax changes create income and substitution effects</li>
+          <li>Marginal tax brackets create corner cases, where tax level changes don’t affect worker decisions.</li>
+          <li>Taxes can affect the decision to enter or leave the workforce</li>
+          <li>These changes are often hard to measure or attribute correctly, given the nature of labour. Unemployment benefits, unions, power imbalances, alternative income (or lack thereof) can also affect the labour supply decision.</li>
+          <li>Generally participation rates are insensitive to taxes, but elasticity of labour supply differs between demographic groups.
+            <ul>
+              <li>Single parents are more sensitive to wage changes as their opportunity cost is time spent with their child/paying for childcare.</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Optimal Income Taxes
+    <ul>
+      <li>Achieves a balance of labour market efficiency and social equity, given the assumption that incomes are not equally distributed.</li>
+      <li>Mirlees Model of Income Taxation
+        <ul>
+          <li>All workers have identical preferences, but different skill levels (which determines wage levels)</li>
+          <li>Skill cannot be observed by governments in a cost effective way - thus wages are an indicator for skill level.</li>
+          <li>The government is subject to two conditions:
+            <ol>
+              <li>Governments must fund expenditures using tax revenues</li>
+              <li>Governments must choose a taxation structure that is incentive compatible; that is, the should incentivise the ideal level of labour supply as much as possible.</li>
+            </ol>
+          </li>
+          <li>Model
+            <ul>
+              <li>A consumer of skill level s will supply l hours of labour, and will earn an income \(z(s) = sl\)</li>
+              <li>Tax paid is given by \(T(z)\)</li>
+              <li>Consumption is given by \(x(s) = C[z(s)] = z(s) - T(z)\)
+                <ul>
+                  <li>When \(T(z) = 0\), the Budget Constraint is at a 45deg angle. For any greater \(T(z)\), the level of consumption will be less than the level of consumption and will have a gradient \(= 1 - T(z)\), which will be less than 45deg (but will still intersect the original line at the horizontal)</li>
+                </ul>
+              </li>
+              <li>Preferences are assumed to satisfy the Agent Monotocity condition; the indifference curve will be steeper for a lower skill consumer at any point on this graph.</li>
+              <li>Marginal Tax Rates should be always be positive - but not peaked (decreasing as income increases at any point) or greater than 100% (which totally disincentives labour supply).</li>
+              <li>The marginal tax rate on the highest skill consumer should in theory be 0% - this allows the maximum utility for that consumer but does not reduce the tax revenue received by the government. This applies only to the highest skill worker.</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Numerical Analysis
+    <ul>
+      <li>To analyse the optimal level of income tax, a social welfare function should be applied.</li>
+    </ul>
+  </li>
+  <li>Specialisation
+    <ul>
+      <li>About:
+        <ul>
+          <li>There are two specialisations of the general model that provide additional insight</li>
+        </ul>
+      </li>
+      <li>Quasi-Linear Models
+        <ul>
+          <li>QL Models restrict the form of the individual utility function, which becomes:
+  \(U = u(x) - z/s\)</li>
+        </ul>
+      </li>
+      <li>Rawlsian Taxation
+        <ul>
+          <li>Rawlsian taxation adopts a specific social welfare function, evaluated by the minimum utility:
+  \(W = \min{U}\)</li>
+          <li>This aims to maximise the utility of the worst of consumer.</li>
+          <li>If tax revenue is redistributed as a lump sum grant, then the optimal RT maximises this grant.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h1 id="week-11---tax-evasion">Week 11 - Tax Evasion</h1>
+<ul>
+  <li>Definition
+    <ul>
+      <li>The illegal failure to pay tax - NOT the avoidance or minimisation of tax via legal processes.
+        <ul>
+          <li>This line is essentially subjective</li>
+        </ul>
+      </li>
+      <li>An important consideration for tax policy - how can taxes be structured to minimise evasion (and also avoidance).</li>
+    </ul>
+  </li>
+  <li>Hidden Economy
+    <ul>
+      <li>Definition
+        <ul>
+          <li>Comprises economic activity which is not measured by traditional means.</li>
+          <li>Can include payment for illegal goods and services, ‘under the table’ or ‘cash in hand’ payments, or simply activities that produce something that aren’t traditionally recorded, such as growing your own food.</li>
+        </ul>
+      </li>
+      <li>Observation
+        <ul>
+          <li>There are roundabout ways of measuring hidden economic activity.</li>
+          <li>Comparing national income to national expenditure.</li>
+          <li>Measuring demand for cash</li>
+          <li>Measuring necessary inputs into hidden economic activity (electricity etc.)</li>
+          <li>These are broadly quite accurate but not very granular.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>The Evasion Decision
+    <ul>
+      <li>Essentially a risk v reward decision.</li>
+      <li>Model:
+        <ul>
+          <li>\(Y =\) Income</li>
+          <li>\(X =\) Declared income, \(X \le Y\)</li>
+          <li>\(t =\) Tax Rate</li>
+          <li>\(F =\) Fine Rate - usually levied as a proportion of the evaded tax, given \(Ft(Y-X)\)</li>
+          <li>Successful Evasion   \(= Y - tX\)</li>
+          <li>Unsuccessful Evasion \(= (1-t)Y - Ft(Y-X)\)</li>
+          <li>Probability of being caught \(= P\)</li>
+          <li>Utility Function:</li>
+        </ul>
+
+\[E(U(X)) = [1-p] * [U(Successful Evasion)] + p * [U(Unsuccessful Evasion)]\]
+
+        <ul>
+          <li>To find the utility maximising income declaration, maximise \(E(U(X))\). This income will be: \(0 \le X \le Y\)</li>
+          <li>If \(p &lt; 1/(1+F)\), evasion will occur
+            <ul>
+              <li>Notice this is independent of income level (hence the proportional fine vs a flat fine)</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Auditing &amp; Punishment
+    <ul>
+      <li>The resources dedicated to catching tax avoidance is a policy decision set by governments. Therefore, probability \(p\) is set by the government.</li>
+      <li>Governments also control the fine rate.</li>
+      <li>Government revenue also depends upon these rates:
+\(R = tX + p(1+F)t(Y-X)\)</li>
+      <li>If \(pF &lt; 1 - p\), increasing either \(p\) or \(F\) will increase revenue.</li>
+      <li>Increasing the probability of catching tax evasion is costly - it requires more bureaucracy and oversight. Increasing the fine is almost costless and so is a more efficient choice.</li>
+      <li>Large, infrequent fines are not particularly conducive to increasing welfare however, so some level of observation is required to not create a net decrease</li>
+      <li>Punishments may also be set by a separate branch of the government to the oversight - requiring coordination between branches (and potentially levels).</li>
+      <li>The economics of crime views tax evasion as any other crime. The punishment should be tailored to the harm caused by the crime - suggesting again that a large fine, infrequently issued is not a productive response to evasion.</li>
+    </ul>
+  </li>
+  <li>Effect of Honesty
+    <ul>
+      <li>There is an assumed psychological cost to being dishonest:
+\(U = U(Y) - xE\)
+        <ul>
+          <li>where \(E\) is the psychological cost</li>
+        </ul>
+      </li>
+      <li>Thus the gains of tax evasion must be greater than this psychological cost.</li>
+      <li>What is the Nash Equilibrium of this scenario?
+        <ul>
+          <li>Mixed Strategy
+            <ul>
+              <li>Pr(Audit by Government) \(= e* = C/(T+F)\)</li>
+              <li>Pr(Evasion by Taxpayer) \(= p* = T/(T+F)\)</li>
+              <li>\(C =\) Cost of Audit</li>
+              <li>\(T =\) Taxed Amount</li>
+              <li>\(F =\) Fine Amount</li>
+            </ul>
+          </li>
+          <li>Utility Functions</li>
+        </ul>
+
+\[U(Taxpayer)   = Y - T\]
+
+\[U(Government) = T - [C/(T+F)]*T\]
+
+        <ul>
+          <li>Deadweight Loss of an Audit \(= [C/(T+F)]*T\)</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h1 id="week-12---fiscal-federalism">Week 12 - Fiscal Federalism</h1>
+<ul>
+  <li>Definition
+    <ul>
+      <li>Generally, there are multiple levels of governance in every state. Fiscal Federalism addresses the decision to divide the revenue collection and expenditure between these levels.</li>
+      <li>The top level of government (federal) usually decides how these roles are allocated, but super-national organisations such as the EU represent looming complexities to this issue</li>
+    </ul>
+  </li>
+  <li>Allocation of Responsibility
+    <ul>
+      <li>Technically, allocation is largely arbitrary as long as the correct allocation of taxes/spending is allocated. In reality, some levels of government are better suited to make these decisions.</li>
+      <li>There are also political limitations - it may be easier to get support for a new tax or spending initiative at a lower level where there are fewer people to convince.</li>
+      <li>Tiebout Hypothesis: Individuals will self-organise themselves into communities with roughly aligned preferences. In reality there are limits to the ability to do this (access to work, social connections, affordability etc.).</li>
+      <li>Government design is a tradeoff between benefits and costs - more levels requires more bureaucracy per capita, fewer levels means greater areas to administer. Finding the correct balance is not always straightforward. If a level of government improves efficiency or equity, then it enhances the overall government.</li>
+    </ul>
+  </li>
+  <li>Uniform Provision
+    <ul>
+      <li>UP is efficient if preferences are homogenous. Across large states, this becomes less likely to be true (both due to the sheer number, and to geographic/cultural differences)</li>
+      <li>In regions with heterogenous preferences, a balance must be struck between the various preferences.</li>
+      <li>UP implies a welfare loss compared to differentiated provision (in the same way tiered pricing is more effective at maximising profit than single pricing)</li>
+      <li>However, there are costs to DP - so DP is only more efficient if UP &gt; DP + Cost of Differentiation</li>
+    </ul>
+  </li>
+  <li>Differentiation
+    <ul>
+      <li>Can be used to allocate resources based on geographic preferences. If each region is an independent provider of public goods, it is more likely for that region to provide a level of each good that reduces welfare loss compared to a single uniform provision.</li>
+      <li>In the long run, if a consumer is unhappy with the allocation of public goods, they can in theory relocate to a community with an allocation to matches their preferences better.</li>
+      <li>Regions also have different resource endowments and therefore different regional incomes, requiring some reallocation of endowments between regions.</li>
+      <li>However, reallocation of endowments should not occur due to preferences of outcomes - just to balance regional inequalities of endowments.</li>
+    </ul>
+  </li>
+  <li>Centralisation
+    <ul>
+      <li>Definitions
+        <ul>
+          <li>Each public good has a level at which it is most effectively organised and distributed.</li>
+          <li>If there were no costs of governments, then we would have as many levels of government as required to get the most effective provision of public goods. However, there are costs of governments, and therefore a compromise must be made.</li>
+          <li>Public goods can be centralised or decentralised</li>
+        </ul>
+      </li>
+      <li>Model
+        <ul>
+          <li>A centralised good has \(n = 1\) provision.</li>
+        </ul>
+
+\[U(centralised) = 1 - \alpha |(1/2) - i| - C\]
+
+        <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>- $$\alpha =$$ - cost of centralisation
+- $$i =$$ 'location' - ie. the distance from the provision of individual i
+- $$C =$$ cost of good provision   - A decentralised good has n &gt; 1 provisions, usually by subsidiary governments to the top level government.
+- $$U(decentralised)$$, 1 of 2 provisions $$= 1 - \alpha |(1/4) - i| - 2C   where i \in [0, 1/2]$$
+- $$U(decentralised)$$, 2 of 2 provisions $$= 1 - \alpha |(3/4) - i| - 2C   where i \in [1/2, 1]$$   - If $$C \le$$ the cost of centralisation (ie. the welfare loss) then decentralisation is optimal.
+- For centralised provision: the average value of $$|(1/2) - i|$$ will be $$1/4$$
+- For decentralised provision: the average value of $$|(1/4) - i|$$ will be $$1/8$$
+- Therefore if $$C \le \alpha[(1/4) - (1/8)]$$, decentralisation is optimal
+</code></pre></div>        </div>
+      </li>
+      <li>Issues
+        <ul>
+          <li>Median Voter Theory suggests that the median voter will vote for decentralisation when \(C \le \alpha(1/4)\), which will lead to excessive decentralisation.</li>
+        </ul>
+      </li>
+      <li>Arguments for decentralisation are:
+        <ol>
+          <li>Local Information</li>
+          <li>Less Political Pressure</li>
+          <li>Matching of Provision to Preferences</li>
+        </ol>
+      </li>
+      <li>Arguments for centralisation are:
+        <ol>
+          <li>Insurance against regional shocks</li>
+          <li>Opportunity for redistribution between regions</li>
+        </ol>
+      </li>
+    </ul>
+  </li>
+  <li>Accountability
+    <ul>
+      <li>Centralisation may make it harder to hold decision makers accountable.</li>
+      <li>Decentralisation means politicians have less power and there are often duplications of provision, allowing for comparison between regions within a state.</li>
+      <li>However voters can’t always observe politicians in either system, so decentralisation is not a catchall fix.</li>
+      <li>Also, voters may observe poor provision and blame a politician, when there may be other exogenous factors impacting provision (say, a natural disaster etc.)</li>
+    </ul>
+  </li>
+  <li>Risk Decentralisation
+    <ul>
+      <li>Decentralised provision can hedge against adverse shocks by spreading provision out (same way portfolio diversity spreads risk).</li>
+      <li>However if a region is inherently subject to more adverse shocks, then they will require constant subsidisation. This is not insurance but redistribution.</li>
+      <li>Risk decentralisation is only applicable when risks are approximately even between regions.</li>
+    </ul>
+  </li>
+  <li>Budget Constraints
+    <ul>
+      <li>Budget constraints of lower governments are usually set (or at least the responsibility of) the tier above.</li>
+      <li>Thus there is something of a moral hazard - a lower tier government without a ‘hard’ or strict budget constraint are incentivised to overspend (and provide more public goods, satisfying their constituents) knowing that they would be bailed out by the higher tier of government.</li>
+      <li>Thus, strict budget constraints are important for governments below the top tier.</li>
+    </ul>
+  </li>
+</ul>
+:ET

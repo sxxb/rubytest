@@ -179,6 +179,24 @@ body > main .file h3 { font-size: 1.5rem; font-family: "Barlow Semi Condensed", 
 
 body > main .file p { font-family: "Barlow", sans-serif; margin-bottom: 2em; line-height: 1.6em; }
 
+body > main .file > ul { margin-bottom: 2rem; }
+
+body > main .file ul li { list-style-type: disc; list-style-position: outside; }
+
+body > main .file ul li ul { padding-left: 2rem; }
+
+body > main .file ul li ul li { list-style-type: circle; }
+
+body > main .file ul li ul li ul li { list-style-type: square; }
+
+body > main .file ol { padding-left: 2rem; }
+
+body > main .file ol li { list-style-type: lower-roman; list-style-position: outside; }
+
+body > main .file table { margin: 0 auto 1rem; }
+
+body > main .file th, body > main .file td { border: 1px solid #aaa; padding: 0.5rem; font-size: 0.75rem; }
+
 body > main .theme-colour-background { background: #ff2b35; fill: #ff2b35; }
 
 body > main .zzz-1, body > main .zzz-2, body > main .zzz-3 { animation: snooze 12s ease-out infinite; position: relative; transform-origin: top right; opacity: 0; }
