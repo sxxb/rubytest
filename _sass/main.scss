@@ -54,6 +54,9 @@ $transition: 0.2s ease;
 
 html {
   font-size: 100%;
+  @media only screen and (min-width:1200px) {
+    font-size:125%;
+  }
   font-family: $body-font;
   -webkit-text-size-adjust: 100%;
   line-height: 1.6em;
@@ -119,7 +122,7 @@ body {
       margin:3rem auto;
       svg {
         width:100%;
-        max-width:30rem;
+        max-width:20rem;
         margin:0 auto 1rem;
         display:flex;
       }
@@ -358,7 +361,16 @@ body {
           }
         }
       }
-    .about {}
+    .about {
+      a, a:visited {
+        color:$theme-colour;
+        text-decoration:none;
+        border-bottom:1px solid rgba($theme-colour, 0);
+        &:hover {
+          border-bottom:1px solid rgba($theme-colour, 1);
+        }
+      }
+    }
     .essay {
 
       h1 {
@@ -420,11 +432,12 @@ body {
         }
       }
       .references {
-        a {
-          text-decoration: none;
+        a, a:visited {
           color:$theme-colour;
+          text-decoration:none;
+          border-bottom:1px solid rgba($theme-colour, 0);
           &:hover {
-            text-decoration:underline;
+            border-bottom:1px solid rgba($theme-colour, 1);
           }
         }
       }
@@ -436,6 +449,14 @@ body {
       }
       p {
         margin-bottom:1rem;
+      }
+      a, a:visited {
+        color:$theme-colour;
+        text-decoration:none;
+        border-bottom:1px solid rgba($theme-colour, 0);
+        &:hover {
+          border-bottom:1px solid rgba($theme-colour, 1);
+        }
       }
       .post-byline {
         text-align:center;
@@ -470,6 +491,14 @@ body {
         font-family: $body-font;
         margin-bottom:2em;
         line-height:1.6em;
+      }
+      a, a:visited {
+        color:$theme-colour;
+        text-decoration:none;
+        border-bottom:1px solid rgba($theme-colour, 0);
+        &:hover {
+          border-bottom:1px solid rgba($theme-colour, 1);
+        }
       }
       > ul {
         margin-bottom:2rem;
@@ -562,13 +591,14 @@ body {
         background-image: url(../img/icons/sxb.svg)
       }
       }
-
-      //add media query for text going right on large screen
       }
   }
 }
 
 @media print {
+  html {
+    font-size:80%;
+  }
   .screen-only {
     display: none;
   }

@@ -25,6 +25,8 @@
 
 html { font-size: 100%; font-family: "Barlow", sans-serif; -webkit-text-size-adjust: 100%; line-height: 1.6em; }
 
+@media only screen and (min-width: 1200px) { html { font-size: 125%; } }
+
 body { background: white; z-index: 10; }
 
 body > header { font-family: "Barlow Semi Condensed", sans-serif; background: white; display: flex; align-items: center; max-width: 1200px; margin: auto; padding: 0.5rem; height: 40px; font-size: 0.85rem; position: relative; }
@@ -47,7 +49,7 @@ body > main h1 { margin-bottom: 1em; font-family: "Barlow Semi Condensed", sans-
 
 body > main > div { width: 90%; max-width: 40rem; margin: auto; margin: 3rem auto; }
 
-body > main > div svg { width: 100%; max-width: 30rem; margin: 0 auto 1rem; display: flex; }
+body > main > div svg { width: 100%; max-width: 20rem; margin: 0 auto 1rem; display: flex; }
 
 body > main .blog a { color: #333; text-decoration: none; }
 
@@ -137,6 +139,10 @@ body > main .cv main > div { margin-bottom: 3rem; }
 
 @media print { body > main .cv .screenOnly { display: none; } body > main .cv *, body > main .cv *::before { color: #333 !important; } body > main .cv html { font-size: 10pt; } body > main .cv *, body > main .cv *:before, body > main .cv *:after { border: none !important; font-family: sans-serif !important; background: none !important; text-shadow: none !important; box-shadow: none !important; } }
 
+body > main .about a, body > main .about a:visited { color: #ff2b35; text-decoration: none; border-bottom: 1px solid rgba(255, 43, 53, 0); }
+
+body > main .about a:hover, body > main .about a:visited:hover { border-bottom: 1px solid #ff2b35; }
+
 body > main .essay h1 { margin-bottom: 1rem; }
 
 body > main .essay .essay-byline { text-align: center; font-family: "Barlow Semi Condensed", sans-serif; color: #888; }
@@ -157,13 +163,17 @@ body > main .essay sup:after { content: attr(data-tooltip); position: absolute; 
 
 body > main .essay sup:hover:after { animation: fadeIn 0.2s ease-in; animation-iteration-count: 1; display: block; }
 
-body > main .essay .references a { text-decoration: none; color: #ff2b35; }
+body > main .essay .references a, body > main .essay .references a:visited { color: #ff2b35; text-decoration: none; border-bottom: 1px solid rgba(255, 43, 53, 0); }
 
-body > main .essay .references a:hover { text-decoration: underline; }
+body > main .essay .references a:hover, body > main .essay .references a:visited:hover { border-bottom: 1px solid #ff2b35; }
 
 body > main .post h1 { margin-bottom: 1rem; }
 
 body > main .post p { margin-bottom: 1rem; }
+
+body > main .post a, body > main .post a:visited { color: #ff2b35; text-decoration: none; border-bottom: 1px solid rgba(255, 43, 53, 0); }
+
+body > main .post a:hover, body > main .post a:visited:hover { border-bottom: 1px solid #ff2b35; }
 
 body > main .post .post-byline { text-align: center; color: #888; font-family: "Barlow Semi Condensed", sans-serif; margin-bottom: 2rem; }
 
@@ -178,6 +188,10 @@ body > main .file h2 { font-size: 1.5rem; font-family: "Barlow Semi Condensed", 
 body > main .file h3 { font-size: 1.5rem; font-family: "Barlow Semi Condensed", sans-serif; margin: 1rem 0; }
 
 body > main .file p { font-family: "Barlow", sans-serif; margin-bottom: 2em; line-height: 1.6em; }
+
+body > main .file a, body > main .file a:visited { color: #ff2b35; text-decoration: none; border-bottom: 1px solid rgba(255, 43, 53, 0); }
+
+body > main .file a:hover, body > main .file a:visited:hover { border-bottom: 1px solid #ff2b35; }
 
 body > main .file > ul { margin-bottom: 2rem; }
 
@@ -223,6 +237,6 @@ body > footer .contact .icon.twitter { background-image: url(../img/icons/twitte
 
 body > footer .contact .icon.sxb { background-image: url(../img/icons/sxb.svg); }
 
-@media print { .screen-only { display: none; } }
+@media print { html { font-size: 80%; } .screen-only { display: none; } }
 
 /*# sourceMappingURL=style.css.map */
