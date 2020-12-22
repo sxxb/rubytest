@@ -177,7 +177,7 @@ body > main .post a:hover, body > main .post a:visited:hover { border-bottom: 1p
 
 body > main .post .post-byline { text-align: center; color: #888; font-family: "Barlow Semi Condensed", sans-serif; margin-bottom: 2rem; }
 
-body > main .post .post-body { font-family: "Lora", Georgia, serif; }
+body > main .post .post-body { font-family: "Lora", Georgia, serif; color: #333; }
 
 body > main .file h1 { margin-bottom: 1rem; }
 
