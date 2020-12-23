@@ -109,7 +109,7 @@ body {
     }
   }
   > main {
-    min-height:calc(100vh - 136px);
+    min-height:calc(100vh - 140px);
     h1 {
       margin-bottom:1em;
       font-family: $title-font;
@@ -119,7 +119,7 @@ body {
       width:90%;
       max-width:40rem;
       margin:auto;
-      margin:3rem auto;
+      padding:3rem 0;
       svg {
         width:100%;
         max-width:20rem;
@@ -186,9 +186,9 @@ body {
       }
     }
     .cv {
-      width:100vw;
+      width:100%;
       max-width:none;
-      margin-top:2rem;
+      padding-top:2rem;
         * {transition:0.2s ease;}
         .resumeContainer {
           min-height: 100vh;
@@ -409,7 +409,6 @@ body {
           cursor:pointer;
         }
         &:after {
-          //tbc - add footnote hover box using data attributes
           content: attr(data-tooltip);
 	         position: absolute;
 	          bottom: 130%;
@@ -417,7 +416,6 @@ body {
 	          padding: 1rem;
             border-radius:0.25rem;
 	          background: white;
-            // opacity:0;
             box-shadow:0 0 5px 0 #3333, 0 50px 100px -20px #3343, 0 30px 60px -30px #3338;
             width:15rem;
             font-size:0.9rem;
