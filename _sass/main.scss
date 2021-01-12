@@ -571,6 +571,12 @@ body {
     .about {
       font-family: $title-font;
     }
+    .acknowledgement {
+      font-size:0.7rem;
+      line-height: 1.2em;
+      max-width:50%;
+      text-align:center;
+    }
     .contact {
       display:flex;
       flex-direction:row;
@@ -597,6 +603,14 @@ body {
         background-image: url(../img/icons/sxb.svg)
       }
       }
+      }
+      @media only screen and (max-width:600px) {
+        flex-direction:column-reverse;
+        height:unset;
+        .break {
+          margin:0.5rem auto;
+          max-width:none;
+        }
       }
   }
 }

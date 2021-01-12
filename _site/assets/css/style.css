@@ -225,6 +225,8 @@ body > footer { background: white; display: flex; flex-direction: row; align-ite
 
 body > footer .about { font-family: "Barlow Semi Condensed", sans-serif; }
 
+body > footer .acknowledgement { font-size: 0.7rem; line-height: 1.2em; max-width: 50%; text-align: center; }
+
 body > footer .contact { display: flex; flex-direction: row; }
 
 body > footer .contact .icon { background-size: contain; background-position: center; background-repeat: no-repeat; height: 1.5rem; width: 1.5rem; display: flex; margin: 0 .5rem; opacity: 0.6; transition: 0.2s ease; }
@@ -236,6 +238,8 @@ body > footer .contact .icon.email { background-image: url(../img/icons/email.sv
 body > footer .contact .icon.twitter { background-image: url(../img/icons/twitter.svg); }
 
 body > footer .contact .icon.sxb { background-image: url(../img/icons/sxb.svg); }
+
+@media only screen and (max-width: 600px) { body > footer { flex-direction: column-reverse; height: unset; } body > footer .break { margin: 0.5rem auto; max-width: none; } }
 
 @media print { html { font-size: 80%; } .screen-only { display: none; } }
 
