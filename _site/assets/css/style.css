@@ -21,7 +21,7 @@
 
 *::before, *::after { box-sizing: inherit; }
 
-*::selection { background-color: #ff2b35; color: white; }
+*::selection { background-color: rgba(255, 43, 53, 0.4); }
 
 html { font-size: 100%; font-family: "Barlow", sans-serif; -webkit-text-size-adjust: 100%; line-height: 1.6em; }
 
@@ -249,6 +249,6 @@ body > footer .contact .icon.sxb { background-image: url(../img/icons/sxb.svg); 
 
 @media only screen and (max-width: 600px) { body > footer { flex-direction: column-reverse; height: unset; } body > footer .break { margin: 0.5rem auto; max-width: none; } }
 
-@media print { html { font-size: 80%; } .screen-only { display: none; } }
+@media print { html { font-size: 80%; } html main { padding: 0; } html main > div { padding: 0; } .screen-only { display: none; } }
 
 /*# sourceMappingURL=style.css.map */

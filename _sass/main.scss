@@ -48,8 +48,7 @@ $transition: 0.2s ease;
 }
 
 *::selection {
-    background-color:$theme-colour;
-    color:white;
+    background-color:rgba($theme-colour, 0.4);
 }
 
 html {
@@ -642,6 +641,12 @@ body {
 @media print {
   html {
     font-size:80%;
+    main {
+      padding:0;
+      > div {
+        padding:0;
+      }
+    }
   }
   .screen-only {
     display: none;
