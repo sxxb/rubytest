@@ -68,10 +68,7 @@ body {
   > header {
         font-family: "Barlow Semi Condensed", sans-serif;
         background: hsla(0,0,100, 1);
-        background: -webkit-linear-gradient(hsla(0,0,100, 1) 0%, hsla(0,0,100, 1) 80%, hsla(0,0,100, 0.75) 90%, hsla(0,0,100, 0.5) 95%, hsla(0,0,100, 0) 100%);
-        background: -o-linear-gradient(hsla(0,0,100, 1) 0%, hsla(0,0,100, 1) 80%, hsla(0,0,100, 0.75) 90%, hsla(0,0,100, 0.5) 95%, hsla(0,0,100, 0) 100%);
-        background: linear-gradient(hsla(0,0,100, 1) 0%, hsla(0,0,100, 1) 80%, hsla(0,0,100, 0.75) 90%, hsla(0,0,100, 0.5) 95%, hsla(0,0,100, 0) 100%);
-        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#ffffff",GradientType=1);
+        box-shadow: 0 0 2rem 2rem hsla(0,0,100, 1);
         display: flex;
         align-items: center;
         margin:auto;

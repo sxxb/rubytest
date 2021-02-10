@@ -29,7 +29,7 @@ html { font-size: 100%; font-family: "Barlow", sans-serif; -webkit-text-size-adj
 
 body { background: white; z-index: 10; }
 
-body > header { font-family: "Barlow Semi Condensed", sans-serif; background: white; background: -webkit-linear-gradient(white 0%, white 80%, rgba(255, 255, 255, 0.75) 90%, rgba(255, 255, 255, 0.5) 95%, rgba(255, 255, 255, 0) 100%); background: -o-linear-gradient(white 0%, white 80%, rgba(255, 255, 255, 0.75) 90%, rgba(255, 255, 255, 0.5) 95%, rgba(255, 255, 255, 0) 100%); background: linear-gradient(white 0%, white 80%, rgba(255, 255, 255, 0.75) 90%, rgba(255, 255, 255, 0.5) 95%, rgba(255, 255, 255, 0) 100%); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#ffffff",GradientType=1); display: flex; align-items: center; margin: auto; padding: 0.5rem; height: 3rem; font-size: 0.85rem; position: fixed; top: 0; width: 100%; }
+body > header { font-family: "Barlow Semi Condensed", sans-serif; background: white; box-shadow: 0 0 2rem 2rem white; display: flex; align-items: center; margin: auto; padding: 0.5rem; height: 3rem; font-size: 0.85rem; position: fixed; top: 0; width: 100%; }
 
 body > header nav { width: 100%; max-width: 1200px; margin: auto; }
 
