@@ -21,17 +21,17 @@
 
 *::before, *::after { box-sizing: inherit; }
 
-*::selection { background-color: #ff2b35; color: white; }
+*::selection { background-color: rgba(255, 43, 53, 0.4); }
 
 html { font-size: 100%; font-family: "Barlow", sans-serif; -webkit-text-size-adjust: 100%; line-height: 1.6em; }
 
-@media only screen and (min-width: 1200px) { html { font-size: 125%; } }
+@media only screen and (min-width: 1200px) { html { font-size: 120%; } }
 
 body { background: white; z-index: 10; }
 
-body > header { font-family: "Barlow Semi Condensed", sans-serif; background: white; display: flex; align-items: center; max-width: 1200px; margin: auto; padding: 0.5rem; height: 40px; font-size: 0.85rem; position: relative; }
+body > header { font-family: "Barlow Semi Condensed", sans-serif; background: white; box-shadow: 0 0 2rem 2rem white; display: flex; align-items: center; margin: auto; padding: 0.5rem; height: 3rem; font-size: 0.85rem; position: fixed; top: 0; width: 100%; }
 
-body > header nav { width: 100%; top: 0; }
+body > header nav { width: 100%; max-width: 1200px; margin: auto; }
 
 body > header nav ul { display: flex; flex-direction: row; align-items: center; justify-content: space-evenly; width: 100%; }
 
@@ -43,7 +43,7 @@ body > header nav ul li a.current { color: #ff2b35; border-bottom: 1px solid rgb
 
 body > header nav ul li a.current:hover { border-bottom: 1px solid #ff2b35; }
 
-body > main { min-height: calc(100vh - 140px); }
+body > main { min-height: calc(100vh); padding-top: 3rem; padding-bottom: 10rem; }
 
 body > main h1 { margin-bottom: 1em; font-family: "Barlow Semi Condensed", sans-serif; text-align: center; }
 
@@ -51,21 +51,21 @@ body > main > div { width: 90%; max-width: 40rem; margin: auto; padding: 3rem 0;
 
 body > main > div svg { width: 100%; max-width: 20rem; margin: 0 auto 1rem; display: flex; }
 
-body > main .blog a { color: #333; text-decoration: none; }
+body > main .blog a { color: #666; text-decoration: none; }
 
 body > main .blog .post-snippet { padding-left: 0.875rem; border-left: 0.125rem solid rgba(255, 43, 53, 0); margin-bottom: 3rem; transition: 0.2s ease; }
 
 body > main .blog .post-snippet:hover { border-left: 0.125rem solid #ff2b35; }
 
-body > main .blog .post-snippet h2 { margin-bottom: 1rem; font-family: "Barlow Semi Condensed", sans-serif; }
+body > main .blog .post-snippet h2 { margin-bottom: 1rem; font-family: "Barlow Semi Condensed", sans-serif; color: #333; }
 
-body > main .blog .post-snippet p { font-size: 1rem; line-height: 1.6em; }
+body > main .blog .post-snippet p { font-size: 0.9rem; line-height: 1.6em; }
 
 body > main .work h2, body > main .files h2 { margin: 3rem 0 1rem; font-family: "Barlow Semi Condensed", sans-serif; color: #ff2b35; }
 
 body > main .work h2:first-of-type, body > main .files h2:first-of-type { margin-top: 0; }
 
-body > main .work a, body > main .work a:visited, body > main .files a, body > main .files a:visited { color: #333; text-decoration: none; }
+body > main .work a, body > main .work a:visited, body > main .files a, body > main .files a:visited { color: #666; text-decoration: none; }
 
 body > main .work .essay-snippet, body > main .work .design-snippet, body > main .work .other-snippet, body > main .work .file-snippet, body > main .files .essay-snippet, body > main .files .design-snippet, body > main .files .other-snippet, body > main .files .file-snippet { padding-left: 0.875rem; border-left: 0.125rem solid rgba(255, 43, 53, 0); margin-bottom: 1rem; transition: 0.2s ease; }
 
@@ -138,6 +138,8 @@ body > main .cv main > div { margin-bottom: 3rem; }
 @media screen and (max-width: 599px) { body > main .cv .flex { flex-direction: column; align-items: start; } body > main .cv .break { width: 100%; } body > main .cv header .contact-info { text-align: left; } body > main .cv header .contact-info a { font-size: 1rem; } }
 
 @media print { body > main .cv .screenOnly { display: none; } body > main .cv *, body > main .cv *::before { color: #333 !important; } body > main .cv html { font-size: 10pt; } body > main .cv *, body > main .cv *:before, body > main .cv *:after { border: none !important; font-family: sans-serif !important; background: none !important; text-shadow: none !important; box-shadow: none !important; } }
+
+body > main .about { color: #333; }
 
 body > main .about a, body > main .about a:visited { color: #ff2b35; text-decoration: none; border-bottom: 1px solid rgba(255, 43, 53, 0); }
 
@@ -221,11 +223,19 @@ body > main .zzz-2 { animation-delay: 3.5s; }
 
 body > main .zzz-3 { animation-delay: 8s; }
 
-body > footer { background: white; display: flex; flex-direction: row; align-items: center; justify-content: space-between; height: 80px; border-top: 1px dotted #888; color: #888; max-width: 1200px; margin: 1rem auto 0; font-size: 0.95rem; padding: 0 1rem; }
+body > footer { background: white; display: flex; flex-direction: row; align-items: center; justify-content: space-between; height: 80px; box-shadow: 0 -1px 5px #8883; color: #888; margin: 1rem auto 0; font-size: 0.95rem; padding: 0 1rem; position: fixed; bottom: 0; width: 100%; }
 
 body > footer .about { font-family: "Barlow Semi Condensed", sans-serif; }
 
-body > footer .contact { display: flex; flex-direction: row; }
+@media only screen and (min-width: 600px) { body > footer .about { width: 25%; max-width: 300px; } }
+
+body > footer .acknowledgement { font-size: 0.7rem; line-height: 1.2em; text-align: center; }
+
+@media only screen and (min-width: 600px) { body > footer .acknowledgement { width: 50%; max-width: 600px; } }
+
+body > footer .contact { display: flex; flex-direction: row-reverse; }
+
+@media only screen and (min-width: 600px) { body > footer .contact { width: 25%; max-width: 300px; } }
 
 body > footer .contact .icon { background-size: contain; background-position: center; background-repeat: no-repeat; height: 1.5rem; width: 1.5rem; display: flex; margin: 0 .5rem; opacity: 0.6; transition: 0.2s ease; }
 
@@ -237,6 +247,8 @@ body > footer .contact .icon.twitter { background-image: url(../img/icons/twitte
 
 body > footer .contact .icon.sxb { background-image: url(../img/icons/sxb.svg); }
 
-@media print { html { font-size: 80%; } .screen-only { display: none; } }
+@media only screen and (max-width: 600px) { body > footer { flex-direction: column-reverse; height: unset; } body > footer .break { margin: 0.5rem auto; max-width: none; } }
+
+@media print { html { font-size: 80%; } html main { padding: 0; } html main > div { padding: 0; } .screen-only { display: none; } }
 
 /*# sourceMappingURL=style.css.map */
