@@ -1,0 +1,38 @@
+I"2<h1 id="week-1----introduction">Week 1  - Introduction</h1>
+<ul>
+  <li>What is economic development?
+    <ul>
+      <li>The growth in real incomes of people.</li>
+      <li>Development can be estimated using GDP per capita growth but this is not a perfect measure.</li>
+    </ul>
+  </li>
+  <li>Measuring incomes
+    <ul>
+      <li>Atlas Methods
+        <ul>
+          <li>Take each state’s per capita income, then translate it into a common currency (usually USD) so they can be compared.</li>
+          <li>A rolling average of exchange rates may be used in order to smooth out fluctuations.</li>
+          <li>This method has the benefit of making incomes comparable around the world, which is useful for measuring development (which is often considered in relative terms).</li>
+          <li>However, as it only uses per capita income and is not adjusted for Purchasing Power, the Atlas method is not a comparison of <em>real</em> incomes - and so is relatively limited in its usefulness when assessing actual development levels.</li>
+        </ul>
+      </li>
+      <li>PPP generally shows that poorer countries are doing better than their per capita income level may make it seem, as goods are generally cheaper and real incomes are higher (though still relatively low).</li>
+    </ul>
+  </li>
+  <li>Distribution of Incomes
+    <ul>
+      <li>Per capita income does not measure distribution of income - equality is an important concern when considering development.</li>
+    </ul>
+  </li>
+  <li>Other measures
+    <ul>
+      <li>Human Development Index
+        <ul>
+          <li>Captures various facets of development from education to lifespans to incomes.</li>
+          <li>HDI generally correlates with per capita income despite it seeming to be a more accurate measurement.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+:ET

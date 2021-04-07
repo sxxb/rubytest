@@ -1,0 +1,370 @@
+I"�M<h1 id="week-1----introduction">Week 1  - Introduction</h1>
+<ul>
+  <li>What is economic development?
+    <ul>
+      <li>The growth in real incomes of people.</li>
+      <li>Development can be estimated using GDP per capita growth but this is not a perfect measure.</li>
+    </ul>
+  </li>
+  <li>Measuring incomes
+    <ul>
+      <li>Atlas Methods
+        <ul>
+          <li>Take each state’s per capita income, then translate it into a common currency (usually USD) so they can be compared.</li>
+          <li>A rolling average of exchange rates may be used in order to smooth out fluctuations.</li>
+          <li>This method has the benefit of making incomes comparable around the world, which is useful for measuring development (which is often considered in relative terms).</li>
+          <li>However, as it only uses per capita income and is not adjusted for Purchasing Power, the Atlas method is not a comparison of <em>real</em> incomes - and so is relatively limited in its usefulness when assessing actual development levels.</li>
+        </ul>
+      </li>
+      <li>PPP generally shows that poorer countries are doing better than their per capita income level may make it seem, as goods are generally cheaper and real incomes are higher (though still relatively low).</li>
+    </ul>
+  </li>
+  <li>Distribution of Incomes
+    <ul>
+      <li>Per capita income does not measure distribution of income - equality is an important concern when considering development.</li>
+    </ul>
+  </li>
+  <li>Other measures
+    <ul>
+      <li>Human Development Index
+        <ul>
+          <li>Captures various facets of development from education to lifespans to incomes.</li>
+          <li>HDI generally correlates with per capita income despite it seeming to be a more accurate measurement.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h1 id="week-2----theories-of-economic-growth-and-development-traps">Week 2  - Theories of Economic Growth and Development Traps</h1>
+
+<ul>
+  <li>Rule of 72
+    <ul>
+      <li>Dividing 72 by the annual rate of growth will give the approximate number of years it will take for incomes to double</li>
+    </ul>
+  </li>
+  <li>What creates growth?
+    <ul>
+      <li>Endowments, luck, politics, infrastructure etc.</li>
+    </ul>
+  </li>
+  <li>The Solow Model
+    <ul>
+      <li>
+        <p>Consumption Side:</p>
+
+\[Y_t = C_t + S_t\]
+
+        <ul>
+          <li>Total income is comprised of consumption and savings for the year.</li>
+          <li>This is distributed among a labour force \(N\) which grows at an exogenous rate.</li>
+          <li>The savings rate is the among of total income saved:
+\(S_t = s*Y_t\)</li>
+          <li>Thus Consumption is:</li>
+        </ul>
+
+\[C_t = (1-s)*Y_t\]
+      </li>
+      <li>
+        <p>Production Side</p>
+
+\[Y_t = A_t * F(K_t, L_t)\]
+
+        <ul>
+          <li>Where \(A\) is Total Factor Productivity (or technology), \(K\) is capital and \(L\) is labour, all at time \(t\)</li>
+          <li>This production function have several key characteristics
+            <ol>
+              <li>Postive marginal product on inputs (each additional input increases output by some amount)</li>
+              <li>Diminishing marginal product of inputs (each additional input increases out by less than the previous input did)</li>
+              <li>As the level of input \(\to \infty^+\) the marginal product of that input \(\to 0\)</li>
+              <li>These inputs exhibit constant returns to scale:
+\(F(\lambda K,\lambda L) = \lambda * F(K, L), \lambda &gt; 0\)</li>
+            </ol>
+          </li>
+          <li>This production function is often expressed as a Cobb Douglas function:
+\(Y_t = A*K_T^\alpha *L_t^{1-\alpha}, \alpha &gt; 1\)</li>
+          <li>Per capita output is simply output divided by the labour force \(L\):
+ \(y_t= \frac{Y_t}{L} = A_t * F(k_t)\)
+            <ul>
+              <li>Per capita output grows over time due to capital accumulation and technological gains, but at a diminishing rate (due to characteristic 2, above).</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>Decomposing Growth
+        <ul>
+          <li>Per capita income differences between states might be due to higher capital or TFP
+            <ul>
+              <li>More specifically, these could be because of a more skilled workforce, stronger institutions and infrastructure, more efficient markets etc.</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>Capital accumulation
+        <ul>
+          <li>Capital accumulates from investment \(I\), which is simply savings \(S = s*Y_t = s * (A_t * K_t)\), and is depleted by depreciation \(\delta\)
+\(K_{t+1} = (1-\delta) * K_t + (s*Y_t)\)</li>
+          <li>Per capita accumulation is given:
+\(k_{t+1} = \frac{1}{1+n}*[(1-\delta) * k_t + (s*y_t)]\)
+\(k_{t+1} = [(1-\delta) * k_t + (s *[A_t * k_t^{\alpha}])]\)</li>
+        </ul>
+      </li>
+      <li>Despite capital accumulation, output growth will eventually slow to a steady state in the absence of technological progress.
+        <ul>
+          <li>This happens because the depreciation of capital is equal to the capital added from savings, cancelling out any accumulation.</li>
+        </ul>
+      </li>
+      <li>Technological differences
+        <ul>
+          <li>TO DO</li>
+        </ul>
+      </li>
+      <li>Skill Formation
+        <ul>
+          <li>Let \(E_t = e_t*L_t\) where \(e_t\) denotes the skill and knowledge of the average worker</li>
+          <li>This makes the Solow Model:
+\(Y_t = A*K_T^\alpha * (e_t * L_t^{1-\alpha})\)</li>
+          <li>Dividing output by \(E_t\) gives us a measure of output per ‘effective worker’</li>
+          <li>The growth of the labour force is also contingent on the growth of skills:
+\(L_{t+1} = (1 + \pi)(1 + n)L_t\)</li>
+          <li>Due to the growth of the effectiveness of a unit of labour (growth rate \(= \pi\)) it is possible to have continuous growth as long as \(\pi &gt; 0\)</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Harrod-Domer Model
+    <ul>
+      <li>If we assume a constant marginal product of capital, the growth of output per capita will be the same as the growth of capital per capita</li>
+      <li>TODO</li>
+      <li>This tells us that the easiest way to increase growth is to increase the savings rate \(s\).</li>
+      <li>This advocates for increasing savings even at the expense of consumption, and putting that saved output into capital investment.</li>
+      <li>However, this naturally reduces demand which has effects on growth too.</li>
+      <li>This model is not empirically born out.</li>
+    </ul>
+  </li>
+  <li>Convergence and Divergence
+    <ul>
+      <li>Two countries with similar parameters should have a similar per capita income in the long run</li>
+      <li>Unconditional convergence assumes all countries have the sameparameters which is unrealistic - thus we use conditional convergence toaccount for the unique factors in each state.</li>
+      <li>This will be apparent in the convergence of growth rates, not percapita incomes.</li>
+    </ul>
+  </li>
+</ul>
+
+<h1 id="week-3--4----inequality">Week 3 &amp; 4  - Inequality</h1>
+
+<ul>
+  <li>Development Patterns
+    <ul>
+      <li>Growth rates are often greater for poorer countries
+        <ul>
+          <li>They are further from the steady state and transition dynamics suggest their growth will diminish as they approach the steady state.</li>
+          <li>However, some countries will simply have a different steady state</li>
+        </ul>
+      </li>
+      <li>Human Capital can explain some of the differences between empirical outcomes and theoretical results
+        <ul>
+          <li>let \(H =\) Human capital</li>
+        </ul>
+
+\[Y = AK^\alpha H^\beta L^{1-\alpha - \beta},  \alpha, \beta \in [0,1], \alpha + \beta &lt; 1\]
+
+        <ul>
+          <li>Savings can be allocated to adding capital or improving human capital
+\((1+n)h_{t+1} = s_h y_t + (1- \delta)h_t\)</li>
+          <li>Thus human capital is endogenous, and can explain why some states have differing steady states.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Development Traps
+    <ul>
+      <li>What might attenuate growth in an economy?
+        <ul>
+          <li>Variation in parameters of the Solow Model such as savings rate, depreciate, population growth or technological growth.</li>
+          <li>Low incomes can exacerbate these issues and leave an economy in a lower steady state than they could otherwise achieve - a development trap.</li>
+        </ul>
+      </li>
+      <li>Types of trap include:
+        <ul>
+          <li>Historical Dependence
+            <ul>
+              <li>Increasing returns to scale can create complementaries, entrenching a certain process</li>
+              <li>As new and more efficient processes arise, if the old entrenched process persists and the new process is not implemented then output growth will suffer</li>
+              <li>This requires increasing returns to scale, a slow uptake of new technology (for any reason) and imperfect or missing credit markets (who could otherwise reallocate credit to firms who do implement new processes, forcing firms to adapt or perish).</li>
+            </ul>
+          </li>
+          <li>Coordination failures
+            <ul>
+              <li>Developing economies might not have the knowledge or infrastructure to effectively coordinate input levels to their most efficient level</li>
+              <li>Modern economies require a vast range of services to function, many of which are capital intensive.</li>
+              <li>States that don’t implement these effectively can see growth fall behind comparable states.</li>
+              <li>Big Push Theory suggests that developing economies need to invest in large infrastructure projects, and that insufficient investment will be effectively wasted.
+                <ul>
+                  <li>Indivisibility of inputs (Increasing RTS) means large investment is needed to escape the trap</li>
+                  <li>Indivisibility of demand is also a factor - if there isn’t sufficient demand for a good (say automobiles, due to low wages) then there will be nothing to facilitate production growth in this sector.</li>
+                  <li>Indivisibility in the supply of savings is another issue - low incomes have lower savings (regardless of savings rate) and thus lower investment.</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>Inequality
+        <ul>
+          <li>Income distribution
+            <ul>
+              <li>Income is made up of gains from wages, rents or profits.</li>
+              <li>Functional Distribution is the allocation of income into these three groups</li>
+              <li>Personal Distribution is the allocation of income between households.</li>
+              <li>Ownership of factors of production (land, capital) determines how personal distribution is allocated from functional distribution.</li>
+              <li>Distribution of consumption is a better measure of inequality, as income distribution can be hard to measure, especially in economies where barter or domestic production may not be easily recorded.</li>
+            </ul>
+          </li>
+          <li>Measuring inequality
+            <ul>
+              <li>Inequality measures should meet these four criteria in order to be a ‘good’ way of measuring inequality:
+                <ol>
+                  <li>Anonymity: the identity of who earns income should be irrelevant.</li>
+                  <li>Population Principle: The size of the population being measured should not matter, and populations of different sizes should be comparable.</li>
+                  <li>Relative Income Principle: Absolute incomes are irrelevant to inequality discussions, so only relative incomes should be taken into account.</li>
+                  <li>Dalton Transfer Principle: A transfer from rich to poor should always increase the inequality measure, and vice versa.</li>
+                </ol>
+              </li>
+              <li>A good measure also has a numerical component in order to make it convenient for comparing different states.</li>
+            </ul>
+          </li>
+          <li>Lorenz Curve
+            <ul>
+              <li>A curve that visually depicts inequality.</li>
+              <li>To compute the Lorenz Curve:
+                <ol>
+                  <li>Order incomes from smallest to largest</li>
+                  <li>Calculate the sum of all incomes</li>
+                  <li>Divide population into quintiles and determine the sum of incomes within each quintile</li>
+                  <li>Calculate the proportion of total income within each quintile, and then calculate the cummulative proportion of total income (so the 5th quintile should contain 100% of income).</li>
+                  <li>Graph the quintiles, the cummulative proportion of income and a 45 degree line (the line of perfect equality)</li>
+                </ol>
+              </li>
+            </ul>
+          </li>
+          <li>GINI Coefficient
+            <ul>
+              <li>A number from 0 to 1. As inequality rises GINI \(\to 1\).</li>
+              <li>Derived from the Lorenz Curve
+\(GINI = \frac{Area Under Line Of Perfect Equality - Area Under Lorenz Curve}{Area Under Line Of Perfect Equality}\)</li>
+              <li>The area under the line of perfect equality is \(0.5\)</li>
+              <li>A good measure that is useful for cross country comparisons</li>
+            </ul>
+          </li>
+          <li>Range
+            <ul>
+              <li>A crude measure that is only useful in the absence of better data.
+\(R = \frac{1}{\mu} * (y_{max} - y_{min})\)</li>
+              <li>Where \(\mu\) is mean income, \(y_{max}\) is the highest income and \(y_{min}\) is the lowest income.</li>
+              <li>As this ignores the distribution of incomes (and indeed all incomes between the maximum and minimum) it cannot satisfy the Dalton Principle unless the transfer is between the poorest and richest income earners.</li>
+            </ul>
+          </li>
+          <li>Kuznets’ Ratio
+            <ul>
+              <li>A ratio of average income in the top fraction (any fraction) vs average income in bottom fraction.</li>
+              <li>Easy to compute but again fails Dalton’s Principle unless transfers involve two income earners in the measured fractions.</li>
+            </ul>
+          </li>
+          <li>Mean Absolute Deviation
+            <ul>
+              <li>Divide the population into groups where each individual \(i\) earns the same income \(y_i\).
+\(MAD = \frac{1}{\mu*n} * \sum_{j=1}^m n_j * |y_j - \mu |\)</li>
+              <li>MAD inequality is proportional to the distance from the mean income (greater or lesser is irrelevant).</li>
+              <li>This measure is insensitive to the Dalton Principle but does cover the entire income distribution.</li>
+            </ul>
+          </li>
+          <li>Coefficient of Variation
+            <ul>
+              <li>The standard deviation of incomes divided by the mean.
+$$CoV = \frac{1}{\mu} * \sum_{j=1}^n \frac{n_j}{n} * (y_i - \mu)^2</li>
+              <li>Satisfies all four principles</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>Growth and Inequality
+        <ul>
+          <li>Growth usually, but not always, reduces inequality</li>
+          <li>Inequality will generally slow growth</li>
+          <li>Inequality was thought to follow an inverted U shape:
+            <ul>
+              <li>As economies industrialised, top incomes would rapidly rise. As the industrialisation process continues, more people move into industrial work and more incomes rise, lowering inequality.</li>
+            </ul>
+          </li>
+          <li>Data doesn’t bear out this relationship, though there is some connection - it’s just more complicated than this!</li>
+        </ul>
+      </li>
+      <li>Other causes of Inequality
+        <ul>
+          <li>Systematic forces such as colonialism, apartheid, racism, gender relations etc.</li>
+          <li>Education policies</li>
+          <li>Privatised ownership of public services</li>
+          <li>Political entrenchment and/or corruption</li>
+        </ul>
+      </li>
+      <li>Reducing inequality
+        <ul>
+          <li>Build economic infrastructure to facilitate growth</li>
+          <li>Improve health and education outcomes</li>
+          <li>Implement fiscal policy (transfers or spending) that supports growth</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Galor Ziera Model
+    <ul>
+      <li>Describes the effect of unequal access to education on inequality, education attainment and growth.</li>
+      <li>Essentially, it explains (one of) the links between equality and growth</li>
+      <li>Initial distributions determines whether an economy will coverge to a higher or lower steady state.</li>
+      <li>Inequality compounds - households with greater incomes (and likely wealth) will be able to give their children better access to education, helping them to attain greater incomes. This cycle feeds back over and over.</li>
+      <li>The Model
+        <ul>
+          <li>Consider an ‘overlapping generations’ model with two periods: childhood and adulthood.</li>
+          <li>Each agent has two choices:
+            <ol>
+              <li>Work unskilled labour</li>
+              <li>Invest in education, then work skilled labour</li>
+            </ol>
+          </li>
+          <li>The production side can use either unskilled labour, or skilled labour plus capital to produce output.</li>
+          <li>Let \(x\) be the inheritance an individual receives from their parents, and \(h\) be the cost of education.
+            <ul>
+              <li>If \(x &gt;h\) , agents can pay for education and work skilled labour without accruing debt. They will earn a wage \(W_s\).</li>
+              <li>If \(x &lt; h\) , agents will either forgo education and earn wage \(W_n\), or go into debt to afford education (which they will repay at interest rate \(i\)).</li>
+              <li>As this interest rate will be greater than the prevailing rate \(r\) (due to risk premiums), wealthier agents will be able to afford this debt more easily.
+                <ul>
+                  <li>The borrowing rate is:
+\(i = \frac{1+\beta r}{\beta - 1}, \beta &gt;1\)</li>
+                  <li>where \(\beta\)  is the evasion cost of evading the debt payment</li>
+                </ul>
+              </li>
+              <li>People inheriting \(x &gt; h\) will progressively get richer over each generation, as those going into debt to afford education keep less of their earnings.</li>
+              <li>However, the more individuals investing in their education, the greater overall output growth will be.</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Conclusions
+    <ul>
+      <li>Countries with more inequality will grow more slowly</li>
+      <li>The effect of inequality in a poor country is that it allows some people to earn enough to improve human capital - leading to more growth than otherwise possible.</li>
+      <li>As countries get richer, inequality simply prevents everyone from improving their human capital, and attenuates growth.</li>
+      <li>Macroeconomic shocks will negatively effect wages, so unskilled wage earners with greater incomes will give their offspring the best chance at changing sector to one with higher wages.</li>
+      <li>Human capital is proportional to GDP generally.</li>
+      <li>World interest rates determine the ability of all people to invest in their human Capital</li>
+      <li>Inequality harms rich countries more than poor countries.</li>
+    </ul>
+  </li>
+</ul>
+
+<h1 id="week-5--6----poverty">Week 5 &amp; 6  - Poverty</h1>
+:ET

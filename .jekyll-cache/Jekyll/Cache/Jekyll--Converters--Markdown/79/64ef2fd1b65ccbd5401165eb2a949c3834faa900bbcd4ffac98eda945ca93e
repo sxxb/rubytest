@@ -1,0 +1,230 @@
+I">+<h1 id="week-1----introduction">Week 1  - Introduction</h1>
+<ul>
+  <li>What is economic development?
+    <ul>
+      <li>The growth in real incomes of people.</li>
+      <li>Development can be estimated using GDP per capita growth but this is not a perfect measure.</li>
+    </ul>
+  </li>
+  <li>Measuring incomes
+    <ul>
+      <li>Atlas Methods
+        <ul>
+          <li>Take each state’s per capita income, then translate it into a common currency (usually USD) so they can be compared.</li>
+          <li>A rolling average of exchange rates may be used in order to smooth out fluctuations.</li>
+          <li>This method has the benefit of making incomes comparable around the world, which is useful for measuring development (which is often considered in relative terms).</li>
+          <li>However, as it only uses per capita income and is not adjusted for Purchasing Power, the Atlas method is not a comparison of <em>real</em> incomes - and so is relatively limited in its usefulness when assessing actual development levels.</li>
+        </ul>
+      </li>
+      <li>PPP generally shows that poorer countries are doing better than their per capita income level may make it seem, as goods are generally cheaper and real incomes are higher (though still relatively low).</li>
+    </ul>
+  </li>
+  <li>Distribution of Incomes
+    <ul>
+      <li>Per capita income does not measure distribution of income - equality is an important concern when considering development.</li>
+    </ul>
+  </li>
+  <li>Other measures
+    <ul>
+      <li>Human Development Index
+        <ul>
+          <li>Captures various facets of development from education to lifespans to incomes.</li>
+          <li>HDI generally correlates with per capita income despite it seeming to be a more accurate measurement.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h1 id="week-2----theories-of-economic-growth-and-development-traps">Week 2  - Theories of Economic Growth and Development Traps</h1>
+
+<ul>
+  <li>Rule of 72
+    <ul>
+      <li>Dividing 72 by the annual rate of growth will give the approximate number of years it will take for incomes to double</li>
+    </ul>
+  </li>
+  <li>What creates growth?
+    <ul>
+      <li>Endowments, luck, politics, infrastructure etc.</li>
+    </ul>
+  </li>
+  <li>The Solow Model
+    <ul>
+      <li>
+        <p>Consumption Side:</p>
+
+\[Y_t = C_t + S_t\]
+
+        <ul>
+          <li>Total income is comprised of consumption and savings for the year.</li>
+          <li>This is distributed among a labour force \(N\) which grows at an exogenous rate.</li>
+          <li>The savings rate is the among of total income saved:
+\(S_t = s*Y_t\)</li>
+          <li>Thus Consumption is:</li>
+        </ul>
+
+\[C_t = (1-s)*Y_t\]
+      </li>
+      <li>
+        <p>Production Side</p>
+
+\[Y_t = A_t * F(K_t, L_t)\]
+
+        <ul>
+          <li>Where \(A\) is Total Factor Productivity (or technology), \(K\) is capital and \(L\) is labour, all at time \(t\)</li>
+          <li>This production function have several key characteristics
+            <ol>
+              <li>Postive marginal product on inputs (each additional input increases output by some amount)</li>
+              <li>Diminishing marginal product of inputs (each additional input increases out by less than the previous input did)</li>
+              <li>As the level of input \(\to \infty^+\) the marginal product of that input \(\to 0\)</li>
+              <li>These inputs exhibit constant returns to scale:
+\(F(\lambda K,\lambda L) = \lambda * F(K, L), \lambda &gt; 0\)</li>
+            </ol>
+          </li>
+          <li>This production function is often expressed as a Cobb Douglas function:
+\(Y_t = A*K_T^\alpha *L_t^{1-\alpha}, \alpha &gt; 1\)</li>
+          <li>Per capita output is simply output divided by the labour force \(L\):
+ \(y_t= \frac{Y_t}{L} = A_t * F(k_t)\)
+            <ul>
+              <li>Per capita output grows over time due to capital accumulation and technological gains, but at a diminishing rate (due to characteristic 2, above).</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>Decomposing Growth
+        <ul>
+          <li>Per capita income differences between states might be due to higher capital or TFP
+            <ul>
+              <li>More specifically, these could be because of a more skilled workforce, stronger institutions and infrastructure, more efficient markets etc.</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>Capital accumulation
+        <ul>
+          <li>Capital accumulates from investment \(I\), which is simply savings \(S = s*Y_t = s * (A_t * K_t)\), and is depleted by depreciation \(\delta\)
+\(K_{t+1} = (1-\delta) * K_t + (s*Y_t)\)</li>
+          <li>Per capita accumulation is given:
+\(k_{t+1} = \frac{1}{1+n}*[(1-\delta) * k_t + (s*y_t)]\)
+\(k_{t+1} = [(1-\delta) * k_t + (s *[A_t * k_t^{\alpha}])]\)</li>
+        </ul>
+      </li>
+      <li>Despite capital accumulation, output growth will eventually slow to a steady state in the absence of technological progress.
+        <ul>
+          <li>This happens because the depreciation of capital is equal to the capital added from savings, cancelling out any accumulation.</li>
+        </ul>
+      </li>
+      <li>Technological differences
+        <ul>
+          <li>TO DO</li>
+        </ul>
+      </li>
+      <li>Skill Formation
+        <ul>
+          <li>Let \(E_t = e_t*L_t\) where \(e_t\) denotes the skill and knowledge of the average worker</li>
+          <li>This makes the Solow Model:
+\(Y_t = A*K_T^\alpha * (e_t * L_t^{1-\alpha})\)</li>
+          <li>Dividing output by \(E_t\) gives us a measure of output per ‘effective worker’</li>
+          <li>The growth of the labour force is also contingent on the growth of skills:
+\(L_{t+1} = (1 + \pi)(1 + n)L_t\)</li>
+          <li>Due to the growth of the effectiveness of a unit of labour (growth rate \(= \pi\)) it is possible to have continuous growth as long as \(\pi &gt; 0\)</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Harrod-Domer Model
+    <ul>
+      <li>If we assume a constant marginal product of capital, the growth of output per capita will be the same as the growth of capital per capita</li>
+      <li>TODO</li>
+      <li>This tells us that the easiest way to increase growth is to increase the savings rate \(s\).</li>
+      <li>This advocates for increasing savings even at the expense of consumption, and putting that saved output into capital investment.</li>
+      <li>However, this naturally reduces demand which has effects on growth too.</li>
+      <li>This model is not empirically born out.</li>
+    </ul>
+  </li>
+  <li>Convergence and Divergence
+    <ul>
+      <li>Two countries with similar parameters should have a similar per capita income in the long run</li>
+      <li>Unconditional convergence assumes all countries have the sameparameters which is unrealistic - thus we use conditional convergence toaccount for the unique factors in each state.</li>
+      <li>This will be apparent in the convergence of growth rates, not percapita incomes.</li>
+    </ul>
+  </li>
+</ul>
+
+<h1 id="week-3----inequality---part-1">Week 3  - Inequality - Part 1</h1>
+
+<ul>
+  <li>Development Patterns
+    <ul>
+      <li>Growth rates are often greater for poorer countries
+        <ul>
+          <li>They are further from the steady state and transition dynamics suggest their growth will diminish as they approach the steady state.</li>
+          <li>However, some countries will simply have a different steady state</li>
+        </ul>
+      </li>
+      <li>Human Capital can explain some of the differences between empirical outcomes and theoretical results
+        <ul>
+          <li>let \(H =\) Human capital
+\(Y = AK^\alpha H^\beta L^{1-\alpha - \beta},  \alpha, \beta \in [0,1], \alpha + \beta &lt; 1\)</li>
+          <li>Savings can be allocated to adding capital or improving human capital
+$$ (1+n)h_{t+1} = s_h y_t + (1- \delta)h_t</li>
+          <li>Thus human capital is endogenous, and can explain why some states have differing steady states.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Development Traps
+    <ul>
+      <li>What might attenuate growth in an economy?
+        <ul>
+          <li>Variation in parameters of the Solow Model such as savings rate, depreciate, population growth or technological growth.</li>
+          <li>Low incomes can exacerbate these issues and leave an economy in a lower steady state than they could otherwise achieve - a development trap.</li>
+        </ul>
+      </li>
+      <li>Types of trap include:
+        <ul>
+          <li>Historical Dependence
+            <ul>
+              <li>Increasing returns to scale can create complementaries, entrenching a certain process</li>
+              <li>As new and more efficient processes arise, if the old entrenched process persists and the new process is not implemented then output growth will suffer</li>
+              <li>This requires increasing returns to scale, a slow uptake of new technology (for any reason) and imperfect or missing credit markets (who could otherwise reallocate credit to firms who do implement new processes, forcing firms to adapt or perish).</li>
+            </ul>
+          </li>
+          <li>Coordination failures
+            <ul>
+              <li>Developing economies might not have the knowledge or infrastructure to effectively coordinate input levels to their most efficient level</li>
+              <li>Modern economies require a vast range of services to function, many of which are capital intensive.</li>
+              <li>States that don’t implement these effectively can see growth fall behind comparable states.</li>
+              <li>Big Push Theory suggests that developing economies need to invest in large infrastructure projects, and that insufficient investment will be effectively wasted.
+                <ul>
+                  <li>Indivisibility of inputs (Increasing RTS) means large investment is needed to escape the trap</li>
+                  <li>Indivisibility of demand is also a factor - if there isn’t sufficient demand for a good (say automobiles, due to low wages) then there will be nothing to facilitate production growth in this sector.</li>
+                  <li>Indivisibility in the supply of savings is another issue - low incomes have lower savings (regardless of savings rate) and thus lower investment.</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>Inequality
+        <ul>
+          <li>Income distribution
+            <ul>
+              <li>
+                <h2 id="income-is-made-up-of-gains-from-wages-rents-or-profits">Income is made up of gains from wages, rents or profits.</h2>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h1 id="week-4----inequality---part-2">Week 4  - Inequality - Part 2</h1>
+
+<h1 id="week-5----poverty---part-1">Week 5  - Poverty - Part 1</h1>
+
+<h1 id="week-6----poverty---part-2">Week 6  - Poverty - Part 2</h1>
+:ET
