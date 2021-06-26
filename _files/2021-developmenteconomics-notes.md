@@ -1,11 +1,11 @@
 ---
 title: Development Economics Notes
 subtitle: ECON 3501
-date: 07/04/2021
+date: 26/06/2021
 author: Scott Belcher
 layout: file
 ---
-# Week 1  - Introduction
+# Week 1 - Introduction
   - What is economic development?
     - The growth in real incomes of people.
     - Development can be estimated using GDP per capita growth but this is not a perfect measure.
@@ -23,7 +23,7 @@ layout: file
       - Captures various facets of development from education to lifespans to incomes.
       - HDI generally correlates with per capita income despite it seeming to be a more accurate measurement.
 
-# Week 2  - Theories of Economic Growth and Development Traps
+# Week 2 - Theories of Economic Growth and Development Traps
 
   - Rule of 72
     - Dividing 72 by the annual rate of growth will give the approximate number of years it will take for incomes to double
@@ -91,7 +91,7 @@ layout: file
     - Unconditional convergence assumes all countries have the sameparameters which is unrealistic - thus we use conditional convergence toaccount for the unique factors in each state.
     - This will be apparent in the convergence of growth rates, not percapita incomes.    
 
-# Week 3 & 4  - Inequality
+# Week 3 & 4 - Inequality
 
   - Development Patterns
     - Growth rates are often greater for poorer countries
@@ -211,6 +211,12 @@ layout: file
     - World interest rates determine the ability of all people to invest in their human Capital
     - Inequality harms rich countries more than poor countries.
 
+# Week 5, 6 & 7 - Poverty
 
+# Week 8 - Female Empowerment
 
-# Week 5 & 6  - Poverty
+# Week 9 - Agriculture & Development
+
+# Week 10 & 11 - Credit Markets
+
+# Week 12 - Corruption
