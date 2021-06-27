@@ -37,7 +37,9 @@ layout: file
       - Total income is comprised of consumption and savings for the year.
       - This is distributed among a labour force $$N$$ which grows at an exogenous rate.
       - The savings rate is the among of total income saved:
+
       $$ S_t = s*Y_t $$
+
       - Thus Consumption is:
 
       $$ C_t = (1-s)*Y_t $$
@@ -52,21 +54,32 @@ layout: file
         2. Diminishing marginal product of inputs (each additional input increases out by less than the previous input did)
         3. As the level of input $$\to \infty^+$$ the marginal product of that input $$\to 0$$
         4. These inputs exhibit constant returns to scale:
+
         $$ F(\lambda K,\lambda L) = \lambda * F(K, L), \lambda > 0 $$
+
       - This production function is often expressed as a Cobb Douglas function:
+
       $$ Y_t = A*K_T^\alpha *L_t^{1-\alpha}, \alpha > 1 $$
+
       - Per capita output is simply output divided by the labour force $$L$$:
+
        $$y_t= \frac{Y_t}{L} = A_t * F(k_t) $$
+
         - Per capita output grows over time due to capital accumulation and technological gains, but at a diminishing rate (due to characteristic 2, above).
     - Decomposing Growth
       - Per capita income differences between states might be due to higher capital or TFP
         - More specifically, these could be because of a more skilled workforce, stronger institutions and infrastructure, more efficient markets etc.
     - Capital accumulation
       - Capital accumulates from investment $$I$$, which is simply savings $$S = s*Y_t = s * (A_t * K_t)$$, and is depleted by depreciation $$\delta$$
+
       $$ K_{t+1} = (1-\delta) * K_t + (s*Y_t)$$
+
       - Per capita accumulation is given:
+
       $$ k_{t+1} = \frac{1}{1+n}*[(1-\delta) * k_t + (s*y_t)]$$
+
       $$ k_{t+1} = [(1-\delta) * k_t + (s *[A_t * k_t^{\alpha}])]$$
+
     - Despite capital accumulation, output growth will eventually slow to a steady state in the absence of technological progress.
       - This happens because the depreciation of capital is equal to the capital added from savings, cancelling out any accumulation.
     - Technological differences
@@ -74,7 +87,9 @@ layout: file
     - Skill Formation
       - Let $$E_t = e_t*L_t$$ where $$e_t$$ denotes the skill and knowledge of the average worker
       - This makes the Solow Model:
+
         $$ Y_t = A*K_T^\alpha * (e_t * L_t^{1-\alpha}) $$
+
       - Dividing output by $$E_t$$ gives us a measure of output per 'effective worker'
       - The growth of the labour force is also contingent on the growth of skills:
       $$ L_{t+1} = (1 + \pi)(1 + n)L_t $$
@@ -88,8 +103,8 @@ layout: file
     - This model is not empirically born out.
   - Convergence and Divergence
     - Two countries with similar parameters should have a similar per capita income in the long run
-    - Unconditional convergence assumes all countries have the sameparameters which is unrealistic - thus we use conditional convergence toaccount for the unique factors in each state.
-    - This will be apparent in the convergence of growth rates, not percapita incomes.    
+    - Unconditional convergence assumes all countries have the same parameters which is unrealistic - thus we use conditional convergence to account for the unique factors in each state.
+    - This will be apparent in the convergence of growth rates, not per capita incomes.    
 
 # Week 3 & 4 - Inequality
 
@@ -103,7 +118,9 @@ layout: file
       $$Y = AK^\alpha H^\beta L^{1-\alpha - \beta},  \alpha, \beta \in [0,1], \alpha + \beta < 1 $$
 
       - Savings can be allocated to adding capital or improving human capital
+
         $$ (1+n)h_{t+1} = s_h y_t + (1- \delta)h_t $$
+
       - Thus human capital is endogenous, and can explain why some states have differing steady states.
   - Development Traps
     - What might attenuate growth in an economy?
@@ -147,12 +164,16 @@ layout: file
       - GINI Coefficient
         - A number from 0 to 1. As inequality rises GINI $$\to 1$$.
         - Derived from the Lorenz Curve
+
         $$ GINI = \frac{Area Under Line Of Perfect Equality - Area Under Lorenz Curve}{Area Under Line Of Perfect Equality} $$
+
         - The area under the line of perfect equality is $$0.5$$
         - A good measure that is useful for cross country comparisons
       - Range
         - A crude measure that is only useful in the absence of better data.
+
         $$ R = \frac{1}{\mu} * (y_{max} - y_{min}) $$
+
         - Where $$\mu$$ is mean income, $$y_{max}$$ is the highest income and $$y_{min}$$ is the lowest income.
         - As this ignores the distribution of incomes (and indeed all incomes between the maximum and minimum) it cannot satisfy the Dalton Principle unless the transfer is between the poorest and richest income earners.
       - Kuznets' Ratio
@@ -160,12 +181,16 @@ layout: file
         - Easy to compute but again fails Dalton's Principle unless transfers involve two income earners in the measured fractions.
       - Mean Absolute Deviation
         - Divide the population into groups where each individual $$i$$ earns the same income $$y_i$$.
+
         $$ MAD = \frac{1}{\mu*n} * \sum_{j=1}^m n_j * |y_j - \mu | $$
+
         - MAD inequality is proportional to the distance from the mean income (greater or lesser is irrelevant).
         - This measure is insensitive to the Dalton Principle but does cover the entire income distribution.
       - Coefficient of Variation
         - The standard deviation of incomes divided by the mean.
-        $$CoV = \frac{1}{\mu} * \sum_{j=1}^n \frac{n_j}{n} * (y_i - \mu)^2
+
+        $$CoV = \frac{1}{\mu} * \sum_{j=1}^n \frac{n_j}{n} * (y_i - \mu)^2$$
+
         - Satisfies all four principles
     - Growth and Inequality
       - Growth usually, but not always, reduces inequality
@@ -430,7 +455,9 @@ layout: file
         - as with any output function, a landowner will cultivate their land to maximise their output subject to their constraints:
 
         $$ \max f(L)-wL $$
+
         $$ \frac{\partial}{\partial L} (f(L)-wl) = 0 $$
+
         $$ f'(L) = w $$
 
         - for a landlord to get the optimal effort $$L^*$$ from a worker (where the landlord's benefit is maximised [see notes]) they will offer wage $$w$$.
@@ -451,8 +478,11 @@ layout: file
         - Landlords will set rent such that:
 
           $$ f(L^*) - F - wL^* = 0 $$
+
           or
+
           $$ f(L^*) - F = wL^* $$
+
         - Whereas a sharecropper will maximise their utility:
 
           $$ (1 - \alpha) * f(L) - wL $$
@@ -549,7 +579,9 @@ layout: file
     - The marginal product of capital is thus:
 
     $$ (1-s)R$$
+
     or
+
     $$ (1-s)(1+r)$$
 
     - If a borrower cannot afford this rate, they will turn to informal credit markets.
@@ -600,4 +632,6 @@ layout: file
 
 # Week 12 - Corruption
 
-  -
+  - Theories of Corruption
+    - Corruption occurs worldwide but countries lacking in strong institutions are most vulnerable, and these tend to be developing economies.
+    - Corruption can be understood using a simple cost benefit analysis.
