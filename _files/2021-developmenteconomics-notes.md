@@ -562,7 +562,7 @@ layout: file
       - Informal credit markets usually have higher interest rates and are less likely to be regulated to prevent usury.
       - There is less oversight and regulation in general
       - The potential high cost to get an informal lender to trust a potential borrower if they do not already have some kind of social connection.
-    - Lenders genearlly only lend as a secondary source of income. Their primary roles as a business owner or landlord are often complementary to observing borrower behaviour which benefits both parties by reducing costs and risk.
+    - Lenders generally only lend as a secondary source of income. Their primary roles as a business owner or landlord are often complementary to observing borrower behaviour which benefits both parties by reducing costs and risk.
     - Some informal lenders may have geographic monopolies (that are enforced but also likely arise from convenience) which reduces competition, driving up interest rates.
       - Also, many lenders appear to be unwilling to lend to anyone who goes to more than one lender. This may be a cartel-like behaviour to preserve geographic monopolies or a self-interested decision reflected some risk if someone borrows from multiple people and offers the same collateral to multiple lenders.
 
@@ -602,7 +602,7 @@ layout: file
       $$ F(k) - hk $$
 
     - Lenders will do their best to ensure $$(k-w)R > hk$$ so they will be repaid. They do this by setting a level of k such that the return from repaying is greater than the return from defaulting.
-    - This explains why defaults are low and why the rich borrow more - but doesn't explain intereste rate levels and variation.
+    - This explains why defaults are low and why the rich borrow more - but doesn't explain interest rate levels and variation.
     - If we introduce a fixed cost for lenders to monitor borrowers $$c$$ we can solve this.
       - A borrowers interest rate must now be: $$(k-w)R = D(k-w)+c (= hk)$$, and thus $$R > D$$
     - We can rearrange this equation to get:
@@ -634,4 +634,76 @@ layout: file
 
   - Theories of Corruption
     - Corruption occurs worldwide but countries lacking in strong institutions are most vulnerable, and these tend to be developing economies.
+    - Complex societies require delegation of power, which provides an opportunity for corruption in the absence of oversight.
+      - An intermediary (a bureaucrat or officer) possesses information that the principal (executives/leaders) do not
+      - This means intermediaries have the option to enforce rules or to take a bribe and not enforce the rules.
+    - Corruption can also occur if leadership is corrupt - a harder problem to solve!
+    - In general, corruption arises from asymmetric information and is combatted by regulatory response.
     - Corruption can be understood using a simple cost benefit analysis.
+      - In practice this means introducing a benefit for enforcing rules or a cost for being caught not doing so.
+      - Appropriate incentives will reduce corruption but eliminating it may not always be cost effective - some corruption will likely always persist.
+    - Fighting corruption is difficult, because:
+      - The auditing process is scarce. It is costly, difficult to implement, and requires that auditors are not corruptible themselves.
+      - Financing benefits/rewards can be difficult
+      - Even significant punishments won't deter those with nothing to lose.
+    - As an economy develops, more transactions occur and thus there are more opportunities for corruption. Luckily, there will also be more resources to fight corruption with.
+      - The transition from socialism to capitalism is historically a common time for corruption to arise.
+      - Corruption only occurs to the degree is it allowed in sufficiently developed economies - democracies help keep corruption in check by holder leaders to account (for allowing, or for engaging in their own, corruption).
+
+  - Corruption Measures
+    - COR
+      - The amount of corruption = The level of potentially corruptible activity $$*$$ the rate of corruption.
+      - The level of potentially corruptible activity is hard to measure - per capita GDP or GNP is used instead.
+      - This predicts corruption will rise, then fall (Kuznets again) as per capita GDP or GNP rises.
+    - Corruption may also be affected by:
+      - The openness of the Economy
+      - The robustness of the legal system (transparency, well written legislation, incorruptible processes etc.)
+      - Accountability to for leaders.
+
+  - Corruption issues
+    - Corruption can cause massive inefficiencies that persist for a long time
+      - Individual gain may outweigh an individual's share of the social cost, but overall the cost far exceeds any gain.
+      - Rebuilding corrupt institutions is difficult and costly. Corruption has a long shadow.
+      - Colonised countries often find colonial institutions persist, and if there were corrupt then they will remain so to some degree.
+    - How can corruption be solved?
+      - No solution fits all cases.
+      - Reforms are best implemented in a measured way, from the bottom up.
+      - A market economy may help, but can also do more harm than good.
+        - If institutions cannot regulate markets, further corruption could arise.
+      - Provision of basic goods and democratic oversight may be the best solution.
+
+  - Determinants of Corruption
+    - The incentives that intermediaries face.
+      - Their wage is $$W$$ and their alternative income if fired is $$V$$
+      - The bribe is $$B$$ and the probability of being caught is $$P$$
+      - A dishonesty cost $$D$$ represents the unwillingness to be corrupt - this varies for each individual.
+      - An intermediary will accept a bribe if:
+
+      $$ W-V < \frac{1-P}{P}* (B-D)$$
+
+        - ie. their change in income from being caught is less than the net benefit of the bribe when considering the chance of being caught.
+        - A corrupt person with a low $$D$$ value will be abstracted to being an intermediary as their utility from being bribed is higher than anyone else's. This effect is amplified by a perception of corruption within an economy
+      - ie. if a person thinks corruption is easy to get away with, they are more likely to seek out a position in which they can profit from corruption.
+      - Bribes are not exogenous, and are a competition if an intermediary doesn't face competition for their service.
+        - Bribes are maximised:
+
+          $$ \max B_iQ(B_i + B_{-i}) B_i$$
+
+          - where $$B_i$$ is a bureaucrat's bribe, an $$B_{-i}$$ is the bribe their competitor demands.
+          - The total amount of money paid in bribes will be higher with two (or more) corrupt intermediaries, but the quantity will be lower.
+    - Transparency
+      - Enabling citizens to monitor leaders (and thus intermediaries) themselves allows (in a democratic society) citizens to hold leaders accountable for corruption.
+      - This is not always feasible - corruption in leadership or in the democratic process itself hinders the ability for citizens to hold leaders to account, but transparency of institutions makes corruption harder to get away with.
+    - Compensation
+      - Higher public sector wages are generally correlated with lower levels of corruption.
+      - Wages being sufficiently high in the public sector ensure the loss from changing job $$W-V$$ is significant enough to deter an intermediary from taking a bribe.
+      - However, there is little panel data to back this claim up.
+    - Monitoring and Punishment
+      - Having auditors monitor corruption may just transfer bribes from intermediaries to auditors.
+      - Despite this, it is likely the risk of being audited by an incorruptible auditor deters corruption enough for monitoring to be a viable response.
+      - Monitoring of political leaders might dissuade otherwise good leaders by introducing too much scrutiny
+      - Ferraz & Finan (2011) found two-term mayoral periods reduced corruption more than single terms - perhaps the timeline for anticorruption measures lasting two terms is enough to deter corruption?
+    - Selection
+      - Selecting individuals with a high $$D$$ value might reduce corruption, but people with a low $$D$$ value might be more likely to lie in any selection process.
+    - Technology and Communication
+      - Technology can serve as a barrier to corruption by ensuring procedures are followed, introducing new methods of monitoring intermediaries, and online procurement systems (increasing transparency).
