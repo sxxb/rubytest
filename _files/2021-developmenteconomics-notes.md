@@ -1,4 +1,4 @@
-difference---
+---
 title: Development Economics Notes
 subtitle: ECON 3501
 date: 26/06/2021
@@ -583,6 +583,21 @@ layout: file
 
     - From this we can see that the interest rate $$R$$ is inversely proportional to wealth $$w$$ and that as $$D$$ rises, $$h$$ will invariably also rise, causing a feedback loop to $$R$$ and $$h$$ that renders $$R$$ to high for poorer borrowers.
 
-
+  - Microcredit
+    - Popularised by the Grameen Bank and Mohammed Yunus, Microcredit is the concept of providing small, low cost loans in developing economies.
+    - This may involve group lending, which shifts monitoring costs onto the members of the group instead of the lender, reducing costs. This means a loan is provided to a group of borrowers and each receives part of the loan. They are all liable for the total sum and thus are incentivised to ensure each other are using their credit responsibly to ensure the loan is repaid. This has the side effect of punishing a group for an unfortunate shock that occurs to one or more members of the group.
+    - Generally microcredit has been provided to women which helps achieve development goals such as health and educational improvements.
+    - There is little unbiased evidence for the efficacy of microcredit but it does appear to be effective.
+    - The capital from microcredit can raise incomes enough to have a long term effect on livelihoods - but it is only a small step.
+    - There are some fears that it could become a form of usury.
+    - Microcredit can help poor people start a sole trader business, but:
+      - Not all people want to do this - some prefer to just sell labour, and microcredit is generally not sufficient to help a business expand to the point of hiring other workers.
+      - Other barriers may still exist to starting a business
+      - Repayment timelines and rigidity make some investments impossible - repayments may begin as soon as 1 week after the principle is lent, which is too short a timeline for many businesses. Other businesses have inconsistent cash flows and repayments cannot be made at regular intervals.
+      - This has the effect of selecting for less-risky investments, reducing returns and narrowing the pool of potential borrowers.
+    - The focus on 'zero default' may do more harm than good - perhaps more occupied with the programs' reputation than outcomes?
+    - But overall the availability of credit to the poor does help some people, and while it is not a silver bullet solution is does create a positive benefit for developing economies.
 
 # Week 12 - Corruption
+
+  -
