@@ -48,14 +48,13 @@ $transition: 0.2s ease;
 }
 
 *::selection {
-    background-color:$theme-colour;
-    color:white;
+    background-color:rgba($theme-colour, 0.4);
 }
 
 html {
   font-size: 100%;
   @media only screen and (min-width:1200px) {
-    font-size:125%;
+    font-size:120%;
   }
   font-family: $body-font;
   -webkit-text-size-adjust: 100%;
@@ -67,49 +66,54 @@ body {
   z-index:10;
 
   > header {
-    font-family: "Barlow Semi Condensed", sans-serif;
-    background:white;
-    display: flex;
-    align-items: center;
-    max-width: 1200px;
-    margin:auto;
-    padding: 0.5rem;
-    height: 40px;
-    font-size:0.85rem;
-    position:relative;
-    nav {
-      width: 100%;
-      top:0;
-      ul {
+        font-family: "Barlow Semi Condensed", sans-serif;
+        background: hsla(0,0,100, 1);
+        box-shadow: 0 0 2rem 2rem hsla(0,0,100, 1);
         display: flex;
-        flex-direction: row;
         align-items: center;
-        justify-content: space-evenly;
-        width: 100%;
-        li {
-          a, a:visited {
-            text-decoration: none;
-            border-bottom: 1px solid #0000;
-            color:#333;
-            padding-bottom:0.25rem;
-            &:hover {
-              border-bottom: 1px solid #000;
-            }
+        margin:auto;
+        padding: 0.5rem;
+        height: 3rem;
+        font-size:0.85rem;
+        position:fixed;
+        top:0;
+        width:100%;
+        nav {
+          width: 100%;
+          max-width: 1200px;
+          margin:auto;
+          ul {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-evenly;
+            width: 100%;
+            li {
+              a, a:visited {
+                text-decoration: none;
+                border-bottom: 1px solid #0000;
+                color:#333;
+                padding-bottom:0.25rem;
+                &:hover {
+                  border-bottom: 1px solid #000;
+                }
 
-          }
-          a.current {
-            color:$theme-colour;
-            border-bottom: 1px solid rgba($theme-colour, 0);
-            &:hover {
-              border-bottom: 1px solid $theme-colour;
+              }
+              a.current {
+                color:$theme-colour;
+                border-bottom: 1px solid rgba($theme-colour, 0);
+                &:hover {
+                  border-bottom: 1px solid $theme-colour;
+                }
+              }
             }
           }
         }
       }
-    }
-  }
   > main {
-    min-height:calc(100vh - 140px);
+    min-height:calc(100vh);
+    padding-top:3rem;
+    padding-bottom:10rem;
     h1 {
       margin-bottom:1em;
       font-family: $title-font;
@@ -129,7 +133,7 @@ body {
     }
     .blog {
       a {
-        color:#333;
+        color:#666;
         text-decoration:none;
       }
       .post-snippet {
@@ -143,9 +147,10 @@ body {
         h2 {
           margin-bottom:1rem;
           font-family: $title-font;
+          color:#333;
         }
         p {
-          font-size:1rem;
+          font-size:0.9rem;
           line-height:1.6em;
         }
       }
@@ -160,7 +165,7 @@ body {
         }
       }
       a, a:visited {
-        color:#333;
+        color:#666;
         text-decoration:none;
       }
       .essay-snippet, .design-snippet, .other-snippet, .file-snippet {
@@ -362,6 +367,7 @@ body {
         }
       }
     .about {
+      color:#333;
       a, a:visited {
         color:$theme-colour;
         text-decoration:none;
@@ -562,18 +568,38 @@ body {
     align-items:center;
     justify-content:space-between;
     height:80px;
-    border-top:1px dotted #888;
+    // border-top:2px dotted #888;
+    box-shadow:0 -1px 5px #8883;
     color:#888;
-    max-width:1200px;
     margin:1rem auto 0;
     font-size:0.95rem;
     padding:0 1rem;
+    position:fixed;
+    bottom:0;
+    width:100%;
     .about {
       font-family: $title-font;
+      @media only screen and (min-width:600px) {
+        width:25%;
+        max-width:300px;
+      }
+    }
+    .acknowledgement {
+      font-size:0.7rem;
+      line-height: 1.2em;
+      @media only screen and (min-width:600px) {
+        width:50%;
+        max-width:600px;
+      }
+      text-align:center;
     }
     .contact {
       display:flex;
-      flex-direction:row;
+      flex-direction:row-reverse;
+      @media only screen and (min-width:600px) {
+        width:25%;
+        max-width:300px;
+      }
       .icon {
         background-size: contain;
         background-position: center;
@@ -598,12 +624,26 @@ body {
       }
       }
       }
+      @media only screen and (max-width:600px) {
+        flex-direction:column-reverse;
+        height:unset;
+        .break {
+          margin:0.5rem auto;
+          max-width:none;
+        }
+      }
   }
 }
 
 @media print {
   html {
     font-size:80%;
+    main {
+      padding:0;
+      > div {
+        padding:0;
+      }
+    }
   }
   .screen-only {
     display: none;
